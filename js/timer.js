@@ -24,25 +24,27 @@ class TimerEngine {
 
     start() {
 
-        if (this.running) return;
+    if (this.running) return;
 
-        this.running = true;
+    if (!this.display) {
 
-        this.updateDisplay();
+        console.error("Timer display not found.");
 
-        this.interval = setInterval(() => {
+        return;
 
-            this.tick();
+    }
 
-        }, 1000);
-if (!this.display) {
+    this.running = true;
 
-    console.error("Timer display not found.");
+    this.updateDisplay();
 
-    return;
+    this.interval = setInterval(() => {
+
+        this.tick();
+
+    }, 1000);
 
 }
-    }
 
     stop() {
 
@@ -91,11 +93,14 @@ TimerEngine.prototype.tick = function () {
 
         alert("Time is over!\nAssessment will be submitted.");
 
-        if (typeof quiz !== "undefined") {
+        if (
+    typeof quiz !== "undefined" &&
+    typeof quiz.submitAssessment === "function"
+) {
 
     quiz.submitAssessment();
 
-        }
+}
 
         return;
 
