@@ -209,14 +209,14 @@ submitButton.addEventListener("click",()=>{
   Temporary Functions
 --------------------------------------------*/
 
-function initializeQuiz(){
+/*function initializeQuiz(){
 
     console.log(
         "Quiz Initialized"
     );
 
 }
-
+function loadQuestion(index){
 function loadQuestion(index){
 
     console.log(
@@ -243,7 +243,7 @@ function loadQuestion(index){
 
     });
 
-}
+} */
 
 function finishQuiz() {
 
