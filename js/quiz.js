@@ -389,45 +389,53 @@ saveAnswer() {
  * Submit Assessment
  * ==========================================
  */
-submitAssessment() {
+/**
+ * ==========================================
+ * Build Assessment Result Object
+ * ==========================================
+ */
+getAssessmentResult() {
 
-    this.saveAnswer();
+    const score = this.calculateScore();
 
-    const result = this.getAssessmentResult();
-// Stop timer
-if (
-    typeof timer !== "undefined" &&
-    timer.isRunning()
-) {
+    return {
 
-    timer.stop();
+        candidate: this.candidate,
+
+        employeeId: this.employeeId,
+
+        questions: this.questions,
+
+        answers: this.answers,
+
+        score: score,
+
+        total: this.questions.length,
+
+        percentage: Math.round(
+            (score / this.questions.length) * 100
+        ),
+
+        attempted: Object.keys(this.answers).length,
+
+        correct: score,
+
+        wrong: Object.keys(this.answers).length - score,
+
+        skipped:
+            this.questions.length -
+            Object.keys(this.answers).length,
+
+        submittedAt: new Date().toISOString(),
+
+        remainingTime:
+            typeof timer !== "undefined"
+                ? timer.getRemaining()
+                : 0
+
+    };
 
 }
-    // Save result globally
-    window.AssessmentResult = result;
-// Save Result History
-
-if (typeof storage !== "undefined") {
-
-    storage.saveHistory(result);
-
-    storage.clearSession();
-
-}
-    // Hand over control to App Controller
-    if (typeof APP !== "undefined") {
-
-        APP.showResult(result);
-
-    } else {
-
-        console.error("APP Controller not found.");
-
-    }
-
 }
 
-}
-
-const score = this.calculateScore();
 const quiz = new QuizEngine();
