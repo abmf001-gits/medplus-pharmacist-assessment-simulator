@@ -1,4 +1,4 @@
-/**
+./**
  * ==========================================
  * MedPlus Pharmacist Assessment Simulator
  * Quiz Engine Version 3.0
@@ -242,39 +242,41 @@ this.renderQuestion();
      * Save Selected Answer
      */
     saveAnswer() {
+saveAnswer() {
 
-        const question = this.getQuestion();
+    const question = this.getQuestion();
 
-        if (!question) return;
+    if (!question) return;
 
-        const selected =
-            document.querySelector('input[name="answer"]:checked');
+    const selected =
+        document.querySelector('input[name="answer"]:checked');
 
-        if (selected) {
+    if (selected) {
 
-            this.answers[question.id] = selected.value;
+        this.answers[question.id] = selected.value;
+
+        if (typeof storage !== "undefined") {
+
+            storage.saveSession({
+
+                candidate: this.candidate,
+
+                employeeId: this.employeeId,
+
+                currentQuestion: this.currentQuestion,
+
+                answers: this.answers,
+
+                remainingTime:
+                    typeof timer !== "undefined"
+                        ? timer.getRemaining()
+                        : 0
+
+            });
 
         }
 
     }
-if (typeof storage !== "undefined") {
-
-    storage.saveSession({
-
-        candidate: this.candidate,
-
-        employeeId: this.employeeId,
-
-        currentQuestion: this.currentQuestion,
-
-        answers: this.answers,
-
-        remainingTime:
-            typeof timer !== "undefined"
-                ? timer.getRemaining()
-                : 0
-
-    });
 
 }
     /**
