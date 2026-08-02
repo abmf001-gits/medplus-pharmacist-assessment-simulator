@@ -112,6 +112,9 @@ QuizEngine.prototype.loadQuestion = function (index) {
 
         options.appendChild(label);
 
+label.querySelector("input").addEventListener("change", () => {
+    this.saveAnswer();
+});
     });
 
     this.restoreAnswer();
@@ -135,7 +138,8 @@ function () {
         "progressFill"
     ).style.width =
         percentage + "%";
-
+document.getElementById("progressText").innerText =
+`${this.currentIndex + 1}/${this.totalQuestions}`;
 };
 /* ============================================
    Save Answer
@@ -149,7 +153,13 @@ function () {
             'input[name="answer"]:checked'
         );
 
-    if (!selected) return;
+    if (!selected) {
+
+    this.answers[this.currentIndex] = null;
+
+    return;
+
+}
 
     this.answers[this.currentIndex] =
         Number(selected.value);
@@ -196,11 +206,11 @@ function () {
             document.createElement("button");
 
         button.innerText = i + 1;
-
+        button.id = `palette-${i}`;
         button.onclick = () => {
 
             this.saveAnswer();
-
+            this.currentIndex = i;
             this.loadQuestion(i);
 
         };
@@ -208,5 +218,54 @@ function () {
         palette.appendChild(button);
 
     }
+
+};
+/* ==========================================
+   Calculate Score
+========================================== */
+
+QuizEngine.prototype.calculateScore = function () {
+
+    let score = 0;
+
+    this.review = [];
+
+    this.filteredQuestions.forEach((question, index) => {
+
+        const selected = this.answers[index];
+
+        const correct = question.answer;
+
+        const isCorrect = selected === correct;
+
+        if (isCorrect) {
+            score++;
+        }
+
+        this.review.push({
+
+            question: question.question,
+
+            options: question.options,
+
+            selectedAnswer: selected,
+
+            correctAnswer: correct,
+
+            explanation: question.explanation,
+
+            topic: question.topic,
+
+            difficulty: question.difficulty,
+
+            isCorrect: isCorrect
+
+        });
+
+    });
+
+    this.score = score;
+
+    return score;
 
 };
