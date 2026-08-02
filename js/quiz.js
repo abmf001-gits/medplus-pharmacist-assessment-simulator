@@ -1,271 +1,258 @@
-"use strict";
-
-/* ============================================
-   MedPlus Pharmacist Assessment Simulator
-   Quiz Engine v2.0
-============================================= */
+/**
+ * ==========================================
+ * MedPlus Pharmacist Assessment Simulator
+ * Quiz Engine Version 3.0
+ * Part 1 - Core Engine
+ * ==========================================
+ */
 
 class QuizEngine {
 
     constructor() {
 
+        // Question Bank
+        this.questionBank = [];
         this.questions = [];
-        this.filteredQuestions = [];
-        this.currentIndex = 0;
-        this.answers = [];
-        this.review = [];
 
+        // Candidate Answers
+        this.answers = {};
+
+        // Current Question
+        this.currentIndex = 0;
+
+        // Assessment Configuration
         this.totalQuestions = 50;
 
+        // Flags
+        this.initialized = false;
+
     }
 
+    /**
+     * Initialize Quiz
+     */
     async initialize() {
-
-        await this.loadQuestionBank();
-
-        this.generateAssessment();
-
-        this.createPalette();
-
-        this.loadQuestion(0);
-
-    }
-
-    async loadQuestionBank() {
 
         try {
 
-            const response = await fetch("data/questions.json");
+            // Load Question Bank
+            const bank = await loader.loadQuestions();
 
-            this.questions = await response.json();
+            if (!bank || bank.length === 0) {
 
-        } catch (error) {
+                alert("Question Bank is empty.");
+
+                return;
+
+            }
+
+            // Give Question Bank to Randomizer
+            randomizer.setQuestionBank(bank);
+
+            // Generate Assessment
+            this.questions = randomizer.generateAssessment(this.totalQuestions);
+
+            this.questionBank = bank;
+
+            this.currentIndex = 0;
+
+            this.answers = {};
+
+            this.initialized = true;
+
+            console.log("Quiz Initialized");
+
+            console.log(
+                "Assessment Questions:",
+                this.questions.length
+            );
+
+            // Load First Question
+            this.loadQuestion(0);
+
+        }
+
+        catch (error) {
 
             console.error(error);
 
-            alert("Unable to load Question Bank.");
+            alert("Unable to initialize assessment.");
 
         }
 
     }
 
-}
-/* ============================================
-   Generate Assessment
-============================================= */
+    /**
+     * Returns Current Question
+     */
+    getCurrentQuestion() {
 
-QuizEngine.prototype.generateAssessment = function () {
-
-    const shuffled =
-        [...this.questions]
-        .sort(() => Math.random() - 0.5);
-
-    this.filteredQuestions =
-        shuffled.slice(0, this.totalQuestions);
-
-};
-/* ============================================
-   Load Question
-============================================= */
-
-QuizEngine.prototype.loadQuestion = function (index) {
-
-    this.currentIndex = index;
-
-    const question =
-        this.filteredQuestions[index];
-
-    if (!question) return;
-
-    document.getElementById(
-        "currentQuestion"
-    ).innerText = index + 1;
-
-    document.getElementById(
-        "questionText"
-    ).innerHTML = question.question;
-
-    const options =
-        document.getElementById(
-            "optionsContainer"
-        );
-
-    options.innerHTML = "";
-
-    question.options.forEach((option, i) => {
-
-        const label =
-            document.createElement("label");
-
-        label.className = "option";
-
-        label.innerHTML = `
-
-            <input
-                type="radio"
-                name="answer"
-                value="${i}">
-
-            <span>${option}</span>
-
-        `;
-
-        options.appendChild(label);
-
-label.querySelector("input").addEventListener("change", () => {
-    this.saveAnswer();
-});
-    });
-
-    this.restoreAnswer();
-
-    this.updateProgress();
-
-};
-/* ============================================
-   Progress Bar
-============================================= */
-
-QuizEngine.prototype.updateProgress =
-function () {
-
-    const percentage =
-        ((this.currentIndex + 1)
-            / this.totalQuestions)
-        * 100;
-
-    document.getElementById(
-        "progressFill"
-    ).style.width =
-        percentage + "%";
-document.getElementById("progressText").innerText =
-`${this.currentIndex + 1}/${this.totalQuestions}`;
-};
-/* ============================================
-   Save Answer
-============================================= */
-
-QuizEngine.prototype.saveAnswer =
-function () {
-
-    const selected =
-        document.querySelector(
-            'input[name="answer"]:checked'
-        );
-
-    if (!selected) {
-
-    this.answers[this.currentIndex] = null;
-
-    return;
-
-}
-
-    this.answers[this.currentIndex] =
-        Number(selected.value);
-
-};
-/* ============================================
-   Restore Answer
-============================================= */
-
-QuizEngine.prototype.restoreAnswer =
-function () {
-
-    const answer =
-        this.answers[this.currentIndex];
-
-    if (answer == null) return;
-
-    const radio =
-        document.querySelector(
-            `input[value="${answer}"]`
-        );
-
-    if (radio)
-        radio.checked = true;
-
-};
-/* ============================================
-   Create Palette
-============================================= */
-
-QuizEngine.prototype.createPalette =
-function () {
-
-    const palette =
-        document.getElementById(
-            "questionPalette"
-        );
-
-    palette.innerHTML = "";
-
-    for (let i = 0; i < this.totalQuestions; i++) {
-
-        const button =
-            document.createElement("button");
-
-        button.innerText = i + 1;
-        button.id = `palette-${i}`;
-        button.onclick = () => {
-
-            this.saveAnswer();
-            this.currentIndex = i;
-            this.loadQuestion(i);
-
-        };
-
-        palette.appendChild(button);
+        return this.questions[this.currentIndex];
 
     }
 
-};
-/* ==========================================
-   Calculate Score
-========================================== */
+    /**
+     * Returns Total Questions
+     */
+    getTotalQuestions() {
 
-QuizEngine.prototype.calculateScore = function () {
+        return this.questions.length;
 
-    let score = 0;
+    }
 
-    this.review = [];
+    /**
+     * Returns Current Index
+     */
+    getCurrentIndex() {
 
-    this.filteredQuestions.forEach((question, index) => {
+        return this.currentIndex;
+ 
+    }
 
-        const selected = this.answers[index];
+}
+    /**
+     * Load Question
+     */
+    loadQuestion(index) {
 
-        const correct = question.answer;
-
-        const isCorrect = selected === correct;
-
-        if (isCorrect) {
-            score++;
+        if (index < 0 || index >= this.questions.length) {
+            return;
         }
 
-        this.review.push({
+        this.currentIndex = index;
 
-            question: question.question,
+        const question = this.questions[index];
 
-            options: question.options,
+        // Question Number
+        const questionNumber = document.getElementById("question-number");
 
-            selectedAnswer: selected,
+        if (questionNumber) {
+            questionNumber.textContent =
+                `Question ${index + 1} of ${this.questions.length}`;
+        }
 
-            correctAnswer: correct,
+        // Question Text
+        const questionText = document.getElementById("question-text");
 
-            explanation: question.explanation,
+        if (questionText) {
+            questionText.textContent = question.question;
+        }
 
-            topic: question.topic,
+        // Options Container
+        const optionsContainer = document.getElementById("options-container");
 
-            difficulty: question.difficulty,
+        if (!optionsContainer) {
+            console.error("options-container not found.");
+            return;
+        }
 
-            isCorrect: isCorrect
+        optionsContainer.innerHTML = "";
+
+        question.options.forEach((option, optionIndex) => {
+
+            const optionId = `option-${optionIndex}`;
+
+            const wrapper = document.createElement("div");
+
+            wrapper.className = "option-item";
+
+            wrapper.innerHTML = `
+                <label class="option-label">
+                    <input
+                        type="radio"
+                        name="answer"
+                        id="${optionId}"
+                        value="${option}"
+                    >
+                    <span>${option}</span>
+                </label>
+            `;
+
+            optionsContainer.appendChild(wrapper);
 
         });
 
-    });
+        // Restore Saved Answer
+        if (this.answers[question.id]) {
 
-    this.score = score;
+            const radios =
+                document.querySelectorAll('input[name="answer"]');
 
-    return score;
+            radios.forEach(radio => {
 
-};
+                if (radio.value === this.answers[question.id]) {
+
+                    radio.checked = true;
+
+                }
+
+            });
+
+        }
+
+        // Update Progress
+        this.updateProgress();
+
+        // Update Palette
+        this.updatePalette();
+
+    }
+
+    /**
+     * Update Progress Bar
+     */
+    updateProgress() {
+
+        const progressBar =
+            document.getElementById("progress-bar");
+
+        if (!progressBar) return;
+
+        const percentage =
+            ((this.currentIndex + 1) / this.questions.length) * 100;
+
+        progressBar.style.width = percentage + "%";
+
+    }
+
+    /**
+     * Build / Update Question Palette
+     */
+    updatePalette() {
+
+        const palette =
+            document.getElementById("question-palette");
+
+        if (!palette) return;
+
+        palette.innerHTML = "";
+
+        this.questions.forEach((q, index) => {
+
+            const button = document.createElement("button");
+
+            button.className = "palette-btn";
+
+            button.textContent = index + 1;
+
+            if (index === this.currentIndex) {
+                button.classList.add("active");
+            }
+
+            if (this.answers[q.id]) {
+                button.classList.add("answered");
+            }
+
+            button.addEventListener("click", () => {
+
+                this.saveAnswer();
+
+                this.loadQuestion(index);
+
+            });
+
+            palette.appendChild(button);
+
+        });
+
+    }
