@@ -35,7 +35,13 @@ class TimerEngine {
             this.tick();
 
         }, 1000);
+if (!this.display) {
 
+    console.error("Timer display not found.");
+
+    return;
+
+}
     }
 
     stop() {
@@ -60,6 +66,16 @@ setRemaining(seconds) {
     this.remaining = seconds;
 
     this.updateDisplay();
+
+}
+   
+formatTime() {
+
+    const minutes = Math.floor(this.remaining / 60);
+
+    const seconds = this.remaining % 60;
+
+    return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
 
 }
 }
@@ -97,15 +113,7 @@ TimerEngine.prototype.tick = function () {
 TimerEngine.prototype.updateDisplay =
 function () {
 
-    const minutes =
-        Math.floor(this.remaining / 60);
-
-    const seconds =
-        this.remaining % 60;
-
-    this.display.innerHTML =
-
-        `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+    this.display.textContent = this.formatTime();
 
     this.updateColor();
 
@@ -163,13 +171,4 @@ function () {
 
 };
 const timer = new TimerEngine(25);
-formatTime() {
-
-    const minutes = Math.floor(this.remaining / 60);
-
-    const seconds = this.remaining % 60;
-
-    return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
-
-}
 
