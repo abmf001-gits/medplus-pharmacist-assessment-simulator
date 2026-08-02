@@ -1,336 +1,211 @@
-/* ============================================
-   MedPlus Pharmacist Assessment Simulator
-   app.js
-   Version : 2.0
-============================================= */
+/**
+ * ==========================================
+ * MedPlus Pharmacist Assessment Simulator
+ * App Controller Version 3.0
+ * ==========================================
+ */
 
-"use strict";
+class AppController {
 
-/*-------------------------------------------
-  Application State
---------------------------------------------*/
+    constructor() {
 
-const APP = {
+        this.currentScreen = "login";
 
-    candidate: "",
+        this.candidate = "";
 
-    employeeId: "",
+        this.employeeId = "";
 
-    mode: "Mock Assessment",
+        this.result = null;
 
-    currentQuestion: 0,
+    }
 
-    totalQuestions: 50,
+    /**
+     * Initialize Application
+     */
+    init() {
 
-    score: 0,
+        console.log("MedPlus Assessment Simulator Started");
 
-    answers: [],
+        this.bindEvents();
 
-    review: [],
-   percentage: 0,
+        this.showScreen("login-screen");
 
-    quizStarted: false,
+    }
 
-    quizFinished: false
+    /**
+     * Bind Button Events
+     */
+    bindEvents() {
+
+        // Login Button
+        const loginButton = document.getElementById("loginButton");
+
+        if (loginButton) {
+
+            loginButton.addEventListener("click", () => {
+
+                this.login();
+
+            });
+
+        }
+
+        // Start Assessment Button
+        const startButton = document.getElementById("startAssessmentButton");
+
+        if (startButton) {
+
+            startButton.addEventListener("click", () => {
+
+                this.startAssessment();
+
+            });
+
+        }
+
+        // Restart Button
+        const restartButton = document.getElementById("restartButton");
+
+        if (restartButton) {
+
+            restartButton.addEventListener("click", () => {
+
+                this.restart();
+
+            });
+
+        }
+
+    }
+
+    /**
+     * Hide All Screens
+     */
+    hideAllScreens() {
+
+        document
+            .querySelectorAll(".screen")
+            .forEach(screen => {
+
+                screen.classList.add("hidden");
+
+            });
+
+    }
+
+    /**
+     * Show Screen
+     */
+    showScreen(screenId) {
+
+        this.hideAllScreens();
+
+        const screen = document.getElementById(screenId);
+
+        if (screen) {
+
+            screen.classList.remove("hidden");
+
+            this.currentScreen = screenId;
+
+        }
+
+    }
+
+    /**
+     * Login
+     */
+    login() {
+
+        const candidate =
+            document.getElementById("candidateName").value.trim();
+
+        const employee =
+            document.getElementById("employeeId").value.trim();
+
+        if (!candidate || !employee) {
+
+            alert("Please enter Candidate Name and Employee ID.");
+
+            return;
+
+        }
+
+        this.candidate = candidate;
+
+        this.employeeId = employee;
+
+        quiz.candidate = candidate;
+
+        quiz.employeeId = employee;
+
+        this.showScreen("instructions-screen");
+
+    }
+
+    /**
+     * Start Assessment
+     */
+    async startAssessment() {
+
+        this.showScreen("assessment-screen");
+
+        await quiz.initialize();
+
+    }
+
+    /**
+     * Display Result
+     */
+    showResult(result) {
+
+        this.result = result;
+
+        this.showScreen("result-screen");
+
+        document.getElementById("finalScore").textContent =
+            `${result.score} / ${result.total}`;
+
+        document.getElementById("percentage").textContent =
+            result.percentage + "%";
+
+        document.getElementById("resultCandidate").textContent =
+            result.candidate;
+
+        const status =
+            document.getElementById("status");
+
+        if (result.percentage >= 80) {
+
+            status.textContent = "PASS";
+
+            status.style.color = "green";
+
+        } else {
+
+            status.textContent = "FAIL";
+
+            status.style.color = "red";
+
+        }
+
+    }
+
+    /**
+     * Restart Application
+     */
+    restart() {
+
+        location.reload();
+
+    }
+
+}
+
+const APP = new AppController();
+
+window.onload = () => {
+
+    APP.init();
 
 };
-const storage = new StorageEngine();
-
-let timer = null;
-const quiz = new QuizEngine();
-/*-------------------------------------------
-  Screen References
---------------------------------------------*/
-
-const splashScreen =
-document.getElementById("splash-screen");
-
-const loginScreen =
-document.getElementById("login-screen");
-
-const instructionScreen =
-document.getElementById("instruction-screen");
-
-const assessmentScreen =
-document.getElementById("assessment-screen");
-
-const resultScreen =
-document.getElementById("result-screen");
-
-/*-------------------------------------------
-  Button References
---------------------------------------------*/
-
-const startButton =
-document.getElementById("startButton");
-
-const beginExam =
-document.getElementById("beginExam");
-
-const previousButton =
-document.getElementById("previousButton");
-
-const nextButton =
-document.getElementById("nextButton");
-
-const submitButton =
-document.getElementById("submitButton");
-
-/*-------------------------------------------
-  Candidate Fields
---------------------------------------------*/
-
-const candidateName =
-document.getElementById("candidateName");
-
-const employeeId =
-document.getElementById("employeeId");
-
-const assessmentMode =
-document.getElementById("assessmentMode");
-/*-------------------------------------------
-  Splash Screen
---------------------------------------------*/
-
-window.addEventListener("load", () => {
-
-    setTimeout(() => {
-
-        splashScreen.style.display = "none";
-
-        loginScreen.style.display = "flex";
-
-    }, 1800);
-
-});
-
-/*-------------------------------------------
-  Start Button
---------------------------------------------*/
-
-startButton.addEventListener("click", () => {
-
-    if(candidateName.value.trim()===""){
-
-        alert("Please enter Candidate Name");
-
-        candidateName.focus();
-
-        return;
-
-    }
-
-    APP.candidate =
-    candidateName.value.trim();
-
-    APP.employeeId =
-    employeeId.value.trim();
-
-    APP.mode =
-    assessmentMode.value;
-
-    loginScreen.style.display = "none";
-
-    instructionScreen.style.display = "flex";
-
-});
-
-/*-------------------------------------------
-  Begin Assessment
---------------------------------------------*/
-
-beginExam.addEventListener("click", () => {
-
-    instructionScreen.style.display="none";
-
-    assessmentScreen.classList.remove("hidden");
-
-    APP.quizStarted=true;
-
-    document.getElementById(
-        "displayCandidate"
-    ).innerText=APP.candidate;
-
-    document.getElementById(
-        "displayMode"
-    ).innerText=APP.mode;
-
-    quiz.initialize();
-
-timer = new TimerEngine(25);
-
-timer.start();
-
-});
-/*-------------------------------------------
-  Navigation
---------------------------------------------*/
-
-previousButton.addEventListener("click", () => {
-
-    quiz.saveAnswer();
-
-    if (quiz.currentIndex > 0) {
-
-        quiz.loadQuestion(quiz.currentIndex - 1);
-
-    }
-
-});
-
-nextButton.addEventListener("click", () => {
-
-    quiz.saveAnswer();
-
-    if (quiz.currentIndex < quiz.totalQuestions - 1) {
-
-        quiz.loadQuestion(quiz.currentIndex + 1);
-
-    }
-
-});
-
-submitButton.addEventListener("click",()=>{
-
-    const confirmSubmit=
-    confirm(
-        "Submit Assessment?"
-    );
-
-    if(!confirmSubmit)
-    return;
-
-    finishQuiz();
-
-});
-
-/*-------------------------------------------
-  Temporary Functions
---------------------------------------------*/
-
-/*function initializeQuiz(){
-
-    console.log(
-        "Quiz Initialized"
-    );
-
-}
-function loadQuestion(index){
-function loadQuestion(index){
-
-    console.log(
-        "Loading Question",
-        index
-    );
-
-    // Auto Save Assessment Progress
-    storage.saveSession({
-
-        candidate: APP.candidate,
-
-        employeeId: APP.employeeId,
-
-        currentQuestion: APP.currentQuestion,
-
-        answers: APP.answers,
-
-        remainingTime: timer ? timer.getRemaining() : 0,
-
-        mode: APP.mode,
-
-        lastSaved: new Date().toISOString()
-
-    });
-
-} */
-
-function finishQuiz() {
-
-    // Stop the timer
-    if (timer) {
-        timer.stop();
-    }
-
-    // TODO: Calculate score
-    // We will replace this with real scoring logic later
-    APP.score = quiz.calculateScore();
-   APP.review = quiz.review;
-APP.percentage = Math.round(
-(APP.score / APP.totalQuestions) * 100
-);
-    // Save assessment history
-    storage.saveHistory({
-
-        candidate: APP.candidate,
-
-        score: APP.score,
-
-       totalQuestions: APP.totalQuestions,
-
-percentage:Math.round(
-(APP.score / APP.totalQuestions) * 100
-),
-
-    });
-
-    // Clear saved session
-    storage.clearSession();
-
-    showResult();
-   console.table(APP.review);
-
-console.log(
-"Final Score:",
-APP.score,
-"/",
-APP.totalQuestions
-);
-
-    // Later we'll show the Result Screen here
-}
-
-function showResult(){
-
-    assessmentScreen.classList.add("hidden");
-
-    resultScreen.classList.remove("hidden");
-
-    document.getElementById("resultCandidate").innerText =
-    APP.candidate;
-
-    document.getElementById("resultMode").innerText =
-    APP.mode;
-
-    document.getElementById("finalScore").innerText =
-    APP.score + " / " + APP.totalQuestions;
-
-    document.getElementById("finalPercentage").innerText =
-    APP.percentage + "%";
-
-    document.getElementById("correctAnswers").innerText =
-    APP.score;
-
-    document.getElementById("wrongAnswers").innerText =
-    APP.totalQuestions - APP.score;
-
-    const status = document.getElementById("passStatus");
-
-if(APP.percentage >= 70){
-
-    status.innerText = "PASS";
-
-    status.style.color = "green";
-
-}else{
-
-    status.innerText = "FAIL";
-
-    status.style.color = "red";
-
-}
-
-    document.getElementById("resultDate").innerText =
-    new Date().toLocaleString();
-
-}
-
