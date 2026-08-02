@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "topic": "Fundamentals",
+    "difficulty": "Easy",
+    "question": "Which doctor specializes in diseases of the heart?",
+    "options": [
+      "Neurologist",
+      "Cardiologist",
+      "Dermatologist",
+      "Orthopedic Surgeon"
+    ],
+    "answer": 1,
+    "explanation": "A Cardiologist treats heart and blood vessel diseases."
+  },
+  {
+    "id": 2,
+    "topic": "Fundamentals",
+    "difficulty": "Easy",
+    "question": "Analgesics are medicines used to:",
+    "options": [
+      "Reduce pain",
+      "Treat diabetes",
+      "Kill bacteria",
+      "Reduce blood pressure"
+    ],
+    "answer": 0,
+    "explanation": "Analgesics are pain-relieving medicines."
+  }
+]
