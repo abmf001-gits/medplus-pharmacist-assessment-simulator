@@ -339,16 +339,7 @@ this.renderQuestion();;
         }
 
     }
-        /**
-     * Submit Assessment
-     */
-    submitAssessment() {
 
-        this.saveAnswer();
-
-        alert("Submit Engine will be implemented in Part 4.");
-
-    }
         /**
      * Calculate Score
      */
