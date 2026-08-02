@@ -35,6 +35,8 @@ const APP = {
 };
 const storage = new StorageEngine();
 
+let timer = null;
+
 /*-------------------------------------------
   Screen References
 --------------------------------------------*/
@@ -154,7 +156,7 @@ beginExam.addEventListener("click", () => {
 
     initializeQuiz();
 
-const timer = new TimerEngine(25);
+timer = new TimerEngine(25);
 
 timer.start();
 
@@ -274,4 +276,4 @@ function finishQuiz() {
     // Later we'll show the Result Screen here
 }
 
-}
+
