@@ -406,51 +406,7 @@ if (typeof storage !== "undefined") {
 
 }
 
-/**
- * ==========================================
- * Calculate Assessment Result
- * ==========================================
- */
-getAssessmentResult() {
+}
 
-    let score = 0;
-
-    this.questions.forEach(question => {
-
-        const selected = this.answers[question.id];
-
-        if (selected === question.correctAnswer) {
-
-            score++;
-
-        }
-
-    });
-
-    return {
-
-        candidate: this.candidate,
-
-        employeeId: this.employeeId,
-
-        questions: this.questions,
-
-        answers: this.answers,
-
-        score: score,
-
-        total: this.questions.length,
-
-        percentage:
-            Math.round(
-                (score / this.questions.length) * 100
-            ),
-
-        submittedAt: new Date()
-
-    };
-    
+const score = this.calculateScore();
 const quiz = new QuizEngine();
-}
-}
-
