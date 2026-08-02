@@ -183,17 +183,31 @@ function(settings){
    Load Settings
 ========================================== */
 
-StorageEngine.prototype.loadSettings =
-function(){
+StorageEngine.prototype.loadSession =
+function () {
 
-    return JSON.parse(
+    try {
 
-        localStorage.getItem(
+        const data =
+            localStorage.getItem(this.keys.SESSION);
 
-            this.keys.SETTINGS
+        if (!data) {
 
-        )
+            return null;
 
-    ) || {};
+        }
+
+        return JSON.parse(data);
+
+    }
+
+    catch (error) {
+
+        console.error("Unable to load session.", error);
+
+        return null;
+
+    }
 
 };
+const storage = new StorageEngine();
