@@ -1,1 +1,380 @@
-/* MedPlus Styles */
+/* ===========================================
+   MedPlus Pharmacist Assessment Simulator
+   Premium UI v2.0
+   Author : Abdul Muzaffer + ChatGPT
+=========================================== */
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root{
+
+    --primary:#008037;
+    --secondary:#00A651;
+    --accent:#1E88E5;
+
+    --success:#4CAF50;
+    --warning:#FB8C00;
+    --danger:#E53935;
+
+    --background:#F4F7FB;
+    --card:#FFFFFF;
+
+    --text:#222;
+    --lightText:#666;
+
+    --radius:16px;
+
+    --shadow:
+        0 8px 25px rgba(0,0,0,.08);
+
+}
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:var(--background);
+
+    color:var(--text);
+
+    min-height:100vh;
+
+}
+
+/* ==========================
+   Hidden
+========================== */
+
+.hidden{
+
+    display:none;
+
+}
+
+/* ==========================
+   Splash Screen
+========================== */
+
+#splash-screen{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    height:100vh;
+
+    background:linear-gradient(135deg,
+            #008037,
+            #00A651);
+
+    color:white;
+
+}
+
+.logo{
+
+    width:120px;
+
+    margin-bottom:20px;
+
+}
+
+.logo-container{
+
+    text-align:center;
+
+}
+
+.logo-container h1{
+
+    font-size:34px;
+
+    font-weight:700;
+
+}
+
+.logo-container span{
+
+    display:block;
+
+    font-size:18px;
+
+    margin-top:10px;
+
+}
+
+.logo-container p{
+
+    margin-top:15px;
+
+    opacity:.85;
+
+}
+
+/* ==========================
+   Login Screen
+========================== */
+
+#login-screen{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    min-height:100vh;
+
+    padding:30px;
+
+}
+
+.login-card{
+
+    width:100%;
+
+    max-width:650px;
+
+    background:white;
+
+    border-radius:var(--radius);
+
+    box-shadow:var(--shadow);
+
+    padding:40px;
+
+}
+
+.login-card h2{
+
+    font-size:30px;
+
+    color:var(--primary);
+
+    margin-bottom:10px;
+
+}
+
+.login-card p{
+
+    color:var(--lightText);
+
+    margin-bottom:30px;
+
+}
+
+.input-group{
+
+    margin-bottom:22px;
+
+}
+
+.input-group label{
+
+    display:block;
+
+    margin-bottom:8px;
+
+    font-weight:600;
+
+}
+
+.input-group input,
+
+.input-group select{
+
+    width:100%;
+
+    padding:14px;
+
+    border-radius:12px;
+
+    border:1px solid #ddd;
+
+    font-size:16px;
+
+    transition:.3s;
+
+}
+
+.input-group input:focus,
+
+.input-group select:focus{
+
+    outline:none;
+
+    border-color:var(--primary);
+
+    box-shadow:
+        0 0 8px rgba(0,128,55,.25);
+
+}
+/* ==========================
+   Exam Info Cards
+========================== */
+
+.exam-info{
+
+    display:grid;
+
+    grid-template-columns:
+        repeat(3,1fr);
+
+    gap:15px;
+
+    margin-top:20px;
+
+    margin-bottom:30px;
+
+}
+
+.info-box{
+
+    background:#F7F9FC;
+
+    padding:18px;
+
+    border-radius:14px;
+
+    text-align:center;
+
+    border-left:5px solid var(--primary);
+
+}
+
+.info-box h3{
+
+    font-size:15px;
+
+    color:#666;
+
+}
+
+.info-box span{
+
+    display:block;
+
+    margin-top:8px;
+
+    font-size:24px;
+
+    color:var(--primary);
+
+    font-weight:700;
+
+}
+
+/* ==========================
+   Buttons
+========================== */
+
+button{
+
+    cursor:pointer;
+
+    border:none;
+
+    border-radius:12px;
+
+    transition:.3s;
+
+}
+
+#startButton,
+
+#beginExam,
+
+#submitButton{
+
+    width:100%;
+
+    padding:16px;
+
+    background:var(--primary);
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:600;
+
+}
+
+#startButton:hover,
+
+#beginExam:hover,
+
+#submitButton:hover{
+
+    background:#006C2E;
+
+    transform:translateY(-2px);
+
+}
+
+/* ==========================
+   Instructions
+========================== */
+
+#instruction-screen{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    min-height:100vh;
+
+    padding:30px;
+
+}
+
+.instruction-card{
+
+    max-width:850px;
+
+    background:white;
+
+    border-radius:16px;
+
+    box-shadow:var(--shadow);
+
+    padding:40px;
+
+}
+
+.instruction-card h2{
+
+    color:var(--primary);
+
+    margin-bottom:20px;
+
+}
+
+.instruction-card ul{
+
+    margin-left:25px;
+
+    margin-bottom:30px;
+
+}
+
+.instruction-card li{
+
+    margin-bottom:12px;
+
+    font-size:16px;
+
+}
