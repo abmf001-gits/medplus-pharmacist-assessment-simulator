@@ -153,6 +153,10 @@ beginExam.addEventListener("click", () => {
 
     initializeQuiz();
 
+const timer = new TimerEngine(25);
+
+timer.start();
+
 });
 /*-------------------------------------------
   Navigation
