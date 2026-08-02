@@ -382,10 +382,26 @@ submitAssessment() {
     this.saveAnswer();
 
     const result = this.getAssessmentResult();
+// Stop timer
+if (
+    typeof timer !== "undefined" &&
+    timer.isRunning()
+) {
 
+    timer.stop();
+
+}
     // Save result globally
     window.AssessmentResult = result;
+// Save Result History
 
+if (typeof storage !== "undefined") {
+
+    storage.saveHistory(result);
+
+    storage.clearSession();
+
+}
     // Hand over control to App Controller
     if (typeof APP !== "undefined") {
 
