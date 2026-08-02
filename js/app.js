@@ -290,4 +290,36 @@ APP.totalQuestions
     // Later we'll show the Result Screen here
 }
 
+function showResult(){
 
+    assessmentScreen.classList.add("hidden");
+
+    resultScreen.classList.remove("hidden");
+
+    document.getElementById("resultCandidate").innerText =
+    APP.candidate;
+
+    document.getElementById("resultMode").innerText =
+    APP.mode;
+
+    document.getElementById("finalScore").innerText =
+    APP.score + " / " + APP.totalQuestions;
+
+    document.getElementById("finalPercentage").innerText =
+    APP.percentage + "%";
+
+    document.getElementById("correctAnswers").innerText =
+    APP.score;
+
+    document.getElementById("wrongAnswers").innerText =
+    APP.totalQuestions - APP.score;
+
+    document.getElementById("passStatus").innerText =
+    APP.percentage >= 70 ?
+    "PASS" :
+    "FAIL";
+
+    document.getElementById("resultDate").innerText =
+    new Date().toLocaleString();
+
+}
