@@ -442,7 +442,8 @@ getAssessmentResult() {
         submittedAt: new Date()
 
     };
-
-} 
+    
+const quiz = new QuizEngine();
+}
 }
 
