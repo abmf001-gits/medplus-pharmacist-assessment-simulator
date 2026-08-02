@@ -1,21 +1,34 @@
 /**
- * ==========================================
+ * ============================================================
  * MedPlus Pharmacist Assessment Simulator
- * App Controller Version 3.0
- * ==========================================
+ * App Controller v3.1
+ * Part 1 - Core Application Controller
+ * ============================================================
  */
 
 class AppController {
 
     constructor() {
 
-        this.currentScreen = "login";
-
+        // Application State
+        this.currentScreen = "splash";
         this.candidate = "";
-
         this.employeeId = "";
-
+        this.assessmentMode = "Mock Assessment";
         this.result = null;
+
+        // Screen IDs (must match index.html)
+        this.screens = [
+            "splash-screen",
+            "login-screen",
+            "instruction-screen",
+            "assessment-screen",
+            "paletteSection",
+            "result-screen",
+            "review-screen",
+            "trainer-screen",
+            "loading"
+        ];
 
     }
 
@@ -24,106 +37,70 @@ class AppController {
      */
     init() {
 
-        console.log("MedPlus Assessment Simulator Started");
+        console.log("=================================");
+        console.log("MedPlus Assessment Simulator v3.1");
+        console.log("Application Started");
+        console.log("=================================");
 
         this.bindEvents();
 
-        this.showScreen("login-screen");
+        this.showSplash();
 
     }
 
     /**
-     * Bind Button Events
+     * Bind Application Events
      */
     bindEvents() {
 
-        // Login Button
-        const beginExam =
-document.getElementById("beginExam");
-        if (loginButton) {
-startButton.addEventListener(
-    "click",
-    () => this.login()
-);
+        // Login
+        document
+            .getElementById("startButton")
+            ?.addEventListener("click", () => this.login());
 
-        }
+        // Begin Assessment
+        document
+            .getElementById("beginExam")
+            ?.addEventListener("click", () => this.startAssessment());
 
-        // Start Assessment Button
-        const beginExam =
-document.getElementById("beginExam");
-        if (startButton) {
+        // Restart
+        document
+            .getElementById("restartButton")
+            ?.addEventListener("click", () => this.restart());
 
-            beginExam.addEventListener(
-    "click",
-    () => this.startAssessment()
-);
+        // Review
+        document
+            .getElementById("reviewButton")
+            ?.addEventListener("click", () => this.showReview());
 
-        }
+        // Back From Review
+        document
+            .getElementById("backResult")
+            ?.addEventListener("click", () => this.showResult(this.result));
 
-        // Restart Button
-        const restartButton = document.getElementById("restartButton");
-
-        if (restartButton) {
-
-            restartButton.addEventListener("click", () => {
-
-                this.restart();
-
-            });
-
-        }
-// Review Button
-
-const reviewButton =
-document.getElementById("reviewButton");
-
-if (reviewButton) {
-
-    reviewButton.addEventListener(
-
-        "click",
-
-        () => this.showReview()
-
-    );
-
-}
-
-// Back Result
-
-const backResult =
-document.getElementById("backResult");
-
-if (backResult) {
-
-    backResult.addEventListener(
-
-        "click",
-
-        () => this.backToResult()
-
-    );
-
-}
     }
 
     /**
-     * Hide All Screens
+     * Hide Every Screen
      */
     hideAllScreens() {
 
-        document
-            .querySelectorAll(".screen")
-            .forEach(screen => {
+        this.screens.forEach(id => {
 
-                screen.classList.add("hidden");
+            const element = document.getElementById(id);
 
-            });
+            if (element) {
+
+                element.classList.add("hidden");
+
+            }
+
+        });
 
     }
 
     /**
-     * Show Screen
+     * Show One Screen
      */
     showScreen(screenId) {
 
@@ -131,189 +108,40 @@ if (backResult) {
 
         const screen = document.getElementById(screenId);
 
-        if (screen) {
+        if (!screen) {
 
-            screen.classList.remove("hidden");
-
-            this.currentScreen = screenId;
-
-        }
-
-    }
-
-    /**
-     * Login
-     */
-    login() {
-
-        const candidate =
-            document.getElementById("candidateName").value.trim();
-
-        const employee =
-            document.getElementById("employeeId").value.trim();
-
-        if (!candidate || !employee) {
-
-            alert("Please enter Candidate Name and Employee ID.");
+            console.error(`Screen '${screenId}' not found`);
 
             return;
 
         }
 
-        this.candidate = candidate;
+        screen.classList.remove("hidden");
 
-        this.employeeId = employee;
-
-        quiz.candidate = candidate;
-
-        quiz.employeeId = employee;
-
-        this.showScreen("instruction-screen");
+        this.currentScreen = screenId;
 
     }
 
     /**
-     * Start Assessment
+     * Splash Screen
      */
-    async startAssessment() {
+    showSplash() {
 
-        this.showScreen("assessment-screen");
+        this.showScreen("splash-screen");
 
-        await quiz.initialize();
+        setTimeout(() => {
 
-    }
+            this.showScreen("login-screen");
 
-    /**
-     * Display Result
-     */
-    showResult(result) {
-
-        this.result = result;
-
-        this.showScreen("result-screen");
-
-        document.getElementById("finalScore").textContent =
-            `${result.score} / ${result.total}`;
-
-        document.getElementById("percentage").textContent =
-            result.percentage + "%";
-
-        document.getElementById("resultCandidate").textContent =
-            result.candidate;
-
-        const status =
-            document.getElementById("status");
-
-        if (result.percentage >= 80) {
-
-            status.textContent = "PASS";
-
-            status.style.color = "green";
-
-        } else {
-
-            status.textContent = "FAIL";
-
-            status.style.color = "red";
-
-        }
-
-    }
-
-    /**
-     * Restart Application
-     */
-    restart() {
-
-        location.reload();
-
-    }
-/**
- * ==========================================
- * Show Assessment
- * ==========================================
- */
-showAssessment() {
-
-    this.showScreen("assessment-screen");
-
-}
-
-/**
- * ==========================================
- * Show Result Screen
- * ==========================================
- */
-showResult(result) {
-
-    this.result = result;
-
-    this.showScreen("result-screen");
-
-    document.getElementById("resultCandidate").textContent =
-        result.candidate;
-
-    document.getElementById("finalScore").textContent =
-        `${result.score} / ${result.total}`;
-
-    document.getElementById("percentage").textContent =
-        `${result.percentage}%`;
-
-    const status =
-        document.getElementById("status");
-
-    if (result.percentage >= 80) {
-
-        status.textContent = "PASS";
-
-        status.style.color = "#008037";
-
-    } else {
-
-        status.textContent = "FAIL";
-
-        status.style.color = "#d32f2f";
+        }, 2000);
 
     }
 
 }
-
-/**
- * ==========================================
- * Show Review Screen
- * ==========================================
- */
-showReview() {
-
-    this.showScreen("review-screen");
-
-    if (typeof reviewEngine !== "undefined") {
-
-        reviewEngine.showReview(
-            quiz.questions,
-            quiz.answers
-        );
-
-    }
-
-}
-
-/**
- * ==========================================
- * Back To Result
- * ==========================================
- */
-backToResult() {
-
-    this.showScreen("result-screen");
-
-}
-}
-
 const APP = new AppController();
 
-window.onload = () => {
+document.addEventListener("DOMContentLoaded", () => {
 
     APP.init();
 
-};
+});
