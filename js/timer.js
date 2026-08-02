@@ -69,7 +69,11 @@ TimerEngine.prototype.tick = function () {
 
         alert("Time is over!\nAssessment will be submitted.");
 
-        finishQuiz();
+        if (typeof quiz !== "undefined") {
+
+    quiz.submitAssessment();
+
+        }
 
         return;
 
