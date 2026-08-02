@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>MedPlus Pharmacist Assessment Simulator</title>
+
+    <meta name="theme-color" content="#008037">
+
+    <meta name="description"
+        content="Offline MedPlus Pharmacist Assessment Simulator">
+
+    <link rel="manifest"
+        href="manifest.json">
+
+    <link rel="stylesheet"
+        href="css/style.css">
+
+    <link rel="icon"
+        href="assets/logo.png">
+
+</head>
+
+<body>
+
+    <!-- ===================================================== -->
+    <!-- Splash Screen -->
+    <!-- ===================================================== -->
+
+    <section id="splash-screen">
+
+        <div class="logo-container">
+
+            <img
+                src="assets/logo.png"
+                class="logo"
+                alt="MedPlus">
+
+            <h1>
+
+                MedPlus Pharmacist
+
+                <span>Assessment Simulator</span>
+
+            </h1>
+
+            <p>
+
+                Offline Mock Assessment Platform
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ===================================================== -->
+    <!-- Login Screen -->
+    <!-- ===================================================== -->
+
+    <section id="login-screen">
+
+        <div class="login-card">
+
+            <h2>
+
+                Candidate Login
+
+            </h2>
+
+            <p>
+
+                Enter your details before starting the assessment.
+
+            </p>
+
+            <div class="input-group">
+
+                <label>
+
+                    Candidate Name
+
+                </label>
+
+                <input
+                    id="candidateName"
+                    type="text"
+                    placeholder="Enter Full Name">
+
+            </div>
+
+            <div class="input-group">
+
+                <label>
+
+                    Employee ID (Optional)
+
+                </label>
+
+                <input
+                    id="employeeId"
+                    type="text"
+                    placeholder="Employee ID">
+
+            </div>
+
+            <div class="input-group">
+
+                <label>
+
+                    Assessment Mode
+
+                </label>
+
+                <select id="assessmentMode">
+
+                    <option>
+
+                        Mock Assessment
+
+                    </option>
+
+                    <option>
+
+                        Practice Mode
+
+                    </option>
+
+                    <option>
+
+                        Drug ↔ Brand Flashcards
+
+                    </option>
+
+                </select>
+
+            </div>
+
+            <div class="exam-info">
+
+                <div class="info-box">
+
+                    <h3>
+
+                        Questions
+
+                    </h3>
+
+                    <span>
+
+                        50
+
+                    </span>
+
+                </div>
+
+                <div class="info-box">
+
+                    <h3>
+
+                        Duration
+
+                    </h3>
+
+                    <span>
+
+                        25 Minutes
+
+                    </span>
+
+                </div>
+
+                <div class="info-box">
+
+                    <h3>
+
+                        Pass Marks
+
+                    </h3>
+
+                    <span>
+
+                        80%
+
+                    </span>
+
+                </div>
+
+            </div>
+
+            <button id="startButton">
+
+                Start Assessment
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ===================================================== -->
+    <!-- Instructions -->
+    <!-- ===================================================== -->
+
+    <section id="instruction-screen">
+
+        <div class="instruction-card">
+
+            <h2>
+
+                Assessment Instructions
+
+            </h2>
+
+            <ul>
+
+                <li>
+
+                    Total Questions : 50
+
+                </li>
+
+                <li>
+
+                    Duration : 25 Minutes
+
+                </li>
+
+                <li>
+
+                    Each question carries 1 mark.
+
+                </li>
+
+                <li>
+
+                    No Negative Marking.
+
+                </li>
+
+                <li>
+
+                    Select only ONE option.
+
+                </li>
+
+                <li>
+
+                    You may change your answer before submission.
+
+                </li>
+
+                <li>
+
+                    Timer starts immediately after clicking Begin Test.
+
+                </li>
+
+                <li>
+
+                    Test will auto-submit when time expires.
+
+                </li>
+
+            </ul>
+
+            <button id="beginExam">
+
+                Begin Test
+
+            </button>
+
+        </div>
+
+    </section>
