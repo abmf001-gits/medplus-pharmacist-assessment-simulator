@@ -27,6 +27,7 @@ const APP = {
     answers: [],
 
     review: [],
+   percentage: 0,
 
     quizStarted: false,
 
@@ -253,8 +254,11 @@ function finishQuiz() {
 
     // TODO: Calculate score
     // We will replace this with real scoring logic later
-    APP.score = 0;
-
+    APP.score = quiz.calculateScore();
+   APP.review = quiz.review;
+APP.percentage = Math.round(
+(APP.score / APP.totalQuestions) * 100
+);
     // Save assessment history
     storage.saveHistory({
 
@@ -262,9 +266,11 @@ function finishQuiz() {
 
         score: APP.score,
 
-        percentage: (APP.score / APP.totalQuestions) * 100,
+       totalQuestions: APP.totalQuestions,
 
-        date: new Date().toLocaleString()
+percentage:Math.round(
+(APP.score / APP.totalQuestions) * 100
+),
 
     });
 
@@ -272,6 +278,14 @@ function finishQuiz() {
     storage.clearSession();
 
     console.log("Assessment Completed");
+   console.table(APP.review);
+
+console.log(
+"Final Score:",
+APP.score,
+"/",
+APP.totalQuestions
+);
 
     // Later we'll show the Result Screen here
 }
