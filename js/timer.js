@@ -55,7 +55,13 @@ class TimerEngine {
         this.updateDisplay();
 
     }
+setRemaining(seconds) {
 
+    this.remaining = seconds;
+
+    this.updateDisplay();
+
+}
 }
 /* ==========================================
    Countdown Logic
@@ -156,3 +162,4 @@ function () {
     return this.running;
 
 };
+const timer = new TimerEngine(25);
