@@ -38,28 +38,25 @@ class AppController {
     bindEvents() {
 
         // Login Button
-        const loginButton = document.getElementById("loginButton");
-
+        const beginExam =
+document.getElementById("beginExam");
         if (loginButton) {
-
-            loginButton.addEventListener("click", () => {
-
-                this.login();
-
-            });
+startButton.addEventListener(
+    "click",
+    () => this.login()
+);
 
         }
 
         // Start Assessment Button
-        const startButton = document.getElementById("startAssessmentButton");
-
+        const beginExam =
+document.getElementById("beginExam");
         if (startButton) {
 
-            startButton.addEventListener("click", () => {
-
-                this.startAssessment();
-
-            });
+            beginExam.addEventListener(
+    "click",
+    () => this.startAssessment()
+);
 
         }
 
