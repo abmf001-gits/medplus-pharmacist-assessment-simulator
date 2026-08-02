@@ -163,3 +163,13 @@ function () {
 
 };
 const timer = new TimerEngine(25);
+formatTime() {
+
+    const minutes = Math.floor(this.remaining / 60);
+
+    const seconds = this.remaining % 60;
+
+    return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+
+}
+
