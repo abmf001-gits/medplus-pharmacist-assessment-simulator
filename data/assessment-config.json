@@ -1,0 +1,20 @@
+{
+  "assessmentName": "MedPlus Pharmacist Assessment",
+  "totalQuestions": 50,
+  "durationMinutes": 25,
+  "passPercentage": 80,
+  "questionDistribution": {
+    "fundamentals": 4,
+    "abbreviations": 3,
+    "otc": 5,
+    "nsaids": 4,
+    "antidiabetics": 6,
+    "git": 5,
+    "cvs": 5,
+    "antibiotics": 6,
+    "cns": 4,
+    "respiratory": 4,
+    "gynecology": 2,
+    "combinations": 2
+  }
+}
