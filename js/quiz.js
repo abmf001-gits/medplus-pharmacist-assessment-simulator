@@ -242,7 +242,6 @@ this.renderQuestion();
      * Save Selected Answer
      */
     saveAnswer() {
-saveAnswer() {
 
     const question = this.getQuestion();
 
@@ -388,7 +387,51 @@ saveAnswer() {
  * ==========================================
  * Submit Assessment
  * ==========================================
+ *//**
+ * ==========================================
+ * Submit Assessment
+ * ==========================================
  */
+submitAssessment() {
+
+    this.saveAnswer();
+
+    const result = this.getAssessmentResult();
+
+    // Stop timer
+    if (
+        typeof timer !== "undefined" &&
+        timer.isRunning()
+    ) {
+
+        timer.stop();
+
+    }
+
+    // Save history and clear session
+    if (typeof storage !== "undefined") {
+
+        storage.saveHistory(result);
+
+        storage.clearSession();
+
+    }
+
+    // Pass result to App Controller
+    if (
+        typeof APP !== "undefined" &&
+        typeof APP.showResult === "function"
+    ) {
+
+        APP.showResult(result);
+
+    } else {
+
+        console.error("APP Controller not found.");
+
+    }
+
+}
 /**
  * ==========================================
  * Build Assessment Result Object
