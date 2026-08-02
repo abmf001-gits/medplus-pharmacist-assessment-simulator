@@ -33,6 +33,7 @@ const APP = {
     quizFinished: false
 
 };
+const storage = new StorageEngine();
 
 /*-------------------------------------------
   Screen References
@@ -220,12 +221,57 @@ function loadQuestion(index){
         index
     );
 
+    // Auto Save Assessment Progress
+    storage.saveSession({
+
+        candidate: APP.candidate,
+
+        employeeId: APP.employeeId,
+
+        currentQuestion: APP.currentQuestion,
+
+        answers: APP.answers,
+
+        remainingTime: timer ? timer.getRemaining() : 0,
+
+        mode: APP.mode,
+
+        lastSaved: new Date().toISOString()
+
+    });
+
 }
 
-function finishQuiz(){
+function finishQuiz() {
 
-    console.log(
-        "Assessment Completed"
-    );
+    // Stop the timer
+    if (timer) {
+        timer.stop();
+    }
+
+    // TODO: Calculate score
+    // We will replace this with real scoring logic later
+    APP.score = 0;
+
+    // Save assessment history
+    storage.saveHistory({
+
+        candidate: APP.candidate,
+
+        score: APP.score,
+
+        percentage: (APP.score / APP.totalQuestions) * 100,
+
+        date: new Date().toLocaleString()
+
+    });
+
+    // Clear saved session
+    storage.clearSession();
+
+    console.log("Assessment Completed");
+
+    // Later we'll show the Result Screen here
+}
 
 }
