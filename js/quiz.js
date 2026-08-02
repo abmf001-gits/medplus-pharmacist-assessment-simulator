@@ -1,171 +1,212 @@
-/* ===========================================
-   MedPlus Pharmacist Assessment Simulator
-   Quiz Engine v2.0
-=========================================== */
-
 "use strict";
 
-/* ===========================================
-   Quiz Variables
-=========================================== */
+/* ============================================
+   MedPlus Pharmacist Assessment Simulator
+   Quiz Engine v2.0
+============================================= */
 
-let quizQuestions = [];
+class QuizEngine {
 
-let currentOptions = [];
+    constructor() {
 
-let selectedAnswers = [];
+        this.questions = [];
+        this.filteredQuestions = [];
+        this.currentIndex = 0;
+        this.answers = [];
+        this.review = [];
 
-let reviewQuestions = [];
-
-let totalQuestions = 50;
-
-/* ===========================================
-   DOM Elements
-=========================================== */
-
-const questionText =
-document.getElementById("questionText");
-
-const optionsContainer =
-document.getElementById("optionsContainer");
-
-const progressFill =
-document.getElementById("progressFill");
-
-const currentQuestionText =
-document.getElementById("currentQuestion");
-
-const palette =
-document.getElementById("questionPalette");
-/* ===========================================
-   Initialize Quiz
-=========================================== */
-
-async function initializeQuiz(){
-
-    await loadQuestions();
-
-    createPalette();
-
-    loadQuestion(0);
-
-}
-
-/* ===========================================
-   Load Questions
-=========================================== */
-
-async function loadQuestions(){
-
-    try{
-
-        const response =
-        await fetch("data/questions.json");
-
-        const data =
-        await response.json();
-
-        quizQuestions =
-        shuffleArray(data);
-
-        quizQuestions =
-        quizQuestions.slice(0,totalQuestions);
+        this.totalQuestions = 50;
 
     }
 
-    catch(error){
+    async initialize() {
 
-        console.error(error);
+        await this.loadQuestionBank();
 
-        alert(
-        "Unable to load questions."
+        this.generateAssessment();
+
+        this.createPalette();
+
+        this.loadQuestion(0);
+
+    }
+
+    async loadQuestionBank() {
+
+        try {
+
+            const response = await fetch("data/questions.json");
+
+            this.questions = await response.json();
+
+        } catch (error) {
+
+            console.error(error);
+
+            alert("Unable to load Question Bank.");
+
+        }
+
+    }
+
+}
+/* ============================================
+   Generate Assessment
+============================================= */
+
+QuizEngine.prototype.generateAssessment = function () {
+
+    const shuffled =
+        [...this.questions]
+        .sort(() => Math.random() - 0.5);
+
+    this.filteredQuestions =
+        shuffled.slice(0, this.totalQuestions);
+
+};
+/* ============================================
+   Load Question
+============================================= */
+
+QuizEngine.prototype.loadQuestion = function (index) {
+
+    this.currentIndex = index;
+
+    const question =
+        this.filteredQuestions[index];
+
+    if (!question) return;
+
+    document.getElementById(
+        "currentQuestion"
+    ).innerText = index + 1;
+
+    document.getElementById(
+        "questionText"
+    ).innerHTML = question.question;
+
+    const options =
+        document.getElementById(
+            "optionsContainer"
         );
 
-    }
+    options.innerHTML = "";
 
-}
-/* ===========================================
-   Load One Question
-=========================================== */
+    question.options.forEach((option, i) => {
 
-function loadQuestion(index){
+        const label =
+            document.createElement("label");
 
-    APP.currentQuestion=index;
+        label.className = "option";
 
-    currentQuestionText.innerText=index+1;
+        label.innerHTML = `
 
-    progressFill.style.width=
+            <input
+                type="radio"
+                name="answer"
+                value="${i}">
 
-    ((index+1)/totalQuestions*100)+"%";
-
-    const q=
-    quizQuestions[index];
-
-    if(!q) return;
-
-    questionText.innerHTML=q.question;
-
-    optionsContainer.innerHTML="";
-
-    q.options.forEach((option,i)=>{
-
-        const label=
-        document.createElement("label");
-
-        label.className="option";
-
-        label.innerHTML=`
-
-        <input
-        type="radio"
-        name="answer"
-        value="${i}">
-
-        <span>${option}</span>
+            <span>${option}</span>
 
         `;
 
-        optionsContainer.appendChild(label);
+        options.appendChild(label);
 
     });
 
-}
-/* ===========================================
-   Shuffle
-=========================================== */
+    this.restoreAnswer();
 
-function shuffleArray(array){
+    this.updateProgress();
 
-    return array.sort(()=>Math.random()-0.5);
+};
+/* ============================================
+   Progress Bar
+============================================= */
 
-}
-/* ===========================================
+QuizEngine.prototype.updateProgress =
+function () {
+
+    const percentage =
+        ((this.currentIndex + 1)
+            / this.totalQuestions)
+        * 100;
+
+    document.getElementById(
+        "progressFill"
+    ).style.width =
+        percentage + "%";
+
+};
+/* ============================================
+   Save Answer
+============================================= */
+
+QuizEngine.prototype.saveAnswer =
+function () {
+
+    const selected =
+        document.querySelector(
+            'input[name="answer"]:checked'
+        );
+
+    if (!selected) return;
+
+    this.answers[this.currentIndex] =
+        Number(selected.value);
+
+};
+/* ============================================
+   Restore Answer
+============================================= */
+
+QuizEngine.prototype.restoreAnswer =
+function () {
+
+    const answer =
+        this.answers[this.currentIndex];
+
+    if (answer == null) return;
+
+    const radio =
+        document.querySelector(
+            `input[value="${answer}"]`
+        );
+
+    if (radio)
+        radio.checked = true;
+
+};
+/* ============================================
    Create Palette
-=========================================== */
+============================================= */
 
-function createPalette(){
+QuizEngine.prototype.createPalette =
+function () {
 
-    palette.innerHTML="";
+    const palette =
+        document.getElementById(
+            "questionPalette"
+        );
 
-    for(let i=0;
+    palette.innerHTML = "";
 
-        i<totalQuestions;
+    for (let i = 0; i < this.totalQuestions; i++) {
 
-        i++){
+        const button =
+            document.createElement("button");
 
-        const btn=
-        document.createElement("button");
+        button.innerText = i + 1;
 
-        btn.innerText=i+1;
+        button.onclick = () => {
 
-        btn.onclick=()=>{
+            this.saveAnswer();
 
-            loadQuestion(i);
+            this.loadQuestion(i);
 
         };
 
-        palette.appendChild(btn);
+        palette.appendChild(button);
 
     }
 
-}
+};
