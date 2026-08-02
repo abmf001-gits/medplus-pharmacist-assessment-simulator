@@ -1,0 +1,154 @@
+"use strict";
+
+/* ==========================================
+   MedPlus Pharmacist Assessment Simulator
+   Timer Engine v2.0
+========================================== */
+
+class TimerEngine {
+
+    constructor(durationMinutes = 25) {
+
+        this.duration = durationMinutes * 60;
+
+        this.remaining = this.duration;
+
+        this.interval = null;
+
+        this.running = false;
+
+        this.display =
+            document.getElementById("timer");
+
+    }
+
+    start() {
+
+        if (this.running) return;
+
+        this.running = true;
+
+        this.updateDisplay();
+
+        this.interval = setInterval(() => {
+
+            this.tick();
+
+        }, 1000);
+
+    }
+
+    stop() {
+
+        clearInterval(this.interval);
+
+        this.running = false;
+
+    }
+
+    reset() {
+
+        this.stop();
+
+        this.remaining = this.duration;
+
+        this.updateDisplay();
+
+    }
+
+}
+/* ==========================================
+   Countdown Logic
+========================================== */
+
+TimerEngine.prototype.tick = function () {
+
+    if (this.remaining <= 0) {
+
+        this.stop();
+
+        alert("Time is over!\nAssessment will be submitted.");
+
+        finishQuiz();
+
+        return;
+
+    }
+
+    this.remaining--;
+
+    this.updateDisplay();
+
+};
+/* ==========================================
+   Display Timer
+========================================== */
+
+TimerEngine.prototype.updateDisplay =
+function () {
+
+    const minutes =
+        Math.floor(this.remaining / 60);
+
+    const seconds =
+        this.remaining % 60;
+
+    this.display.innerHTML =
+
+        `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+
+    this.updateColor();
+
+};
+/* ==========================================
+   Warning Colors
+========================================== */
+
+TimerEngine.prototype.updateColor =
+function () {
+
+    if (this.remaining <= 60) {
+
+        this.display.style.color = "#E53935";
+
+        this.display.style.animation =
+            "pulse 1s infinite";
+
+    }
+
+    else if (this.remaining <= 300) {
+
+        this.display.style.color = "#FB8C00";
+
+    }
+
+    else if (this.remaining <= 600) {
+
+        this.display.style.color = "#1E88E5";
+
+    }
+
+    else {
+
+        this.display.style.color = "#FFFFFF";
+
+    }
+
+};
+/* ==========================================
+   Public Helper Methods
+========================================== */
+
+TimerEngine.prototype.getRemaining =
+function () {
+
+    return this.remaining;
+
+};
+
+TimerEngine.prototype.isRunning =
+function () {
+
+    return this.running;
+
+};
