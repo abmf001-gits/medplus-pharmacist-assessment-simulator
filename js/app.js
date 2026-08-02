@@ -277,7 +277,7 @@ percentage:Math.round(
     // Clear saved session
     storage.clearSession();
 
-    console.log("Assessment Completed");
+    showResult();
    console.table(APP.review);
 
 console.log(
@@ -314,12 +314,24 @@ function showResult(){
     document.getElementById("wrongAnswers").innerText =
     APP.totalQuestions - APP.score;
 
-    document.getElementById("passStatus").innerText =
-    APP.percentage >= 70 ?
-    "PASS" :
-    "FAIL";
+    const status = document.getElementById("passStatus");
+
+if(APP.percentage >= 70){
+
+    status.innerText = "PASS";
+
+    status.style.color = "green";
+
+}else{
+
+    status.innerText = "FAIL";
+
+    status.style.color = "red";
+
+}
 
     document.getElementById("resultDate").innerText =
     new Date().toLocaleString();
 
 }
+
