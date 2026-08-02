@@ -72,7 +72,39 @@ document.getElementById("beginExam");
             });
 
         }
+// Review Button
 
+const reviewButton =
+document.getElementById("reviewButton");
+
+if (reviewButton) {
+
+    reviewButton.addEventListener(
+
+        "click",
+
+        () => this.showReview()
+
+    );
+
+}
+
+// Back Result
+
+const backResult =
+document.getElementById("backResult");
+
+if (backResult) {
+
+    backResult.addEventListener(
+
+        "click",
+
+        () => this.backToResult()
+
+    );
+
+}
     }
 
     /**
@@ -136,7 +168,7 @@ document.getElementById("beginExam");
 
         quiz.employeeId = employee;
 
-        this.showScreen("instructions-screen");
+        this.showScreen("instruction-screen");
 
     }
 
@@ -196,7 +228,86 @@ document.getElementById("beginExam");
         location.reload();
 
     }
+/**
+ * ==========================================
+ * Show Assessment
+ * ==========================================
+ */
+showAssessment() {
 
+    this.showScreen("assessment-screen");
+
+}
+
+/**
+ * ==========================================
+ * Show Result Screen
+ * ==========================================
+ */
+showResult(result) {
+
+    this.result = result;
+
+    this.showScreen("result-screen");
+
+    document.getElementById("resultCandidate").textContent =
+        result.candidate;
+
+    document.getElementById("finalScore").textContent =
+        `${result.score} / ${result.total}`;
+
+    document.getElementById("percentage").textContent =
+        `${result.percentage}%`;
+
+    const status =
+        document.getElementById("status");
+
+    if (result.percentage >= 80) {
+
+        status.textContent = "PASS";
+
+        status.style.color = "#008037";
+
+    } else {
+
+        status.textContent = "FAIL";
+
+        status.style.color = "#d32f2f";
+
+    }
+
+}
+
+/**
+ * ==========================================
+ * Show Review Screen
+ * ==========================================
+ */
+showReview() {
+
+    this.showScreen("review-screen");
+
+    if (typeof reviewEngine !== "undefined") {
+
+        reviewEngine.showReview(
+            quiz.questions,
+            quiz.answers
+        );
+
+    }
+
+}
+
+/**
+ * ==========================================
+ * Back To Result
+ * ==========================================
+ */
+backToResult() {
+
+    this.showScreen("result-screen");
+
+}
 }
 
 const APP = new AppController();
