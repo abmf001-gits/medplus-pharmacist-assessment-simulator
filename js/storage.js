@@ -58,24 +58,7 @@ function(data){
    Restore Assessment
 ========================================== */
 
-/*StorageEngine.prototype.loadSession =
-function(){
 
-    const data =
-
-        localStorage.getItem(
-
-            this.keys.SESSION
-
-        );
-
-    if(!data)
-
-        return null;
-
-    return JSON.parse(data);
-
-};*/
 StorageEngine.prototype.hasSession =
 function () {
 
@@ -133,17 +116,21 @@ function(result){
 ========================================== */
 
 StorageEngine.prototype.getHistory =
-function(){
+StorageEngine.prototype.getHistory = function () {
 
-    return JSON.parse(
+    try {
 
-        localStorage.getItem(
+        return JSON.parse(
+            localStorage.getItem(this.keys.HISTORY)
+        ) || [];
 
-            this.keys.HISTORY
+    } catch (error) {
 
-        )
+        console.error("Unable to load history.", error);
 
-    ) || [];
+        return [];
+
+    }
 
 };
 StorageEngine.prototype.clearHistory =
