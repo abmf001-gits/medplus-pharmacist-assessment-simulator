@@ -37,7 +37,7 @@ const APP = {
 const storage = new StorageEngine();
 
 let timer = null;
-
+const quiz = new QuizEngine();
 /*-------------------------------------------
   Screen References
 --------------------------------------------*/
@@ -155,7 +155,7 @@ beginExam.addEventListener("click", () => {
         "displayMode"
     ).innerText=APP.mode;
 
-    initializeQuiz();
+    quiz.initialize();
 
 timer = new TimerEngine(25);
 
@@ -166,26 +166,25 @@ timer.start();
   Navigation
 --------------------------------------------*/
 
-previousButton.addEventListener("click",()=>{
+previousButton.addEventListener("click", () => {
 
-    if(APP.currentQuestion>0){
+    quiz.saveAnswer();
 
-        APP.currentQuestion--;
+    if (quiz.currentIndex > 0) {
 
-        loadQuestion(APP.currentQuestion);
+        quiz.loadQuestion(quiz.currentIndex - 1);
 
     }
 
 });
 
-nextButton.addEventListener("click",()=>{
+nextButton.addEventListener("click", () => {
 
-    if(APP.currentQuestion<
-        APP.totalQuestions-1){
+    quiz.saveAnswer();
 
-        APP.currentQuestion++;
+    if (quiz.currentIndex < quiz.totalQuestions - 1) {
 
-        loadQuestion(APP.currentQuestion);
+        quiz.loadQuestion(quiz.currentIndex + 1);
 
     }
 
