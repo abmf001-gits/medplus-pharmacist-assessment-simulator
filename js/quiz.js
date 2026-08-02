@@ -75,7 +75,7 @@ class QuizEngine {
             this.attachEvents();
 
 
-this.renderQuestion();;
+this.renderQuestion();
 
         }
 
@@ -257,7 +257,26 @@ this.renderQuestion();;
         }
 
     }
+if (typeof storage !== "undefined") {
 
+    storage.saveSession({
+
+        candidate: this.candidate,
+
+        employeeId: this.employeeId,
+
+        currentQuestion: this.currentQuestion,
+
+        answers: this.answers,
+
+        remainingTime:
+            typeof timer !== "undefined"
+                ? timer.getRemaining()
+                : 0
+
+    });
+
+}
     /**
      * Next Question
      */
