@@ -136,7 +136,151 @@ class AppController {
         }, 2000);
 
     }
+    /**
+     * ============================================================
+     * Candidate Login
+     * ============================================================
+     */
+    login() {
 
+        const candidate =
+            document.getElementById("candidateName").value.trim();
+
+        const employee =
+            document.getElementById("employeeId").value.trim();
+
+        const mode =
+            document.getElementById("assessmentMode").value;
+
+        if (candidate === "") {
+
+            alert("Please enter Candidate Name.");
+
+            document.getElementById("candidateName").focus();
+
+            return;
+
+        }
+
+        // Save Candidate Details
+        this.candidate = candidate;
+        this.employeeId = employee;
+        this.assessmentMode = mode;
+
+        // Update Assessment Header
+        document.getElementById("displayCandidate").textContent =
+            candidate;
+
+        document.getElementById("displayMode").textContent =
+            mode;
+
+        // Pass details to Quiz Engine
+        if (typeof quiz !== "undefined") {
+
+            quiz.candidate = candidate;
+            quiz.employeeId = employee;
+
+        }
+
+        // Show Instructions
+        this.showScreen("instruction-screen");
+
+    }
+
+    /**
+     * ============================================================
+     * Start Assessment
+     * ============================================================
+     */
+    async startAssessment() {
+
+        this.showScreen("loading");
+
+        try {
+
+            // Load Questions
+            await quiz.initialize();
+
+            // Start Timer
+            if (typeof timer !== "undefined") {
+
+                timer.start();
+
+            }
+
+            // Show Assessment
+            this.showScreen("assessment-screen");
+
+            // Show Question Palette
+            const palette =
+                document.getElementById("paletteSection");
+
+            if (palette) {
+
+                palette.classList.remove("hidden");
+
+            }
+
+            // Save Initial Session
+            if (typeof storage !== "undefined") {
+
+                storage.saveSession({
+
+                    candidate: this.candidate,
+
+                    employeeId: this.employeeId,
+
+                    mode: this.assessmentMode,
+
+                    currentQuestion: 0,
+
+                    answers: {},
+
+                    remainingTime: 25 * 60
+
+                });
+
+            }
+
+        }
+
+        catch (error) {
+
+            console.error(error);
+
+            alert("Unable to start assessment.");
+
+            this.showScreen("login-screen");
+
+        }
+
+    }
+
+    /**
+     * ============================================================
+     * Show Loading
+     * ============================================================
+     */
+    showLoading() {
+
+        this.showScreen("loading");
+
+    }
+
+    /**
+     * ============================================================
+     * Hide Loading
+     * ============================================================
+     */
+    hideLoading() {
+
+        if (this.currentScreen === "loading") {
+
+            this.showScreen("assessment-screen");
+
+        }
+
+    }
 }
 const APP = new AppController();
 
