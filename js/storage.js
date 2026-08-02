@@ -58,7 +58,7 @@ function(data){
    Restore Assessment
 ========================================== */
 
-StorageEngine.prototype.loadSession =
+/*StorageEngine.prototype.loadSession =
 function(){
 
     const data =
@@ -74,6 +74,14 @@ function(){
         return null;
 
     return JSON.parse(data);
+
+};*/
+StorageEngine.prototype.hasSession =
+function () {
+
+    return localStorage.getItem(
+        this.keys.SESSION
+    ) !== null;
 
 };
 /* ==========================================
@@ -136,6 +144,14 @@ function(){
         )
 
     ) || [];
+
+};
+StorageEngine.prototype.clearHistory =
+function () {
+
+    localStorage.removeItem(
+        this.keys.HISTORY
+    );
 
 };
 /* ==========================================
