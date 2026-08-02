@@ -1,1 +1,72 @@
-[]
+[
+  {
+    "id": 1,
+    "topic": "GIT",
+    "difficulty": "Easy",
+    "question": "Which brand belongs to Pantoprazole?",
+    "options": [
+      "Pantocid",
+      "Razo",
+      "Omez",
+      "Nexpro"
+    ],
+    "answer": 0,
+    "explanation": "Pantocid is a brand of Pantoprazole."
+  },
+  {
+    "id": 2,
+    "topic": "GIT",
+    "difficulty": "Easy",
+    "question": "Which medicine is commonly used to reduce stomach acid?",
+    "options": [
+      "Pantoprazole",
+      "Paracetamol",
+      "Cetirizine",
+      "Metformin"
+    ],
+    "answer": 0,
+    "explanation": "Pantoprazole is a proton pump inhibitor used to reduce stomach acid."
+  },
+  {
+    "id": 3,
+    "topic": "Antidiabetics",
+    "difficulty": "Easy",
+    "question": "Glimepiride is mainly used to treat:",
+    "options": [
+      "Hypertension",
+      "Diabetes",
+      "Asthma",
+      "Fever"
+    ],
+    "answer": 1,
+    "explanation": "Glimepiride is an oral antidiabetic medicine."
+  },
+  {
+    "id": 4,
+    "topic": "CVS",
+    "difficulty": "Easy",
+    "question": "Telmisartan is mainly prescribed for:",
+    "options": [
+      "Hypertension",
+      "Ulcer",
+      "Migraine",
+      "Infection"
+    ],
+    "answer": 0,
+    "explanation": "Telmisartan is an antihypertensive medicine."
+  },
+  {
+    "id": 5,
+    "topic": "OTC",
+    "difficulty": "Easy",
+    "question": "Paracetamol is mainly used for:",
+    "options": [
+      "Pain and Fever",
+      "Diabetes",
+      "Hypertension",
+      "Asthma"
+    ],
+    "answer": 0,
+    "explanation": "Paracetamol is an analgesic and antipyretic."
+  }
+]
