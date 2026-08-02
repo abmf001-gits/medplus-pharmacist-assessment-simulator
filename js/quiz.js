@@ -160,7 +160,13 @@ this.renderQuestion();
             `;
 
             container.appendChild(label);
+label.querySelector("input").addEventListener("change", () => {
 
+    this.saveAnswer();
+
+    this.updatePalette();
+
+});
         });
 
         // Update Progress
