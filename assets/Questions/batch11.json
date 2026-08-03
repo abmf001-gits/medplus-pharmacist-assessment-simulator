@@ -1,1 +1,652 @@
-
+[
+  {
+    "id": "RSP001",
+    "topic": "Respiratory System",
+    "subTopic": "Antihistamines",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Cetirizine brands",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "According to the MedPlus training material, Cetzine is a brand of which medicine?",
+    "options": [
+      "Cetirizine",
+      "Levocetirizine",
+      "Fexofenadine",
+      "Loratadine"
+    ],
+    "answer": 0,
+    "explanation": "Cetzine is listed as a brand of Cetirizine.",
+    "reference": "RSP-I",
+    "sourcePage": 2,
+    "keywords": [
+      "Cetirizine",
+      "Cetzine"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "RSP002",
+    "topic": "Respiratory System",
+    "subTopic": "Antihistamines",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Levocetirizine brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Xyzal is listed in the MedPlus training material as a brand of:",
+    "options": [
+      "Levocetirizine",
+      "Cetirizine",
+      "Montelukast",
+      "Fexofenadine"
+    ],
+    "answer": 0,
+    "explanation": "Xyzal is listed as a brand of Levocetirizine.",
+    "reference": "RSP-I",
+    "sourcePage": 2,
+    "keywords": [
+      "Levocetirizine",
+      "Xyzal"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "RSP003",
+    "topic": "Respiratory System",
+    "subTopic": "Antihistamines",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Fexofenadine brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Allegra is a brand of which medicine according to the MedPlus training material?",
+    "options": [
+      "Fexofenadine",
+      "Loratadine",
+      "Cetirizine",
+      "Levocetirizine"
+    ],
+    "answer": 0,
+    "explanation": "Allegra is listed as a brand of Fexofenadine.",
+    "reference": "RSP-I",
+    "sourcePage": 2,
+    "keywords": [
+      "Fexofenadine",
+      "Allegra"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "RSP004",
+    "topic": "Respiratory System",
+    "subTopic": "Antihistamines",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Loratadine brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "According to the MedPlus training material, Claritin is a brand of:",
+    "options": [
+      "Loratadine",
+      "Montelukast",
+      "Cetirizine",
+      "Fexofenadine"
+    ],
+    "answer": 0,
+    "explanation": "Claritin is listed as a brand of Loratadine.",
+    "reference": "RSP-I",
+    "sourcePage": 2,
+    "keywords": [
+      "Loratadine",
+      "Claritin"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "RSP005",
+    "topic": "Respiratory System",
+    "subTopic": "Integrated Respiratory Revision",
+    "competency": "Clinical Application",
+    "learningObjective": "Differentiate respiratory drug-brand pairs",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following drug–brand pairs is correctly matched according to the MedPlus training material?",
+    "options": [
+      "Montelukast — Montek",
+      "Cetirizine — Allegra",
+      "Levocetirizine — Claritin",
+      "Fexofenadine — Xyzal"
+    ],
+    "answer": 0,
+    "explanation": "Montek is listed as a brand of Montelukast. The remaining drug–brand pairs are incorrectly matched.",
+    "reference": "RSP-I",
+    "sourcePage": 2,
+    "keywords": [
+      "Montelukast",
+      "Montek",
+      "Drug Brand Mapping"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "RSP006",
+    "topic": "Respiratory System",
+    "subTopic": "Leukotriene Receptor Antagonists",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Montelukast + Levocetirizine brands",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "According to the MedPlus training material, Montair-LC is a brand of which combination?",
+    "options": [
+      "Montelukast + Levocetirizine",
+      "Montelukast + Fexofenadine",
+      "Cetirizine + Ambroxol",
+      "Levocetirizine + Phenylephrine"
+    ],
+    "answer": 0,
+    "explanation": "Montair-LC is listed as a brand of the Montelukast + Levocetirizine combination.",
+    "reference": "RSP-II",
+    "sourcePage": 2,
+    "keywords": [
+      "Montair-LC",
+      "Montelukast",
+      "Levocetirizine"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "RSP007",
+    "topic": "Respiratory System",
+    "subTopic": "Bronchodilators",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Salbutamol brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Asthalin is listed in the MedPlus training material as a brand of:",
+    "options": [
+      "Salbutamol",
+      "Terbutaline",
+      "Theophylline",
+      "Bambuterol"
+    ],
+    "answer": 0,
+    "explanation": "Asthalin is listed as a brand of Salbutamol.",
+    "reference": "RSP-II",
+    "sourcePage": 2,
+    "keywords": [
+      "Salbutamol",
+      "Asthalin"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "RSP008",
+    "topic": "Respiratory System",
+    "subTopic": "Bronchodilators",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Theophylline brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Deriphyllin is a brand of which respiratory medicine?",
+    "options": [
+      "Theophylline",
+      "Salbutamol",
+      "Montelukast",
+      "Cetirizine"
+    ],
+    "answer": 0,
+    "explanation": "Deriphyllin is listed as a brand of Theophylline in the training material.",
+    "reference": "RSP-II",
+    "sourcePage": 2,
+    "keywords": [
+      "Theophylline",
+      "Deriphyllin"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "RSP009",
+    "topic": "Respiratory System",
+    "subTopic": "Mucolytics",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Ambroxol brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "According to the MedPlus training material, Mucosolvan is a brand of:",
+    "options": [
+      "Ambroxol",
+      "Bromhexine",
+      "Acetylcysteine",
+      "Salbutamol"
+    ],
+    "answer": 0,
+    "explanation": "Mucosolvan is listed as a brand of Ambroxol.",
+    "reference": "RSP-II",
+    "sourcePage": 2,
+    "keywords": [
+      "Ambroxol",
+      "Mucosolvan"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "RSP010",
+    "topic": "Respiratory System",
+    "subTopic": "Integrated Respiratory Revision",
+    "competency": "Clinical Application",
+    "learningObjective": "Differentiate respiratory drug-brand pairs",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following drug–brand pairs is correctly matched according to the MedPlus training material?",
+    "options": [
+      "Salbutamol — Asthalin",
+      "Montelukast — Deriphyllin",
+      "Theophylline — Mucosolvan",
+      "Ambroxol — Xyzal"
+    ],
+    "answer": 0,
+    "explanation": "Asthalin is listed as a brand of Salbutamol. The remaining drug–brand pairs are incorrectly matched.",
+    "reference": "RSP-I & RSP-II",
+    "sourcePage": 2,
+    "keywords": [
+      "Salbutamol",
+      "Asthalin",
+      "Drug Brand Mapping"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "RSP011",
+    "topic": "Respiratory System",
+    "subTopic": "Mucolytics",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Bromhexine brands",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "According to the MedPlus training material, Bisolvon is a brand of which medicine?",
+    "options": [
+      "Bromhexine",
+      "Ambroxol",
+      "Acetylcysteine",
+      "Theophylline"
+    ],
+    "answer": 0,
+    "explanation": "Bisolvon is listed as a brand of Bromhexine.",
+    "reference": "RSP-III",
+    "sourcePage": 2,
+    "keywords": [
+      "Bromhexine",
+      "Bisolvon"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "RSP012",
+    "topic": "Respiratory System",
+    "subTopic": "Mucolytics",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Acetylcysteine brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which of the following is listed as a brand of Acetylcysteine in the MedPlus training material?",
+    "options": [
+      "Nucet",
+      "Bisolvon",
+      "Mucosolvan",
+      "Asthalin"
+    ],
+    "answer": 0,
+    "explanation": "Nucet is listed as a brand of Acetylcysteine.",
+    "reference": "RSP-III",
+    "sourcePage": 2,
+    "keywords": [
+      "Acetylcysteine",
+      "Nucet"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "RSP013",
+    "topic": "Respiratory System",
+    "subTopic": "Bronchodilators",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Terbutaline brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Bricanyl is a brand of which respiratory medicine?",
+    "options": [
+      "Terbutaline",
+      "Salbutamol",
+      "Bambuterol",
+      "Montelukast"
+    ],
+    "answer": 0,
+    "explanation": "Bricanyl is listed as a brand of Terbutaline.",
+    "reference": "RSP-III",
+    "sourcePage": 2,
+    "keywords": [
+      "Terbutaline",
+      "Bricanyl"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "RSP014",
+    "topic": "Respiratory System",
+    "subTopic": "Bronchodilators",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Bambuterol brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "According to the MedPlus training material, Bambudil is a brand of:",
+    "options": [
+      "Bambuterol",
+      "Terbutaline",
+      "Salbutamol",
+      "Theophylline"
+    ],
+    "answer": 0,
+    "explanation": "Bambudil is listed as a brand of Bambuterol.",
+    "reference": "RSP-III",
+    "sourcePage": 2,
+    "keywords": [
+      "Bambuterol",
+      "Bambudil"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "RSP015",
+    "topic": "Respiratory System",
+    "subTopic": "Integrated Respiratory Revision",
+    "competency": "Clinical Application",
+    "learningObjective": "Differentiate respiratory drug-brand pairs",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following drug–brand pairs is correctly matched according to the MedPlus training material?",
+    "options": [
+      "Terbutaline — Bricanyl",
+      "Acetylcysteine — Mucosolvan",
+      "Bromhexine — Asthalin",
+      "Bambuterol — Deriphyllin"
+    ],
+    "answer": 0,
+    "explanation": "Bricanyl is listed as a brand of Terbutaline. The remaining drug–brand pairs are incorrectly matched.",
+    "reference": "RSP-II & RSP-III",
+    "sourcePage": 2,
+    "keywords": [
+      "Terbutaline",
+      "Bricanyl",
+      "Drug Brand Mapping"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "RSP016",
+    "topic": "Respiratory System",
+    "subTopic": "Expectorants",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Guaifenesin brands",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "According to the MedPlus training material, Grilinctus BM is a brand associated with which expectorant?",
+    "options": [
+      "Guaifenesin",
+      "Bromhexine",
+      "Ambroxol",
+      "Acetylcysteine"
+    ],
+    "answer": 0,
+    "explanation": "Grilinctus BM is listed under Guaifenesin in the MedPlus training material.",
+    "reference": "RSP-IV",
+    "sourcePage": 2,
+    "keywords": [
+      "Guaifenesin",
+      "Grilinctus BM"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "RSP017",
+    "topic": "Respiratory System",
+    "subTopic": "Antitussives",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Dextromethorphan brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which of the following is listed as a brand of Dextromethorphan according to the MedPlus training material?",
+    "options": [
+      "Benadryl DR",
+      "Grilinctus BM",
+      "Asthalin",
+      "Montek"
+    ],
+    "answer": 0,
+    "explanation": "Benadryl DR is listed as a brand of Dextromethorphan in the training material.",
+    "reference": "RSP-IV",
+    "sourcePage": 2,
+    "keywords": [
+      "Dextromethorphan",
+      "Benadryl DR"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "RSP018",
+    "topic": "Respiratory System",
+    "subTopic": "Respiratory Combinations",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Montelukast combination brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Montair-LC is listed in the MedPlus training material as a combination containing:",
+    "options": [
+      "Montelukast + Levocetirizine",
+      "Montelukast + Cetirizine",
+      "Salbutamol + Ambroxol",
+      "Terbutaline + Bromhexine"
+    ],
+    "answer": 0,
+    "explanation": "Montair-LC is listed as the combination of Montelukast and Levocetirizine.",
+    "reference": "RSP-II",
+    "sourcePage": 2,
+    "keywords": [
+      "Montair-LC",
+      "Montelukast",
+      "Levocetirizine"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "RSP019",
+    "topic": "Respiratory System",
+    "subTopic": "Integrated Drug-Brand Mapping",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify correctly matched respiratory drug-brand pairs",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which one of the following drug–brand pairs is correctly matched according to the MedPlus training material?",
+    "options": [
+      "Ambroxol — Mucosolvan",
+      "Cetirizine — Allegra",
+      "Salbutamol — Bricanyl",
+      "Theophylline — Asthalin"
+    ],
+    "answer": 0,
+    "explanation": "Mucosolvan is listed as a brand of Ambroxol. The remaining pairs are incorrectly matched.",
+    "reference": "RSP-I to RSP-IV",
+    "sourcePage": 2,
+    "keywords": [
+      "Ambroxol",
+      "Mucosolvan"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "RSP020",
+    "topic": "Respiratory System",
+    "subTopic": "Integrated Respiratory Revision",
+    "competency": "Clinical Application",
+    "learningObjective": "Differentiate respiratory medicine brands",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following sets contains only respiratory medicine brands listed in the MedPlus training material?",
+    "options": [
+      "Cetzine, Xyzal, Asthalin, Mucosolvan",
+      "Cetzine, Pantocid, Asthalin, Cardace",
+      "Xyzal, Glycomet, Mucosolvan, Asthalin",
+      "Montek, Concor, Cetzine, Cifran"
+    ],
+    "answer": 0,
+    "explanation": "Cetzine, Xyzal, Asthalin and Mucosolvan are all listed under the Respiratory System section of the MedPlus training material.",
+    "reference": "RSP-I to RSP-IV",
+    "sourcePage": 2,
+    "keywords": [
+      "Cetzine",
+      "Xyzal",
+      "Asthalin",
+      "Mucosolvan"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "RSP021",
+    "topic": "Respiratory System",
+    "subTopic": "Integrated Drug-Brand Mapping",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify correctly matched respiratory drug-brand pairs",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "Which of the following drug–brand pairs is correctly matched according to the MedPlus training material?",
+    "options": [
+      "Levocetirizine — Xyzal",
+      "Cetirizine — Allegra",
+      "Montelukast — Claritin",
+      "Loratadine — Cetzine"
+    ],
+    "answer": 0,
+    "explanation": "Xyzal is listed as a brand of Levocetirizine. The remaining pairs are incorrectly matched.",
+    "reference": "RSP-I",
+    "sourcePage": 2,
+    "keywords": [
+      "Levocetirizine",
+      "Xyzal",
+      "Drug Brand"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "RSP022",
+    "topic": "Respiratory System",
+    "subTopic": "Integrated Drug-Brand Mapping",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify incorrectly matched respiratory drug-brand pairs",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which one of the following drug–brand pairs is INCORRECT according to the MedPlus training material?",
+    "options": [
+      "Cetirizine — Cetzine",
+      "Fexofenadine — Allegra",
+      "Loratadine — Xyzal",
+      "Montelukast — Montek"
+    ],
+    "answer": 2,
+    "explanation": "Xyzal is listed as a brand of Levocetirizine, not Loratadine. Loratadine is listed with Claritin.",
+    "reference": "RSP-I",
+    "sourcePage": 2,
+    "keywords": [
+      "Loratadine",
+      "Xyzal",
+      "Claritin"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "RSP023",
+    "topic": "Respiratory System",
+    "subTopic": "Therapeutic Classification",
+    "competency": "Clinical Application",
+    "learningObjective": "Recognize medicines included in the Respiratory System module",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which of the following medicines is included in the Respiratory System section of the MedPlus training material?",
+    "options": [
+      "Salbutamol",
+      "Metformin",
+      "Losartan",
+      "Pantoprazole"
+    ],
+    "answer": 0,
+    "explanation": "Salbutamol is included in the Respiratory System section, whereas the remaining medicines belong to other therapeutic systems.",
+    "reference": "RSP-II",
+    "sourcePage": 2,
+    "keywords": [
+      "Salbutamol",
+      "Respiratory System"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "RSP024",
+    "topic": "Respiratory System",
+    "subTopic": "Integrated Revision",
+    "competency": "Clinical Application",
+    "learningObjective": "Differentiate respiratory medicine brands from other therapeutic classes",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following sets contains only respiratory medicine brands listed in the MedPlus training material?",
+    "options": [
+      "Asthalin, Montek, Xyzal, Mucosolvan",
+      "Asthalin, Pantocid, Cardace, Montek",
+      "Mucosolvan, Glycomet, Xyzal, Asthalin",
+      "Montek, Cifran, Xyzal, Cardace"
+    ],
+    "answer": 0,
+    "explanation": "Asthalin, Montek, Xyzal and Mucosolvan are all listed in the Respiratory System section of the MedPlus training material.",
+    "reference": "RSP-I to RSP-IV",
+    "sourcePage": 2,
+    "keywords": [
+      "Asthalin",
+      "Montek",
+      "Xyzal",
+      "Mucosolvan"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "RSP025",
+    "topic": "Respiratory System",
+    "subTopic": "Comprehensive Respiratory Revision",
+    "competency": "Clinical Application",
+    "learningObjective": "Integrate respiratory drug-brand knowledge",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following sets contains only correctly matched drug–brand relationships according to the MedPlus training material?",
+    "options": [
+      "Cetirizine–Cetzine, Levocetirizine–Xyzal, Salbutamol–Asthalin, Ambroxol–Mucosolvan",
+      "Cetirizine–Xyzal, Levocetirizine–Claritin, Salbutamol–Bricanyl, Ambroxol–Bisolvon",
+      "Fexofenadine–Claritin, Loratadine–Allegra, Montelukast–Cetzine, Theophylline–Asthalin",
+      "Terbutaline–Deriphyllin, Bambuterol–Asthalin, Bromhexine–Nucet, Acetylcysteine–Bisolvon"
+    ],
+    "answer": 0,
+    "explanation": "All four drug–brand pairs in the first option are correctly matched according to the MedPlus training material.",
+    "reference": "RSP-I to RSP-IV",
+    "sourcePage": 2,
+    "keywords": [
+      "Cetirizine",
+      "Cetzine",
+      "Levocetirizine",
+      "Xyzal",
+      "Salbutamol",
+      "Asthalin",
+      "Ambroxol",
+      "Mucosolvan"
+    ],
+    "marks": 1
+  }
+]
