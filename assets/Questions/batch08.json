@@ -1,1 +1,650 @@
+[
+  {
+    "id": "NSA001",
+    "topic": "NSAIDs",
+    "subTopic": "NSAID - Single Drugs",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Aceclofenac brands",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "According to the MedPlus training material, which of the following is a brand of Aceclofenac?",
+    "options": [
+      "Hifenac",
+      "Brufen",
+      "Meftal",
+      "Nise"
+    ],
+    "answer": 0,
+    "explanation": "Hifenac is listed as a brand of Aceclofenac.",
+    "reference": "NSAID-I",
+    "sourcePage": 3,
+    "keywords": [
+      "Aceclofenac",
+      "Hifenac"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "NSA002",
+    "topic": "NSAIDs",
+    "subTopic": "NSAID - Single Drugs",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Allopurinol brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Zyloric is a brand of which drug?",
+    "options": [
+      "Allopurinol",
+      "Colchicine",
+      "Febuxostat",
+      "Etoricoxib"
+    ],
+    "answer": 0,
+    "explanation": "Zyloric and Ciploric are listed as brands of Allopurinol.",
+    "reference": "NSAID-I",
+    "sourcePage": 3,
+    "keywords": [
+      "Allopurinol",
+      "Zyloric"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "NSA003",
+    "topic": "NSAIDs",
+    "subTopic": "NSAID - Single Drugs",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Aspirin brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which of the following brands belongs to Aspirin according to the MedPlus training material?",
+    "options": [
+      "Ecosprin",
+      "Brufen",
+      "Calpol",
+      "Dynapar AQ"
+    ],
+    "answer": 0,
+    "explanation": "Ecosprin and Loprin are listed as Aspirin brands.",
+    "reference": "NSAID-I",
+    "sourcePage": 3,
+    "keywords": [
+      "Aspirin",
+      "Ecosprin"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "NSA004",
+    "topic": "NSAIDs",
+    "subTopic": "NSAID - Single Drugs",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Baclofen brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which one of the following is a brand of Baclofen?",
+    "options": [
+      "Liofen",
+      "Brufen",
+      "Meftal",
+      "Etoshine"
+    ],
+    "answer": 0,
+    "explanation": "Baclof, Bacloren and Liofen are listed as brands of Baclofen.",
+    "reference": "NSAID-I",
+    "sourcePage": 3,
+    "keywords": [
+      "Baclofen",
+      "Liofen"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "NSA005",
+    "topic": "NSAIDs",
+    "subTopic": "NSAID - Single Drugs",
+    "competency": "Clinical Application",
+    "learningObjective": "Differentiate NSAID drug-brand pairs",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following drug-brand pairs is correctly matched according to the MedPlus training material?",
+    "options": [
+      "Baclofen — Liofen",
+      "Aceclofenac — Brufen",
+      "Aspirin — Calpol",
+      "Allopurinol — Nise"
+    ],
+    "answer": 0,
+    "explanation": "Liofen is listed as a brand of Baclofen. The remaining pairs are incorrect.",
+    "reference": "NSAID-I",
+    "sourcePage": 3,
+    "keywords": [
+      "Baclofen",
+      "Liofen",
+      "NSAIDs"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "NSA006",
+    "topic": "NSAIDs",
+    "subTopic": "NSAID - Single Drugs",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Colchicine brands",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "Which of the following is a brand of Colchicine according to the MedPlus training material?",
+    "options": [
+      "Goutnil",
+      "Feburic",
+      "Etova ER",
+      "Voveran"
+    ],
+    "answer": 0,
+    "explanation": "Goutnil and Zycolchin are listed as brands of Colchicine.",
+    "reference": "NSAID-I",
+    "sourcePage": 3,
+    "keywords": [
+      "Colchicine",
+      "Goutnil"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "NSA007",
+    "topic": "NSAIDs",
+    "subTopic": "NSAID - Single Drugs",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Diclofenac Sodium brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Voveran Gel and Voveran SR are brands of which drug?",
+    "options": [
+      "Diclofenac Sodium",
+      "Aceclofenac",
+      "Ibuprofen",
+      "Ketorolac"
+    ],
+    "answer": 0,
+    "explanation": "Diclorite, Voveran Gel, Voveran SR, Dynapar AQ and Jonac are listed as Diclofenac Sodium brands.",
+    "reference": "NSAID-I",
+    "sourcePage": 3,
+    "keywords": [
+      "Diclofenac",
+      "Voveran"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "NSA008",
+    "topic": "NSAIDs",
+    "subTopic": "NSAID - Single Drugs",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Etodolac and Etoricoxib brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Etoshine is listed as a brand of which drug?",
+    "options": [
+      "Etoricoxib",
+      "Etodolac",
+      "Febuxostat",
+      "Nimesulide"
+    ],
+    "answer": 0,
+    "explanation": "Etoshine, Nucoxia and Retoz are listed as brands of Etoricoxib.",
+    "reference": "NSAID-II",
+    "sourcePage": 3,
+    "keywords": [
+      "Etoricoxib",
+      "Etoshine"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "NSA009",
+    "topic": "NSAIDs",
+    "subTopic": "NSAID - Single Drugs",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Febuxostat brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which one of the following is a brand of Febuxostat?",
+    "options": [
+      "Feburic",
+      "Etova ER",
+      "Brufen",
+      "Meftal"
+    ],
+    "answer": 0,
+    "explanation": "Febuget, Feburic, Febutaz, Febustat, Febuwal and Furic are listed as brands of Febuxostat.",
+    "reference": "NSAID-II",
+    "sourcePage": 3,
+    "keywords": [
+      "Febuxostat",
+      "Feburic"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "NSA010",
+    "topic": "NSAIDs",
+    "subTopic": "Integrated NSAID Revision",
+    "competency": "Clinical Application",
+    "learningObjective": "Differentiate NSAID drug-brand pairs",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following drug-brand pairs is correctly matched according to the MedPlus training material?",
+    "options": [
+      "Febuxostat — Feburic",
+      "Colchicine — Etoshine",
+      "Diclofenac Sodium — Goutnil",
+      "Etodolac — Voveran SR"
+    ],
+    "answer": 0,
+    "explanation": "Feburic is listed as a brand of Febuxostat. The remaining drug–brand pairs are incorrect.",
+    "reference": "NSAID-I & II",
+    "sourcePage": 3,
+    "keywords": [
+      "Febuxostat",
+      "Feburic",
+      "NSAIDs"
+    ],
+    "marks": 1
+  }
+]
 
+[
+  {
+    "id": "NSA011",
+    "topic": "NSAIDs",
+    "subTopic": "NSAID - Single Drugs",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Ibuprofen brands",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "According to the MedPlus training material, Brufen is a brand of which drug?",
+    "options": [
+      "Ibuprofen",
+      "Ketorolac",
+      "Indomethacin",
+      "Meloxicam"
+    ],
+    "answer": 0,
+    "explanation": "Brufen is listed as a brand of Ibuprofen.",
+    "reference": "NSAID-II",
+    "sourcePage": 3,
+    "keywords": [
+      "Ibuprofen",
+      "Brufen"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "NSA012",
+    "topic": "NSAIDs",
+    "subTopic": "NSAID - Single Drugs",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Indomethacin brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Indocap is listed as a brand of which medicine?",
+    "options": [
+      "Indomethacin",
+      "Ibuprofen",
+      "Ketorolac",
+      "Lornoxicam"
+    ],
+    "answer": 0,
+    "explanation": "Indocap is listed as a brand of Indomethacin.",
+    "reference": "NSAID-II",
+    "sourcePage": 3,
+    "keywords": [
+      "Indomethacin",
+      "Indocap"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "NSA013",
+    "topic": "NSAIDs",
+    "subTopic": "NSAID - Single Drugs",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Ketorolac brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which of the following is a brand of Ketorolac according to the MedPlus training material?",
+    "options": [
+      "Ketorol",
+      "Movon",
+      "Melonex",
+      "Brufen"
+    ],
+    "answer": 0,
+    "explanation": "Ketorol is listed as a brand of Ketorolac.",
+    "reference": "NSAID-II",
+    "sourcePage": 3,
+    "keywords": [
+      "Ketorolac",
+      "Ketorol"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "NSA014",
+    "topic": "NSAIDs",
+    "subTopic": "NSAID - Single Drugs",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Lornoxicam brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Movon is listed in the MedPlus training material as a brand of:",
+    "options": [
+      "Lornoxicam",
+      "Meloxicam",
+      "Ketorolac",
+      "Ibuprofen"
+    ],
+    "answer": 0,
+    "explanation": "Movon is listed as a brand of Lornoxicam.",
+    "reference": "NSAID-II",
+    "sourcePage": 3,
+    "keywords": [
+      "Lornoxicam",
+      "Movon"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "NSA015",
+    "topic": "NSAIDs",
+    "subTopic": "Integrated NSAID Revision",
+    "competency": "Clinical Application",
+    "learningObjective": "Differentiate NSAID drug-brand pairs",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following drug–brand pairs is correctly matched according to the MedPlus training material?",
+    "options": [
+      "Meloxicam — Melonex",
+      "Ibuprofen — Ketorol",
+      "Indomethacin — Brufen",
+      "Lornoxicam — Indocap"
+    ],
+    "answer": 0,
+    "explanation": "Melonex is listed as a brand of Meloxicam. The remaining drug–brand pairs are incorrectly matched.",
+    "reference": "NSAID-II",
+    "sourcePage": 3,
+    "keywords": [
+      "Meloxicam",
+      "Melonex",
+      "Drug Brand Mapping"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "NSA016",
+    "topic": "NSAIDs",
+    "subTopic": "NSAID - Single Drugs",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Mefenamic Acid brands",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "According to the MedPlus training material, Meftal is a brand of which drug?",
+    "options": [
+      "Mefenamic Acid",
+      "Meloxicam",
+      "Nimesulide",
+      "Piroxicam"
+    ],
+    "answer": 0,
+    "explanation": "Meftal is listed as a brand of Mefenamic Acid.",
+    "reference": "NSAID-II",
+    "sourcePage": 3,
+    "keywords": [
+      "Mefenamic Acid",
+      "Meftal"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "NSA017",
+    "topic": "NSAIDs",
+    "subTopic": "NSAID - Single Drugs",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Nimesulide brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which of the following brands belongs to Nimesulide according to the MedPlus training material?",
+    "options": [
+      "Nise",
+      "Calpol",
+      "Meftal",
+      "Brufen"
+    ],
+    "answer": 0,
+    "explanation": "Nise and Nimulid are listed as brands of Nimesulide.",
+    "reference": "NSAID-II",
+    "sourcePage": 3,
+    "keywords": [
+      "Nimesulide",
+      "Nise"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "NSA018",
+    "topic": "NSAIDs",
+    "subTopic": "Analgesics & Antipyretics",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Paracetamol brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which of the following is listed as a brand of Paracetamol in the MedPlus training material?",
+    "options": [
+      "Calpol",
+      "Flexon",
+      "Meftal",
+      "Melonex"
+    ],
+    "answer": 0,
+    "explanation": "Calpol, Crocin and Dolo are listed as brands of Paracetamol.",
+    "reference": "NSAID-II",
+    "sourcePage": 3,
+    "keywords": [
+      "Paracetamol",
+      "Calpol"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "NSA019",
+    "topic": "NSAIDs",
+    "subTopic": "Combination Preparations",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Paracetamol + Ibuprofen combination brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Flexon is listed in the MedPlus training material as a brand of:",
+    "options": [
+      "Paracetamol + Ibuprofen",
+      "Paracetamol",
+      "Ibuprofen",
+      "Diclofenac Sodium"
+    ],
+    "answer": 0,
+    "explanation": "Flexon is listed under the combination of Paracetamol + Ibuprofen.",
+    "reference": "NSAID-II",
+    "sourcePage": 3,
+    "keywords": [
+      "Flexon",
+      "Paracetamol + Ibuprofen"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "NSA020",
+    "topic": "NSAIDs",
+    "subTopic": "Integrated NSAID Revision",
+    "competency": "Clinical Application",
+    "learningObjective": "Differentiate NSAID drug-brand pairs",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following drug–brand pairs is correctly matched according to the MedPlus training material?",
+    "options": [
+      "Piroxicam — Dolonex",
+      "Nimesulide — Calpol",
+      "Paracetamol — Meftal",
+      "Mefenamic Acid — Nise"
+    ],
+    "answer": 0,
+    "explanation": "Dolonex is listed as a brand of Piroxicam. The remaining drug–brand pairs are incorrect.",
+    "reference": "NSAID-II",
+    "sourcePage": 3,
+    "keywords": [
+      "Piroxicam",
+      "Dolonex",
+      "Drug Brand Mapping"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "NSA021",
+    "topic": "NSAIDs",
+    "subTopic": "Integrated Drug-Brand Mapping",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify correct NSAID drug-brand pairs",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "According to the MedPlus training material, which of the following drug-brand pairs is correctly matched?",
+    "options": [
+      "Paracetamol — Dolo",
+      "Ibuprofen — Calpol",
+      "Nimesulide — Meftal",
+      "Meloxicam — Brufen"
+    ],
+    "answer": 0,
+    "explanation": "Dolo is listed as a brand of Paracetamol. The remaining pairs are incorrect.",
+    "reference": "NSAID-I & II",
+    "sourcePage": 3,
+    "keywords": [
+      "Paracetamol",
+      "Dolo",
+      "Drug Brand"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "NSA022",
+    "topic": "NSAIDs",
+    "subTopic": "Integrated Drug-Brand Mapping",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify incorrect drug-brand combinations",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which one of the following drug-brand pairs is INCORRECT according to the MedPlus training material?",
+    "options": [
+      "Ibuprofen — Brufen",
+      "Ketorolac — Ketorol",
+      "Aceclofenac — Hifenac",
+      "Febuxostat — Zyloric"
+    ],
+    "answer": 3,
+    "explanation": "Zyloric is listed as a brand of Allopurinol, not Febuxostat. Febuxostat brands include Feburic, Febuget and others.",
+    "reference": "NSAID-I & II",
+    "sourcePage": 3,
+    "keywords": [
+      "Febuxostat",
+      "Zyloric",
+      "Allopurinol"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "NSA023",
+    "topic": "NSAIDs",
+    "subTopic": "Therapeutic Classification",
+    "competency": "Clinical Application",
+    "learningObjective": "Recognize medicines included in the NSAID module",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which of the following medicines is included in the NSAID section of the MedPlus training material?",
+    "options": [
+      "Etoricoxib",
+      "Pantoprazole",
+      "Losartan",
+      "Metoprolol"
+    ],
+    "answer": 0,
+    "explanation": "Etoricoxib is included in the NSAID section, whereas the other medicines belong to different therapeutic systems.",
+    "reference": "NSAID-I & II",
+    "sourcePage": 3,
+    "keywords": [
+      "Etoricoxib",
+      "NSAID"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "NSA024",
+    "topic": "NSAIDs",
+    "subTopic": "Integrated Revision",
+    "competency": "Clinical Application",
+    "learningObjective": "Differentiate NSAID brands from other therapeutic classes",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following sets contains only brands listed in the NSAID section of the MedPlus training material?",
+    "options": [
+      "Brufen, Hifenac, Meftal, Dolonex",
+      "Brufen, Pantocid, Cardace, Meftal",
+      "Calpol, Losar, Hifenac, Nebistar",
+      "Dolo, Nexpro, Brufen, Concor"
+    ],
+    "answer": 0,
+    "explanation": "Brufen, Hifenac, Meftal and Dolonex are all listed under the NSAID section of the MedPlus training material.",
+    "reference": "NSAID-I & II",
+    "sourcePage": 3,
+    "keywords": [
+      "Brufen",
+      "Hifenac",
+      "Meftal",
+      "Dolonex"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "NSA025",
+    "topic": "NSAIDs",
+    "subTopic": "Comprehensive NSAID Revision",
+    "competency": "Clinical Application",
+    "learningObjective": "Integrate NSAID drug-brand knowledge",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following sets contains only correctly matched drug-brand relationships according to the MedPlus training material?",
+    "options": [
+      "Aceclofenac–Hifenac, Ibuprofen–Brufen, Paracetamol–Dolo, Diclofenac Sodium–Voveran SR",
+      "Aceclofenac–Brufen, Ibuprofen–Calpol, Paracetamol–Meftal, Diclofenac Sodium–Hifenac",
+      "Meloxicam–Brufen, Ketorolac–Movon, Nimesulide–Calpol, Aspirin–Nise",
+      "Allopurinol–Feburic, Colchicine–Etoshine, Etoricoxib–Ketorol, Piroxicam–Flexon"
+    ],
+    "answer": 0,
+    "explanation": "All four drug-brand pairs in the first option are correctly matched according to the MedPlus training material.",
+    "reference": "NSAID-I & II",
+    "sourcePage": 3,
+    "keywords": [
+      "Aceclofenac",
+      "Hifenac",
+      "Ibuprofen",
+      "Brufen",
+      "Paracetamol",
+      "Dolo",
+      "Diclofenac Sodium",
+      "Voveran SR"
+    ],
+    "marks": 1
+  }
+]
