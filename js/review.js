@@ -9,21 +9,23 @@ class ReviewEngine {
 
     constructor() {
 
-        this.result = null;
+    this.result = null;
 
-        this.questions = [];
+    this.questions = [];
 
-        this.answers = {};
+    this.answers = {};
 
-        this.filteredQuestions = [];
+    this.filteredQuestions = [];
 
-        this.currentQuestion = 0;
+    this.currentQuestion = 0;
 
-        this.currentFilter = "ALL";
+    this.currentFilter = "ALL";
 
-        this.initialized = false;
+    this.eventsBound = false;
 
-    }
+    this.initialized = false;
+
+}
 
     /* ============================================================
        Load Assessment Result
