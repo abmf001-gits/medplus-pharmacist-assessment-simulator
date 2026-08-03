@@ -108,8 +108,8 @@ this.updateStatistics();
     getCorrectAnswer(question) {
 
         return question.options[
-            question.ansquestion.answerwer
-        ];
+    question.answer
+];
 
     }
 
