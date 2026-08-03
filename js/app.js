@@ -346,7 +346,8 @@ if (!resume && typeof storage !== "undefined") {
  */
 showAssessment() {
 
-    
+    this.showScreen("assessment-screen");
+
     const palette =
         document.getElementById("paletteSection");
 
