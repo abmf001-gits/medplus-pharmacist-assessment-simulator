@@ -1,1 +1,608 @@
+[
+  {
+    "id": "FND001",
+    "topic": "Fundamentals",
+    "subTopic": "Types of Doctors",
+    "difficulty": "Easy",
+    "question": "Which specialist is primarily associated with diseases of the heart?",
+    "options": [
+      "Cardiologist",
+      "Dermatologist",
+      "Neurologist",
+      "Pulmonologist"
+    ],
+    "answer": 0,
+    "explanation": "According to the training material, a Cardiologist is the specialist associated with heart-related diseases.",
+    "reference": "Total Drugs & Brands List - Fundamentals I",
+    "sourcePage": 1,
+    "keywords": [
+      "Cardiologist",
+      "Heart",
+      "Doctor",
+      "Specialist"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "FND002",
+    "topic": "Fundamentals",
+    "subTopic": "Types of Doctors",
+    "difficulty": "Easy",
+    "question": "Which specialist treats diseases related to the skin?",
+    "options": [
+      "Dermatologist",
+      "Orthopedician",
+      "Nephrologist",
+      "Psychiatrist"
+    ],
+    "answer": 0,
+    "explanation": "The training material lists Dermatologist as the specialist for skin diseases.",
+    "reference": "Total Drugs & Brands List - Fundamentals I",
+    "sourcePage": 1,
+    "keywords": [
+      "Dermatologist",
+      "Skin",
+      "Doctor"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "FND003",
+    "topic": "Fundamentals",
+    "subTopic": "Types of Doctors",
+    "difficulty": "Easy",
+    "question": "A Neurologist is a specialist concerned with diseases of which body system?",
+    "options": [
+      "Nervous System",
+      "Respiratory System",
+      "Digestive System",
+      "Urinary System"
+    ],
+    "answer": 0,
+    "explanation": "The Fundamentals section identifies Neurologist as the specialist dealing with the nervous system.",
+    "reference": "Total Drugs & Brands List - Fundamentals I",
+    "sourcePage": 1,
+    "keywords": [
+      "Neurologist",
+      "Brain",
+      "Nerves",
+      "CNS"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "FND004",
+    "topic": "Fundamentals",
+    "subTopic": "Types of Doctors",
+    "difficulty": "Easy",
+    "question": "Which specialist is associated with disorders of the kidneys?",
+    "options": [
+      "Nephrologist",
+      "Cardiologist",
+      "Gastroenterologist",
+      "Pulmonologist"
+    ],
+    "answer": 0,
+    "explanation": "The PDF lists Nephrologist as the specialist related to kidney diseases.",
+    "reference": "Total Drugs & Brands List - Fundamentals I",
+    "sourcePage": 1,
+    "keywords": [
+      "Nephrologist",
+      "Kidney",
+      "Renal"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "FND005",
+    "topic": "Fundamentals",
+    "subTopic": "Types of Doctors",
+    "difficulty": "Easy",
+    "question": "Which specialist is associated with diseases of the lungs and respiratory system?",
+    "options": [
+      "Pulmonologist",
+      "Neurologist",
+      "Dermatologist",
+      "Orthopedician"
+    ],
+    "answer": 0,
+    "explanation": "The Fundamentals section identifies Pulmonologist as the specialist for lung and respiratory diseases.",
+    "reference": "Total Drugs & Brands List - Fundamentals I",
+    "sourcePage": 1,
+    "keywords": [
+      "Pulmonologist",
+      "Lungs",
+      "Respiratory"
+    ],
+    "marks": 1
+  }
+]
 
+[
+  {
+    "id": "FND006",
+    "topic": "Fundamentals",
+    "subTopic": "Types of Doctors",
+    "difficulty": "Easy",
+    "question": "Which specialist is primarily associated with diseases of the bones and joints?",
+    "options": [
+      "Orthopedician",
+      "Dermatologist",
+      "Cardiologist",
+      "Psychiatrist"
+    ],
+    "answer": 0,
+    "explanation": "According to the Fundamentals section, an Orthopedician specializes in disorders of bones, joints, and the musculoskeletal system.",
+    "reference": "Total Drugs & Brands List - Fundamentals I",
+    "sourcePage": 1,
+    "keywords": [
+      "Orthopedician",
+      "Bones",
+      "Joints",
+      "Musculoskeletal"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "FND007",
+    "topic": "Fundamentals",
+    "subTopic": "Types of Doctors",
+    "difficulty": "Easy",
+    "question": "A patient experiencing depression and other mental health disorders should primarily consult which specialist?",
+    "options": [
+      "Psychiatrist",
+      "Pulmonologist",
+      "Nephrologist",
+      "Cardiologist"
+    ],
+    "answer": 0,
+    "explanation": "The training material lists Psychiatrist as the specialist for mental health disorders.",
+    "reference": "Total Drugs & Brands List - Fundamentals I",
+    "sourcePage": 1,
+    "keywords": [
+      "Psychiatrist",
+      "Mental Health",
+      "Depression",
+      "Psychiatry"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "FND008",
+    "topic": "Fundamentals",
+    "subTopic": "Types of Doctors",
+    "difficulty": "Medium",
+    "question": "Which doctor should a pharmacist recommend for a patient complaining of persistent kidney-related problems?",
+    "options": [
+      "Nephrologist",
+      "Dermatologist",
+      "Orthopedician",
+      "Neurologist"
+    ],
+    "answer": 0,
+    "explanation": "The Fundamentals section identifies a Nephrologist as the specialist for kidney disorders. This reflects a common patient-referral scenario.",
+    "reference": "Total Drugs & Brands List - Fundamentals I",
+    "sourcePage": 1,
+    "keywords": [
+      "Kidney",
+      "Nephrologist",
+      "Referral",
+      "Renal"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "FND009",
+    "topic": "Fundamentals",
+    "subTopic": "Types of Doctors",
+    "difficulty": "Medium",
+    "question": "A customer complains of persistent breathing difficulty. According to the training material, which specialist is most appropriate for referral?",
+    "options": [
+      "Pulmonologist",
+      "Neurologist",
+      "Psychiatrist",
+      "Orthopedician"
+    ],
+    "answer": 0,
+    "explanation": "A Pulmonologist specializes in diseases of the lungs and respiratory system and is the appropriate referral for persistent breathing problems.",
+    "reference": "Total Drugs & Brands List - Fundamentals I",
+    "sourcePage": 1,
+    "keywords": [
+      "Pulmonologist",
+      "Breathing",
+      "Respiratory",
+      "Referral"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "FND010",
+    "topic": "Fundamentals",
+    "subTopic": "Types of Doctors",
+    "difficulty": "Medium",
+    "question": "A pharmacist receives a prescription from a Neurologist. Which body system is this prescription most likely related to?",
+    "options": [
+      "Nervous System",
+      "Digestive System",
+      "Skin",
+      "Respiratory System"
+    ],
+    "answer": 0,
+    "explanation": "The training material identifies Neurologists as specialists dealing with disorders of the nervous system. This question tests application of that knowledge.",
+    "reference": "Total Drugs & Brands List - Fundamentals I",
+    "sourcePage": 1,
+    "keywords": [
+      "Neurologist",
+      "Prescription",
+      "Nervous System",
+      "CNS"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "FND011",
+    "topic": "Fundamentals",
+    "subTopic": "Types of Doctors",
+    "difficulty": "Easy",
+    "question": "Which specialist should be consulted for disorders affecting the brain and nerves?",
+    "options": [
+      "Neurologist",
+      "Cardiologist",
+      "Dermatologist",
+      "Pulmonologist"
+    ],
+    "answer": 0,
+    "explanation": "The Fundamentals section identifies a Neurologist as the specialist who manages disorders of the brain, spinal cord, and nerves.",
+    "reference": "Total Drugs & Brands List - Fundamentals I",
+    "sourcePage": 1,
+    "keywords": [
+      "Neurologist",
+      "Brain",
+      "Nerves",
+      "CNS"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "FND012",
+    "topic": "Fundamentals",
+    "subTopic": "Types of Doctors",
+    "difficulty": "Medium",
+    "question": "A patient complains of persistent joint pain after a fracture has healed. According to the training material, which specialist is the most appropriate referral?",
+    "options": [
+      "Orthopedician",
+      "Dermatologist",
+      "Psychiatrist",
+      "Pulmonologist"
+    ],
+    "answer": 0,
+    "explanation": "The Fundamentals section associates Orthopedicians with diseases and disorders of bones and joints, making them the appropriate referral in this scenario.",
+    "reference": "Total Drugs & Brands List - Fundamentals I",
+    "sourcePage": 1,
+    "keywords": [
+      "Orthopedician",
+      "Bones",
+      "Joints",
+      "Referral"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "FND013",
+    "topic": "Fundamentals",
+    "subTopic": "Types of Doctors",
+    "difficulty": "Medium",
+    "question": "Which specialist would most likely prescribe medicines for chronic asthma or other long-term respiratory illnesses?",
+    "options": [
+      "Pulmonologist",
+      "Nephrologist",
+      "Cardiologist",
+      "Dermatologist"
+    ],
+    "answer": 0,
+    "explanation": "The training material lists Pulmonologists as specialists for diseases of the lungs and respiratory system.",
+    "reference": "Total Drugs & Brands List - Fundamentals I",
+    "sourcePage": 1,
+    "keywords": [
+      "Pulmonologist",
+      "Asthma",
+      "Respiratory",
+      "Lungs"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "FND014",
+    "topic": "Fundamentals",
+    "subTopic": "Types of Doctors",
+    "difficulty": "Medium",
+    "question": "A prescription issued by a Cardiologist is most likely intended for the treatment of diseases involving which organ?",
+    "options": [
+      "Heart",
+      "Kidney",
+      "Skin",
+      "Lungs"
+    ],
+    "answer": 0,
+    "explanation": "The Fundamentals section identifies Cardiologists as specialists in heart-related diseases.",
+    "reference": "Total Drugs & Brands List - Fundamentals I",
+    "sourcePage": 1,
+    "keywords": [
+      "Cardiologist",
+      "Heart",
+      "Prescription",
+      "CVS"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "FND015",
+    "topic": "Fundamentals",
+    "subTopic": "Types of Doctors",
+    "difficulty": "Hard",
+    "question": "A pharmacist receives referrals for a patient with skin disease, kidney disease, and breathing difficulty. Which sequence of specialists correctly matches these conditions?",
+    "options": [
+      "Dermatologist → Nephrologist → Pulmonologist",
+      "Pulmonologist → Cardiologist → Neurologist",
+      "Nephrologist → Dermatologist → Orthopedician",
+      "Cardiologist → Pulmonologist → Dermatologist"
+    ],
+    "answer": 0,
+    "explanation": "According to the Fundamentals section, Dermatologists manage skin diseases, Nephrologists manage kidney diseases, and Pulmonologists manage respiratory diseases.",
+    "reference": "Total Drugs & Brands List - Fundamentals I",
+    "sourcePage": 1,
+    "keywords": [
+      "Dermatologist",
+      "Nephrologist",
+      "Pulmonologist",
+      "Matching"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "FND016",
+    "topic": "Fundamentals",
+    "subTopic": "Types of Doctors",
+    "difficulty": "Easy",
+    "question": "According to the training material, which specialist treats diseases of the ears, nose, and throat?",
+    "options": [
+      "ENT Specialist",
+      "Dermatologist",
+      "Neurologist",
+      "Dentist"
+    ],
+    "answer": 0,
+    "explanation": "The Fundamentals section lists the ENT Specialist as the doctor who treats disorders of the ears, nose, and throat.",
+    "reference": "Total Drugs & Brands List - Fundamentals I",
+    "sourcePage": 1,
+    "keywords": [
+      "ENT",
+      "Ear",
+      "Nose",
+      "Throat"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "FND017",
+    "topic": "Fundamentals",
+    "subTopic": "Types of Doctors",
+    "difficulty": "Easy",
+    "question": "Which specialist is associated with the diagnosis and treatment of cancer?",
+    "options": [
+      "Oncologist",
+      "Cardiologist",
+      "Pulmonologist",
+      "Rheumatologist"
+    ],
+    "answer": 0,
+    "explanation": "The training material identifies an Oncologist as the specialist who treats people with cancer.",
+    "reference": "Total Drugs & Brands List - Fundamentals I",
+    "sourcePage": 1,
+    "keywords": [
+      "Oncologist",
+      "Cancer",
+      "Oncology"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "FND018",
+    "topic": "Fundamentals",
+    "subTopic": "Types of Doctors",
+    "difficulty": "Medium",
+    "question": "A customer requests guidance for a child aged 10 years who needs specialist medical care. According to the training material, which specialist is most appropriate?",
+    "options": [
+      "Pediatrician",
+      "Gynecologist",
+      "Neurologist",
+      "General Physician"
+    ],
+    "answer": 0,
+    "explanation": "The Fundamentals section states that a Pediatrician specializes in the care of children from birth up to 18 years of age.",
+    "reference": "Total Drugs & Brands List - Fundamentals I",
+    "sourcePage": 1,
+    "keywords": [
+      "Pediatrician",
+      "Children",
+      "Referral",
+      "Child Health"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "FND019",
+    "topic": "Fundamentals",
+    "subTopic": "Types of Doctors",
+    "difficulty": "Medium",
+    "question": "A patient requires evaluation for stomach disorders. Which specialist should the pharmacist recommend according to the training material?",
+    "options": [
+      "Gastroenterologist",
+      "Nephrologist",
+      "Orthopedician",
+      "Psychiatrist"
+    ],
+    "answer": 0,
+    "explanation": "The Fundamentals section identifies the Gastroenterologist as the specialist who treats stomach disorders.",
+    "reference": "Total Drugs & Brands List - Fundamentals I",
+    "sourcePage": 1,
+    "keywords": [
+      "Gastroenterologist",
+      "Stomach",
+      "Digestive System",
+      "Referral"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "FND020",
+    "topic": "Fundamentals",
+    "subTopic": "Types of Doctors",
+    "difficulty": "Hard",
+    "question": "Which of the following doctor–specialty pairs is correctly matched according to the training material?",
+    "options": [
+      "Ophthalmologist – Prevention of eye diseases and injuries",
+      "Nephrologist – Diseases of the lungs",
+      "Pulmonologist – Disorders of the kidneys",
+      "Dermatologist – Diseases of the heart"
+    ],
+    "answer": 0,
+    "explanation": "The Fundamentals section states that an Ophthalmologist specializes in the prevention of eye diseases and injuries. The remaining pairs are incorrect according to the training material.",
+    "reference": "Total Drugs & Brands List - Fundamentals I",
+    "sourcePage": 1,
+    "keywords": [
+      "Ophthalmologist",
+      "Eye",
+      "Matching",
+      "Specialists"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "FND021",
+    "topic": "Fundamentals",
+    "subTopic": "Types of Doctors",
+    "difficulty": "Easy",
+    "question": "According to the training material, which specialist treats diseases related to the blood and blood-forming organs?",
+    "options": [
+      "Haematologist",
+      "Pathologist",
+      "Radiologist",
+      "Nephrologist"
+    ],
+    "answer": 0,
+    "explanation": "The Fundamentals section identifies a Haematologist as the specialist who treats blood diseases and blood-forming organs.",
+    "reference": "Total Drugs & Brands List - Fundamentals I",
+    "sourcePage": 1,
+    "keywords": [
+      "Haematologist",
+      "Blood",
+      "Blood Disorders",
+      "Specialist"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "FND022",
+    "topic": "Fundamentals",
+    "subTopic": "Types of Doctors",
+    "difficulty": "Medium",
+    "question": "A physician requests an MRI to diagnose a patient's condition. Which specialist is primarily associated with interpreting such imaging investigations according to the training material?",
+    "options": [
+      "Radiologist",
+      "Pathologist",
+      "Dermatologist",
+      "Dentist"
+    ],
+    "answer": 0,
+    "explanation": "The training material lists Radiologists as specialists involved in diagnostic imaging such as X-rays, CT, MRI, PET, and ultrasound scans.",
+    "reference": "Total Drugs & Brands List - Fundamentals I",
+    "sourcePage": 1,
+    "keywords": [
+      "Radiologist",
+      "MRI",
+      "CT",
+      "Imaging"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "FND023",
+    "topic": "Fundamentals",
+    "subTopic": "Types of Doctors",
+    "difficulty": "Medium",
+    "question": "Which specialist is responsible for diagnosing disease-related changes in tissues and body fluids according to the training material?",
+    "options": [
+      "Pathologist & Microbiologist",
+      "Radiologist",
+      "Cardiologist",
+      "Pulmonologist"
+    ],
+    "answer": 0,
+    "explanation": "The Fundamentals section states that Pathologists and Microbiologists diagnose disease-related changes in tissues and body fluids.",
+    "reference": "Total Drugs & Brands List - Fundamentals I",
+    "sourcePage": 1,
+    "keywords": [
+      "Pathologist",
+      "Microbiologist",
+      "Tissues",
+      "Body Fluids"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "FND024",
+    "topic": "Fundamentals",
+    "subTopic": "Types of Doctors",
+    "difficulty": "Hard",
+    "question": "Which of the following doctor–specialty pairs is correctly matched according to the training material?",
+    "options": [
+      "Physiotherapist – Helps people affected by injury through movement and exercise",
+      "Psychiatrist – Treats kidney diseases",
+      "Nephrologist – Treats mental disorders",
+      "Orthopedician – Treats diseases of the lungs"
+    ],
+    "answer": 0,
+    "explanation": "The Fundamentals section describes a Physiotherapist as a healthcare professional who helps people affected by injury using movement, exercise, manual therapy, education, and advice.",
+    "reference": "Total Drugs & Brands List - Fundamentals I",
+    "sourcePage": 1,
+    "keywords": [
+      "Physiotherapist",
+      "Rehabilitation",
+      "Exercise",
+      "Movement"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "FND025",
+    "topic": "Fundamentals",
+    "subTopic": "Types of Doctors",
+    "difficulty": "Hard",
+    "question": "A pharmacist needs to refer four patients with different conditions. Which sequence correctly matches the specialist with the condition according to the training material?",
+    "options": [
+      "Cancer → Oncologist; Kidney disease → Nephrologist; Eye disorder → Ophthalmologist; Blood disorder → Haematologist",
+      "Cancer → Dermatologist; Kidney disease → Cardiologist; Eye disorder → Neurologist; Blood disorder → Pulmonologist",
+      "Cancer → Gastroenterologist; Kidney disease → Psychiatrist; Eye disorder → Orthopedician; Blood disorder → Dentist",
+      "Cancer → Radiologist; Kidney disease → ENT Specialist; Eye disorder → Pathologist; Blood disorder → Physiotherapist"
+    ],
+    "answer": 0,
+    "explanation": "The training material identifies Oncologists (cancer), Nephrologists (kidney diseases), Ophthalmologists (eye diseases and injuries), and Haematologists (blood disorders) as the appropriate specialists.",
+    "reference": "Total Drugs & Brands List - Fundamentals I",
+    "sourcePage": 1,
+    "keywords": [
+      "Oncologist",
+      "Nephrologist",
+      "Ophthalmologist",
+      "Haematologist",
+      "Referral"
+    ],
+    "marks": 1
+  }
+]
