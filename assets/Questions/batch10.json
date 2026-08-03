@@ -1,1 +1,653 @@
-
+[
+  {
+    "id": "ABX001",
+    "topic": "Antibiotics",
+    "subTopic": "Penicillins",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Amoxicillin brands",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "According to the MedPlus training material, Mox is a brand of which antibiotic?",
+    "options": [
+      "Amoxicillin",
+      "Ampicillin",
+      "Azithromycin",
+      "Cefadroxil"
+    ],
+    "answer": 0,
+    "explanation": "Mox is listed as a brand of Amoxicillin.",
+    "reference": "ABX-I",
+    "sourcePage": 2,
+    "keywords": [
+      "Amoxicillin",
+      "Mox"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ABX002",
+    "topic": "Antibiotics",
+    "subTopic": "Penicillins",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Amoxicillin + Clavulanic Acid brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Augmentin is listed in the MedPlus training material as a brand of:",
+    "options": [
+      "Amoxicillin + Clavulanic Acid",
+      "Amoxicillin",
+      "Ampicillin",
+      "Cefixime"
+    ],
+    "answer": 0,
+    "explanation": "Augmentin is listed as a brand of the Amoxicillin + Clavulanic Acid combination.",
+    "reference": "ABX-I",
+    "sourcePage": 2,
+    "keywords": [
+      "Augmentin",
+      "Amoxicillin",
+      "Clavulanic Acid"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ABX003",
+    "topic": "Antibiotics",
+    "subTopic": "Penicillins",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Ampicillin brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "According to the MedPlus training material, which of the following is a brand of Ampicillin?",
+    "options": [
+      "Ampoxin",
+      "Mox",
+      "Azithral",
+      "Duracef"
+    ],
+    "answer": 0,
+    "explanation": "Ampoxin is listed as a brand of Ampicillin.",
+    "reference": "ABX-I",
+    "sourcePage": 2,
+    "keywords": [
+      "Ampicillin",
+      "Ampoxin"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ABX004",
+    "topic": "Antibiotics",
+    "subTopic": "Macrolides",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Azithromycin brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Azithral is a brand of which antibiotic?",
+    "options": [
+      "Azithromycin",
+      "Amoxicillin",
+      "Cefadroxil",
+      "Ampicillin"
+    ],
+    "answer": 0,
+    "explanation": "Azithral is listed as a brand of Azithromycin.",
+    "reference": "ABX-I",
+    "sourcePage": 2,
+    "keywords": [
+      "Azithromycin",
+      "Azithral"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ABX005",
+    "topic": "Antibiotics",
+    "subTopic": "Cephalosporins",
+    "competency": "Clinical Application",
+    "learningObjective": "Differentiate antibiotic drug-brand pairs",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following drug–brand pairs is correctly matched according to the MedPlus training material?",
+    "options": [
+      "Cefadroxil — Duracef",
+      "Azithromycin — Augmentin",
+      "Ampicillin — Azithral",
+      "Amoxicillin — Ampoxin"
+    ],
+    "answer": 0,
+    "explanation": "Duracef is listed as a brand of Cefadroxil. The remaining drug–brand pairs are incorrectly matched.",
+    "reference": "ABX-I",
+    "sourcePage": 2,
+    "keywords": [
+      "Cefadroxil",
+      "Duracef",
+      "Drug Brand Mapping"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "ABX006",
+    "topic": "Antibiotics",
+    "subTopic": "Cephalosporins",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Cefixime brands",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "Taxim-O is a brand of which antibiotic according to the MedPlus training material?",
+    "options": [
+      "Cefixime",
+      "Cefuroxime",
+      "Cefpodoxime",
+      "Ceftriaxone"
+    ],
+    "answer": 0,
+    "explanation": "Taxim-O is listed as a brand of Cefixime.",
+    "reference": "ABX-II",
+    "sourcePage": 2,
+    "keywords": [
+      "Cefixime",
+      "Taxim-O"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ABX007",
+    "topic": "Antibiotics",
+    "subTopic": "Cephalosporins",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Cefpodoxime brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which of the following is listed as a brand of Cefpodoxime?",
+    "options": [
+      "Cepodem",
+      "Taxim-O",
+      "Ceftum",
+      "Monocef"
+    ],
+    "answer": 0,
+    "explanation": "Cepodem is listed as a brand of Cefpodoxime.",
+    "reference": "ABX-II",
+    "sourcePage": 2,
+    "keywords": [
+      "Cefpodoxime",
+      "Cepodem"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ABX008",
+    "topic": "Antibiotics",
+    "subTopic": "Cephalosporins",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Cefuroxime brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Ceftum is a brand of which cephalosporin?",
+    "options": [
+      "Cefuroxime",
+      "Cefixime",
+      "Cefotaxime",
+      "Ceftriaxone"
+    ],
+    "answer": 0,
+    "explanation": "Ceftum is listed as a brand of Cefuroxime.",
+    "reference": "ABX-II",
+    "sourcePage": 2,
+    "keywords": [
+      "Cefuroxime",
+      "Ceftum"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ABX009",
+    "topic": "Antibiotics",
+    "subTopic": "Cephalosporins",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Ceftriaxone brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "According to the MedPlus training material, Monocef is a brand of which antibiotic?",
+    "options": [
+      "Ceftriaxone",
+      "Cefotaxime",
+      "Cefixime",
+      "Cefadroxil"
+    ],
+    "answer": 0,
+    "explanation": "Monocef is listed as a brand of Ceftriaxone.",
+    "reference": "ABX-II",
+    "sourcePage": 2,
+    "keywords": [
+      "Ceftriaxone",
+      "Monocef"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ABX010",
+    "topic": "Antibiotics",
+    "subTopic": "Integrated Cephalosporin Revision",
+    "competency": "Clinical Application",
+    "learningObjective": "Differentiate cephalosporin drug-brand pairs",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following drug–brand pairs is correctly matched according to the MedPlus training material?",
+    "options": [
+      "Cefotaxime — Taxim",
+      "Cefixime — Ceftum",
+      "Cefuroxime — Monocef",
+      "Cefpodoxime — Taxim-O"
+    ],
+    "answer": 0,
+    "explanation": "Taxim is listed as a brand of Cefotaxime. The remaining drug–brand pairs are incorrectly matched.",
+    "reference": "ABX-II",
+    "sourcePage": 2,
+    "keywords": [
+      "Cefotaxime",
+      "Taxim",
+      "Drug Brand Mapping"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "ABX011",
+    "topic": "Antibiotics",
+    "subTopic": "Cephalosporins",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Cefoperazone brands",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "According to the MedPlus training material, Cefobid is a brand of which antibiotic?",
+    "options": [
+      "Cefoperazone",
+      "Cefepime",
+      "Ceftriaxone",
+      "Cefixime"
+    ],
+    "answer": 0,
+    "explanation": "Cefobid is listed as a brand of Cefoperazone.",
+    "reference": "ABX-III",
+    "sourcePage": 2,
+    "keywords": [
+      "Cefoperazone",
+      "Cefobid"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ABX012",
+    "topic": "Antibiotics",
+    "subTopic": "Cephalosporin Combinations",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Cefoperazone + Sulbactam brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Magnex is listed in the MedPlus training material as a brand of:",
+    "options": [
+      "Cefoperazone + Sulbactam",
+      "Ceftriaxone + Sulbactam",
+      "Cefepime + Tazobactam",
+      "Amoxicillin + Clavulanic Acid"
+    ],
+    "answer": 0,
+    "explanation": "Magnex is listed as a brand of Cefoperazone + Sulbactam.",
+    "reference": "ABX-III",
+    "sourcePage": 2,
+    "keywords": [
+      "Magnex",
+      "Cefoperazone",
+      "Sulbactam"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ABX013",
+    "topic": "Antibiotics",
+    "subTopic": "Cephalosporin Combinations",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Ceftriaxone + Sulbactam brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "According to the MedPlus training material, which combination contains Sulbactam with Ceftriaxone?",
+    "options": [
+      "Monocef-SB",
+      "Magnex",
+      "Maxipime",
+      "Taxim-O"
+    ],
+    "answer": 0,
+    "explanation": "Monocef-SB is listed as a brand of Ceftriaxone + Sulbactam.",
+    "reference": "ABX-III",
+    "sourcePage": 2,
+    "keywords": [
+      "Ceftriaxone",
+      "Sulbactam",
+      "Monocef-SB"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ABX014",
+    "topic": "Antibiotics",
+    "subTopic": "Fourth Generation Cephalosporins",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Cefepime brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Maxipime is a brand of which antibiotic?",
+    "options": [
+      "Cefepime",
+      "Cefoperazone",
+      "Cefixime",
+      "Cefotaxime"
+    ],
+    "answer": 0,
+    "explanation": "Maxipime is listed as a brand of Cefepime.",
+    "reference": "ABX-III",
+    "sourcePage": 2,
+    "keywords": [
+      "Cefepime",
+      "Maxipime"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ABX015",
+    "topic": "Antibiotics",
+    "subTopic": "Integrated Antibiotic Revision",
+    "competency": "Clinical Application",
+    "learningObjective": "Differentiate antibiotic drug-brand pairs",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following drug–brand pairs is correctly matched according to the MedPlus training material?",
+    "options": [
+      "Cefepime — Maxipime",
+      "Cefoperazone — Taxim-O",
+      "Ceftriaxone + Sulbactam — Magnex",
+      "Cefoperazone + Sulbactam — Cefobid"
+    ],
+    "answer": 0,
+    "explanation": "Maxipime is listed as a brand of Cefepime. The remaining drug–brand pairs are incorrectly matched.",
+    "reference": "ABX-III",
+    "sourcePage": 2,
+    "keywords": [
+      "Cefepime",
+      "Maxipime",
+      "Drug Brand Mapping"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "ABX016",
+    "topic": "Antibiotics",
+    "subTopic": "Cephalosporin Combinations",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Cefepime + Tazobactam brands",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "According to the MedPlus training material, Cefepime-TZ is a brand of which combination?",
+    "options": [
+      "Cefepime + Tazobactam",
+      "Cefoperazone + Sulbactam",
+      "Ceftriaxone + Sulbactam",
+      "Amoxicillin + Clavulanic Acid"
+    ],
+    "answer": 0,
+    "explanation": "Cefepime-TZ is listed as a brand of the Cefepime + Tazobactam combination.",
+    "reference": "ABX-III",
+    "sourcePage": 2,
+    "keywords": [
+      "Cefepime",
+      "Tazobactam",
+      "Cefepime-TZ"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ABX017",
+    "topic": "Antibiotics",
+    "subTopic": "Fluoroquinolones",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Ciprofloxacin brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Cifran is listed in the MedPlus training material as a brand of:",
+    "options": [
+      "Ciprofloxacin",
+      "Doxycycline",
+      "Clindamycin",
+      "Cefixime"
+    ],
+    "answer": 0,
+    "explanation": "Cifran and Ciplox are listed as brands of Ciprofloxacin.",
+    "reference": "ABX-IV",
+    "sourcePage": 2,
+    "keywords": [
+      "Ciprofloxacin",
+      "Cifran"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ABX018",
+    "topic": "Antibiotics",
+    "subTopic": "Lincosamides",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Clindamycin brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Dalacin C is a brand of which antibiotic?",
+    "options": [
+      "Clindamycin",
+      "Clotrimazole",
+      "Doxycycline",
+      "Ciprofloxacin"
+    ],
+    "answer": 0,
+    "explanation": "Dalacin C is listed as a brand of Clindamycin.",
+    "reference": "ABX-IV",
+    "sourcePage": 2,
+    "keywords": [
+      "Clindamycin",
+      "Dalacin C"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ABX019",
+    "topic": "Antibiotics",
+    "subTopic": "Antifungals",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Clotrimazole brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Candid is listed as a brand of which medicine?",
+    "options": [
+      "Clotrimazole",
+      "Clindamycin",
+      "Doxycycline",
+      "Ciprofloxacin"
+    ],
+    "answer": 0,
+    "explanation": "Candid is listed as a brand of Clotrimazole.",
+    "reference": "ABX-IV",
+    "sourcePage": 2,
+    "keywords": [
+      "Clotrimazole",
+      "Candid"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ABX020",
+    "topic": "Antibiotics",
+    "subTopic": "Integrated Antibiotic Revision",
+    "competency": "Clinical Application",
+    "learningObjective": "Differentiate antibiotic drug-brand pairs",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following drug–brand pairs is correctly matched according to the MedPlus training material?",
+    "options": [
+      "Doxycycline — Doxy-1 L-DR",
+      "Ciprofloxacin — Dalacin C",
+      "Clindamycin — Candid",
+      "Clotrimazole — Cifran"
+    ],
+    "answer": 0,
+    "explanation": "Doxy-1 L-DR is listed as a brand of Doxycycline. The remaining drug–brand pairs are incorrectly matched.",
+    "reference": "ABX-IV",
+    "sourcePage": 2,
+    "keywords": [
+      "Doxycycline",
+      "Doxy-1 L-DR",
+      "Drug Brand Mapping"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "ABX021",
+    "topic": "Antibiotics",
+    "subTopic": "Integrated Drug-Brand Mapping",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify correctly matched antibiotic drug-brand pairs",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "Which of the following drug–brand pairs is correctly matched according to the MedPlus training material?",
+    "options": [
+      "Azithromycin — Azithral",
+      "Amoxicillin — Augmentin",
+      "Cefixime — Ceftum",
+      "Ciprofloxacin — Dalacin C"
+    ],
+    "answer": 0,
+    "explanation": "Azithral is listed as a brand of Azithromycin. The remaining pairs are incorrectly matched.",
+    "reference": "ABX-I to ABX-IV",
+    "sourcePage": 2,
+    "keywords": [
+      "Azithromycin",
+      "Azithral",
+      "Drug Brand"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ABX022",
+    "topic": "Antibiotics",
+    "subTopic": "Integrated Drug-Brand Mapping",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify incorrect antibiotic drug-brand pairs",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which one of the following drug–brand pairs is INCORRECT according to the MedPlus training material?",
+    "options": [
+      "Cefuroxime — Ceftum",
+      "Ceftriaxone — Monocef",
+      "Cefixime — Taxim",
+      "Ciprofloxacin — Ciplox"
+    ],
+    "answer": 2,
+    "explanation": "Taxim is listed as a brand of Cefotaxime, whereas Taxim-O is listed as a brand of Cefixime.",
+    "reference": "ABX-II",
+    "sourcePage": 2,
+    "keywords": [
+      "Cefixime",
+      "Taxim",
+      "Taxim-O"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ABX023",
+    "topic": "Antibiotics",
+    "subTopic": "Therapeutic Classification",
+    "competency": "Clinical Application",
+    "learningObjective": "Recognize medicines included in the Antibiotics module",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which of the following medicines is included in the Antibiotics section of the MedPlus training material?",
+    "options": [
+      "Clindamycin",
+      "Pantoprazole",
+      "Losartan",
+      "Metformin"
+    ],
+    "answer": 0,
+    "explanation": "Clindamycin is included in the Antibiotics section. The remaining medicines belong to other therapeutic systems.",
+    "reference": "ABX-IV",
+    "sourcePage": 2,
+    "keywords": [
+      "Clindamycin",
+      "Antibiotics"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ABX024",
+    "topic": "Antibiotics",
+    "subTopic": "Integrated Revision",
+    "competency": "Clinical Application",
+    "learningObjective": "Differentiate antibiotic brands from other therapeutic classes",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following sets contains only brands listed in the Antibiotics section of the MedPlus training material?",
+    "options": [
+      "Augmentin, Taxim-O, Monocef, Azithral",
+      "Augmentin, Pantocid, Cardace, Taxim-O",
+      "Monocef, Glycomet, Azithral, Ceftum",
+      "Cifran, Concor, Dalacin C, Taxim-O"
+    ],
+    "answer": 0,
+    "explanation": "Augmentin, Taxim-O, Monocef and Azithral are all listed in the Antibiotics section of the MedPlus training material.",
+    "reference": "ABX-I to ABX-IV",
+    "sourcePage": 2,
+    "keywords": [
+      "Augmentin",
+      "Taxim-O",
+      "Monocef",
+      "Azithral"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ABX025",
+    "topic": "Antibiotics",
+    "subTopic": "Comprehensive Antibiotic Revision",
+    "competency": "Clinical Application",
+    "learningObjective": "Integrate antibiotic drug-brand knowledge",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following sets contains only correctly matched drug–brand relationships according to the MedPlus training material?",
+    "options": [
+      "Amoxicillin–Mox, Azithromycin–Azithral, Cefixime–Taxim-O, Ciprofloxacin–Cifran",
+      "Amoxicillin–Augmentin, Cefuroxime–Taxim-O, Cefixime–Monocef, Clindamycin–Candid",
+      "Ampicillin–Azithral, Ceftriaxone–Taxim, Ciprofloxacin–Dalacin C, Doxycycline–Cifran",
+      "Cefoperazone–Magnex, Cefepime–Monocef, Clotrimazole–Doxy-1 L-DR, Cefpodoxime–Taxim"
+    ],
+    "answer": 0,
+    "explanation": "All four drug–brand pairs in the first option are correctly matched according to the MedPlus training material.",
+    "reference": "ABX-I to ABX-IV",
+    "sourcePage": 2,
+    "keywords": [
+      "Amoxicillin",
+      "Mox",
+      "Azithromycin",
+      "Azithral",
+      "Cefixime",
+      "Taxim-O",
+      "Ciprofloxacin",
+      "Cifran"
+    ],
+    "marks": 1
+  }
+]
