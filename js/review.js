@@ -53,7 +53,9 @@ class ReviewEngine {
 
         this.initialized = true;
 
-        this.render();
+this.attachEvents();
+
+this.render();
 
     }
 
