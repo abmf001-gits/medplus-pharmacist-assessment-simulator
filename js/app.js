@@ -275,7 +275,7 @@ checkSession() {
             // Load Questions
             await quiz.initialize();
             this.showAssessment();
-
+// Start Timer
 if (typeof timer !== "undefined") {
 
     timer.start();
@@ -287,12 +287,7 @@ if (typeof timer !== "undefined") {
 
             }
 
-            // Start Timer
-            if (typeof timer !== "undefined") {
-
-                timer.start();
-
-            }
+    
 
             // Show Assessment
             this.showScreen("assessment-screen");
@@ -476,6 +471,20 @@ logout() {
             this.showScreen("assessment-screen");
 
         }
+
+    }
+    showReview() {
+
+    this.showScreen("review-screen");
+
+    if (
+        typeof review !== "undefined" &&
+        typeof review.render === "function"
+    ) {
+
+        review.render(this.result);
+
+    }
 
     }
 }
