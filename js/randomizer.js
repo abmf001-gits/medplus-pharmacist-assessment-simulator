@@ -69,11 +69,7 @@ class Randomizer {
 
         );
 
-        return selectedQuestions.map(question =>
-
-            this.shuffleOptions(question)
-
-        );
+        return selectedQuestions;
 
     }
 
