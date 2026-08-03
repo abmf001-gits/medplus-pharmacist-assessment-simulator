@@ -396,6 +396,20 @@ showResult(result) {
     }
 
     this.showScreen("result-screen");
+    const resultScreen =
+    document.getElementById("result-screen");
+
+if(resultScreen){
+
+    resultScreen.scrollIntoView({
+
+        behavior:"smooth",
+
+        block:"start"
+
+    });
+
+}
 
     document.getElementById("resultCandidate").textContent =
         result.candidate;
