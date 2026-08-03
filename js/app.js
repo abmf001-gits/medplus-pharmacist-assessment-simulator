@@ -513,23 +513,10 @@ logout() {
 
     if (
         typeof review !== "undefined" &&
-        typeof review.render === "function"
-    ) {
-
-        showReview() {
-
-    this.showScreen("review-screen");
-
-    if (
-        typeof review !== "undefined" &&
         typeof review.load === "function"
     ) {
 
         review.load(this.result);
-
-    }
-
-        }
 
     }
 
