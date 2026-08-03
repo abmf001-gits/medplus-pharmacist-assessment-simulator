@@ -488,5 +488,216 @@ class QuizEngine {
        End of Part 3
        ======================================================== */
 
+       /* ========================================================
+       Attach Button Events
+       ======================================================== */
+
+    attachEvents() {
+
+        const nextButton =
+            document.getElementById("nextButton");
+
+        if (nextButton) {
+
+            nextButton.onclick = () => {
+
+                this.nextQuestion();
+
+            };
+
+        }
+
+        const previousButton =
+            document.getElementById("previousButton");
+
+        if (previousButton) {
+
+            previousButton.onclick = () => {
+
+                this.previousQuestion();
+
+            };
+
+        }
+
+        const submitButton =
+            document.getElementById("submitButton");
+
+        if (submitButton) {
+
+            submitButton.onclick = () => {
+
+                if (
+                    confirm(
+                        "Are you sure you want to submit the assessment?"
+                    )
+                ) {
+
+                    this.submitAssessment();
+
+                }
+
+            };
+
+        }
+
+    }
+
+    /* ========================================================
+       Calculate Score
+       ======================================================== */
+
+    calculateScore() {
+
+        let score = 0;
+
+        this.questions.forEach(question => {
+
+            const selected =
+                this.answers[question.id];
+
+            if (
+                selected ===
+                question.options[question.answer]
+            ) {
+
+                score++;
+
+            }
+
+        });
+
+        return score;
+
+    }
+
+    /* ========================================================
+       Submit Assessment
+       ======================================================== */
+
+    submitAssessment() {
+
+        this.saveAnswer();
+
+        const result =
+            this.getAssessmentResult();
+
+        // Stop Timer
+        if (
+
+            typeof timer !== "undefined" &&
+
+            timer.isRunning()
+
+        ) {
+
+            timer.stop();
+
+        }
+
+        // Save Result
+        if (
+            typeof storage !== "undefined"
+        ) {
+
+            storage.saveHistory(result);
+
+            storage.clearSession();
+
+        }
+
+        // Pass Result to App Controller
+        if (
+
+            typeof APP !== "undefined" &&
+
+            typeof APP.showResult === "function"
+
+        ) {
+
+            APP.showResult(result);
+
+        }
+        else {
+
+            console.error(
+                "APP Controller not found."
+            );
+
+        }
+
+    }
+
+    /* ========================================================
+       Build Result Object
+       ======================================================== */
+
+    getAssessmentResult() {
+
+        const score =
+            this.calculateScore();
+
+        const attempted =
+            Object.keys(this.answers).length;
+
+        return {
+
+            candidate:
+                this.candidate,
+
+            employeeId:
+                this.employeeId,
+
+            questions:
+                this.questions,
+
+            answers:
+                this.answers,
+
+            score:
+                score,
+
+            total:
+                this.questions.length,
+
+            percentage:
+                Math.round(
+                    (score /
+                        this.questions.length)
+                    * 100
+                ),
+
+            attempted:
+                attempted,
+
+            correct:
+                score,
+
+            wrong:
+                attempted - score,
+
+            skipped:
+                this.questions.length -
+                attempted,
+
+            submittedAt:
+                new Date().toISOString(),
+
+            remainingTime:
+
+                typeof timer !== "undefined"
+
+                    ? timer.getRemaining()
+
+                    : 0
+
+        };
+
+    }
+
+    /* ========================================================
+       End of Part 4
+       ======================================================== */
+
    
     
