@@ -46,6 +46,12 @@ class AppController {
 
         this.showSplash();
 
+setTimeout(() => {
+
+    this.checkSession();
+
+}, 2200);
+
     }
 
     /**
@@ -137,6 +143,74 @@ class AppController {
 
     }
     /**
+ * ==========================================
+ * Resume Previous Assessment
+ * ==========================================
+ */
+resumeAssessment() {
+
+    const session = storage.loadSession();
+
+    if (!session) {
+
+        return false;
+
+    }
+
+    quiz.candidate = session.candidate;
+
+    quiz.employeeId = session.employeeId;
+
+    quiz.answers = session.answers || {};
+
+    quiz.currentQuestion =
+        session.currentQuestion || 0;
+
+    timer.setRemaining(session.remainingTime);
+
+    return true;
+
+}
+
+/**
+ * ==========================================
+ * Check Existing Session
+ * ==========================================
+ */
+checkSession() {
+
+    if (
+        typeof storage === "undefined" ||
+        !storage.hasSession()
+    ) {
+
+        return;
+
+    }
+
+    const resume = confirm(
+
+        "Resume your previous assessment?"
+
+    );
+
+    if (!resume) {
+
+        storage.clearSession();
+
+        return;
+
+    }
+
+    if (this.resumeAssessment()) {
+
+        this.startAssessment(true);
+
+    }
+
+}
+    
+    /**
      * ============================================================
      * Candidate Login
      * ============================================================
@@ -192,7 +266,7 @@ class AppController {
      * Start Assessment
      * ============================================================
      */
-    async startAssessment() {
+    async startAssessment(resume = false) {
 
         this.showScreen("loading");
 
@@ -200,6 +274,11 @@ class AppController {
 
             // Load Questions
             await quiz.initialize();
+            if (resume) {
+
+    quiz.renderQuestion();
+
+            }
 
             // Start Timer
             if (typeof timer !== "undefined") {
