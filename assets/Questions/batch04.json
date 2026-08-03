@@ -1,1 +1,624 @@
 
+[
+  {
+    "id": "AB001",
+    "topic": "Fundamentals",
+    "subTopic": "Abbreviations",
+    "learningObjective": "Identify common pharmaceutical abbreviations",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "What is the correct full form of the abbreviation 'TAB'?",
+    "options": [
+      "Tablet",
+      "Tube",
+      "Topical Application Bottle",
+      "Test Ampoule"
+    ],
+    "answer": 0,
+    "explanation": "According to the MedPlus training material, TAB stands for Tablet.",
+    "reference": "Fundamentals II - Abbreviations",
+    "sourcePage": 2,
+    "keywords": [
+      "TAB",
+      "Tablet",
+      "Abbreviation"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "AB002",
+    "topic": "Fundamentals",
+    "subTopic": "Abbreviations",
+    "learningObjective": "Recognize dispersible dosage forms",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "A prescription mentions 'D.T'. What does this abbreviation indicate?",
+    "options": [
+      "Double Tablet",
+      "Dispersible Tablet",
+      "Daily Therapy",
+      "Dental Tablet"
+    ],
+    "answer": 1,
+    "explanation": "The abbreviation D.T refers to a Dispersible Tablet, which is designed to disperse in water before administration.",
+    "reference": "Fundamentals II - Abbreviations",
+    "sourcePage": 2,
+    "keywords": [
+      "DT",
+      "Dispersible Tablet"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "AB003",
+    "topic": "Fundamentals",
+    "subTopic": "Abbreviations",
+    "learningObjective": "Interpret prescription abbreviations",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "The abbreviation 'MD' on a medicine pack represents:",
+    "options": [
+      "Medical Dose",
+      "Modified Dose",
+      "Mouth Dissolving",
+      "Morning Dose"
+    ],
+    "answer": 2,
+    "explanation": "According to the training material, MD stands for Mouth Dissolving.",
+    "reference": "Fundamentals II - Abbreviations",
+    "sourcePage": 2,
+    "keywords": [
+      "MD",
+      "Mouth Dissolving"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "AB004",
+    "topic": "Fundamentals",
+    "subTopic": "Abbreviations",
+    "learningObjective": "Understand routes of administration",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "A doctor prescribes a medicine to be kept under the tongue for rapid absorption. Which abbreviation on the prescription correctly represents this route?",
+    "options": [
+      "CAP",
+      "SL",
+      "TAB",
+      "MD"
+    ],
+    "answer": 1,
+    "explanation": "SL stands for Sublingual, meaning the medicine is placed under the tongue for absorption.",
+    "reference": "Fundamentals II - Abbreviations",
+    "sourcePage": 2,
+    "keywords": [
+      "SL",
+      "Sublingual",
+      "Route of Administration"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "AB005",
+    "topic": "Fundamentals",
+    "subTopic": "Abbreviations",
+    "learningObjective": "Differentiate common dosage-form abbreviations",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which abbreviation is correctly matched with its dosage form?",
+    "options": [
+      "CAP – Capsules",
+      "CAP – Cream Application",
+      "CAP – Controlled Administration Pack",
+      "CAP – Capsule Ampoule"
+    ],
+    "answer": 0,
+    "explanation": "The MedPlus training material defines CAP as the abbreviation for Capsules.",
+    "reference": "Fundamentals II - Abbreviations",
+    "sourcePage": 2,
+    "keywords": [
+      "CAP",
+      "Capsules",
+      "Dosage Form"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "AB006",
+    "topic": "Fundamentals",
+    "subTopic": "Abbreviations",
+    "learningObjective": "Recognize oral liquid dosage form abbreviations",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "The abbreviation 'SYP' on a prescription refers to:",
+    "options": [
+      "Suspension",
+      "Syrup",
+      "Solution",
+      "Suppository"
+    ],
+    "answer": 1,
+    "explanation": "According to the MedPlus training material, SYP stands for Syrup.",
+    "reference": "Fundamentals II - Abbreviations",
+    "sourcePage": 2,
+    "keywords": [
+      "SYP",
+      "Syrup",
+      "Abbreviation"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "AB007",
+    "topic": "Fundamentals",
+    "subTopic": "Abbreviations",
+    "learningObjective": "Identify reconstitutable dosage forms",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "A pharmacist instructs a patient to add the prescribed quantity of water before using the medicine. Which dosage form does this instruction most likely indicate?",
+    "options": [
+      "Ready-use Syrup",
+      "Dry Syrup",
+      "Eye Drops",
+      "Cream"
+    ],
+    "answer": 1,
+    "explanation": "According to the training material, Dry Syrup requires reconstitution with water before use.",
+    "reference": "Fundamentals II - Abbreviations",
+    "sourcePage": 2,
+    "keywords": [
+      "Dry Syrup",
+      "Reconstitution"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "AB008",
+    "topic": "Fundamentals",
+    "subTopic": "Abbreviations",
+    "learningObjective": "Differentiate oral liquid dosage forms",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which dosage form is supplied ready for administration and does not require reconstitution before use?",
+    "options": [
+      "Dry Syrup",
+      "Ready-use Syrup",
+      "Granules",
+      "Powder"
+    ],
+    "answer": 1,
+    "explanation": "The MedPlus training material distinguishes Ready-use Syrup from Dry Syrup by indicating that it is already prepared for use.",
+    "reference": "Fundamentals II - Abbreviations",
+    "sourcePage": 2,
+    "keywords": [
+      "Ready-use Syrup",
+      "Syrup"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "AB009",
+    "topic": "Fundamentals",
+    "subTopic": "Abbreviations",
+    "learningObjective": "Recognize ophthalmic dosage forms",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "A prescription contains the abbreviation for a medicine intended to be instilled into the eye. Which dosage form should the pharmacist dispense?",
+    "options": [
+      "Eye Drops",
+      "Nasal Drops",
+      "Ear Drops",
+      "Liniment"
+    ],
+    "answer": 0,
+    "explanation": "According to the training material, Eye Drops are intended for ophthalmic administration.",
+    "reference": "Fundamentals II - Abbreviations",
+    "sourcePage": 2,
+    "keywords": [
+      "Eye Drops",
+      "Ophthalmic"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "AB010",
+    "topic": "Fundamentals",
+    "subTopic": "Abbreviations",
+    "learningObjective": "Interpret combination dosage-form abbreviations",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which abbreviation in the MedPlus training material indicates that the same preparation may be used for both the eye and the ear, when prescribed appropriately?",
+    "options": [
+      "Eye Drops",
+      "Eye & Ear Drops",
+      "Nasal Drops",
+      "SYP"
+    ],
+    "answer": 1,
+    "explanation": "The training material lists Eye & Ear Drops as a combined dosage-form category intended for ophthalmic and otic use when prescribed.",
+    "reference": "Fundamentals II - Abbreviations",
+    "sourcePage": 2,
+    "keywords": [
+      "Eye & Ear Drops",
+      "Ophthalmic",
+      "Otic"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "AB011",
+    "topic": "Fundamentals",
+    "subTopic": "Abbreviations",
+    "learningObjective": "Identify nasal dosage-form abbreviations",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "Which dosage form is specifically intended for administration into the nasal cavity as drops?",
+    "options": [
+      "Eye Drops",
+      "Nasal Drops",
+      "Respules",
+      "Syrup"
+    ],
+    "answer": 1,
+    "explanation": "According to the MedPlus training material, Nasal Drops are intended for administration into the nose.",
+    "reference": "Fundamentals II - Abbreviations",
+    "sourcePage": 2,
+    "keywords": [
+      "Nasal Drops",
+      "Nose",
+      "Abbreviation"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "AB012",
+    "topic": "Fundamentals",
+    "subTopic": "Abbreviations",
+    "learningObjective": "Differentiate nasal dosage forms",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "A patient is prescribed a medicine that delivers a fine mist into the nostrils. Which dosage form from the training material best matches this description?",
+    "options": [
+      "Nasal Spray",
+      "Nasal Drops",
+      "Eye Drops",
+      "Cream"
+    ],
+    "answer": 0,
+    "explanation": "The training material lists Nasal Spray as the dosage form used to administer medicine as a spray into the nasal cavity.",
+    "reference": "Fundamentals II - Abbreviations",
+    "sourcePage": 2,
+    "keywords": [
+      "Nasal Spray",
+      "Nasal Administration"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "AB013",
+    "topic": "Fundamentals",
+    "subTopic": "Abbreviations",
+    "learningObjective": "Recognize inhalation dosage forms",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which dosage form listed in the MedPlus training material is intended to deliver medicine directly into the lungs through inhalation?",
+    "options": [
+      "Inhaler",
+      "Tablet",
+      "Ointment",
+      "Granules"
+    ],
+    "answer": 0,
+    "explanation": "According to the training material, an Inhaler is used to deliver medicine directly into the respiratory tract.",
+    "reference": "Fundamentals II - Abbreviations",
+    "sourcePage": 2,
+    "keywords": [
+      "Inhaler",
+      "Respiratory"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "AB014",
+    "topic": "Fundamentals",
+    "subTopic": "Abbreviations",
+    "learningObjective": "Interpret common inhalation abbreviations",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "The abbreviation 'MDI' in the MedPlus training material stands for:",
+    "options": [
+      "Multiple Dose Injection",
+      "Metered Dose Inhaler",
+      "Medical Drug Inhalation",
+      "Measured Drug Infusion"
+    ],
+    "answer": 1,
+    "explanation": "According to the training material, MDI stands for Metered Dose Inhaler.",
+    "reference": "Fundamentals II - Abbreviations",
+    "sourcePage": 2,
+    "keywords": [
+      "MDI",
+      "Metered Dose Inhaler"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "AB015",
+    "topic": "Fundamentals",
+    "subTopic": "Abbreviations",
+    "learningObjective": "Select the appropriate inhalation dosage form",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "A pharmacist prepares medication to be administered through a nebulizer. Which dosage form listed in the training material is commonly used for this purpose?",
+    "options": [
+      "Respules",
+      "Capsules",
+      "Dry Syrup",
+      "Suppositories"
+    ],
+    "answer": 0,
+    "explanation": "The training material lists Respules as the dosage form used for nebulization therapy.",
+    "reference": "Fundamentals II - Abbreviations",
+    "sourcePage": 2,
+    "keywords": [
+      "Respules",
+      "Nebulization",
+      "Inhalation"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "AB016",
+    "topic": "Fundamentals",
+    "subTopic": "Abbreviations",
+    "learningObjective": "Recognize injectable dosage forms",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "According to the MedPlus training material, the abbreviation 'INJ' refers to:",
+    "options": [
+      "Injection",
+      "Infusion",
+      "Inhalation",
+      "Insertion"
+    ],
+    "answer": 0,
+    "explanation": "The abbreviation INJ stands for Injection.",
+    "reference": "Fundamentals II - Abbreviations",
+    "sourcePage": 2,
+    "keywords": [
+      "INJ",
+      "Injection"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "AB017",
+    "topic": "Fundamentals",
+    "subTopic": "Abbreviations",
+    "learningObjective": "Identify pharmaceutical packaging terminology",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "A pharmacist dispenses a sterile glass container intended for a single-dose injectable medicine. Which product form from the training material matches this description?",
+    "options": [
+      "Vial",
+      "Ampoule",
+      "Respule",
+      "Bottle"
+    ],
+    "answer": 1,
+    "explanation": "According to the training material, an Ampoule is a single-dose sterile container used for injectable medicines.",
+    "reference": "Fundamentals II - Abbreviations",
+    "sourcePage": 2,
+    "keywords": [
+      "Ampoule",
+      "Injection",
+      "Single Dose"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "AB018",
+    "topic": "Fundamentals",
+    "subTopic": "Abbreviations",
+    "learningObjective": "Interpret injection route abbreviations",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "The abbreviation 'IM' on a prescription indicates that the medicine should be administered by which route?",
+    "options": [
+      "Intradermal",
+      "Intramuscular",
+      "Intranasal",
+      "Intravenous"
+    ],
+    "answer": 1,
+    "explanation": "The training material defines IM as Intramuscular administration.",
+    "reference": "Fundamentals II - Abbreviations",
+    "sourcePage": 2,
+    "keywords": [
+      "IM",
+      "Intramuscular"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "AB019",
+    "topic": "Fundamentals",
+    "subTopic": "Abbreviations",
+    "learningObjective": "Differentiate injection routes",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "A doctor prescribes an injection to be administered directly into a vein. Which abbreviation should appear on the prescription according to the training material?",
+    "options": [
+      "SC",
+      "IM",
+      "IV",
+      "SL"
+    ],
+    "answer": 2,
+    "explanation": "The training material defines IV as Intravenous, meaning administration directly into a vein.",
+    "reference": "Fundamentals II - Abbreviations",
+    "sourcePage": 2,
+    "keywords": [
+      "IV",
+      "Intravenous",
+      "Injection"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "AB020",
+    "topic": "Fundamentals",
+    "subTopic": "Abbreviations",
+    "learningObjective": "Recognize subcutaneous administration",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "The abbreviation 'SC' in the MedPlus training material stands for:",
+    "options": [
+      "Subcutaneous",
+      "Subcapsular",
+      "Subclinical",
+      "Sterile Container"
+    ],
+    "answer": 0,
+    "explanation": "According to the training material, SC stands for Subcutaneous administration.",
+    "reference": "Fundamentals II - Abbreviations",
+    "sourcePage": 2,
+    "keywords": [
+      "SC",
+      "Subcutaneous"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "AB021",
+    "topic": "Fundamentals",
+    "subTopic": "Prescription Abbreviations",
+    "learningObjective": "Interpret prescription timing abbreviations",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "A prescription contains the abbreviation 'A.F'. According to the MedPlus training material, when should the medicine be taken?",
+    "options": [
+      "After Food",
+      "After Fasting",
+      "At First",
+      "After Fever"
+    ],
+    "answer": 0,
+    "explanation": "According to the MedPlus training material, A.F stands for 'After Food'.",
+    "reference": "Fundamentals II - Abbreviations",
+    "sourcePage": 2,
+    "keywords": [
+      "AF",
+      "After Food",
+      "Prescription"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "AB022",
+    "topic": "Fundamentals",
+    "subTopic": "Prescription Abbreviations",
+    "learningObjective": "Understand medicine administration timing",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "A doctor instructs a patient to take a medicine before breakfast. Which abbreviation from the training material correctly represents this instruction?",
+    "options": [
+      "A.F",
+      "B.B.F",
+      "H.S",
+      "S.O.S"
+    ],
+    "answer": 1,
+    "explanation": "The MedPlus training material defines B.B.F as 'Before Breakfast'.",
+    "reference": "Fundamentals II - Abbreviations",
+    "sourcePage": 2,
+    "keywords": [
+      "BBF",
+      "Before Breakfast"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "AB023",
+    "topic": "Fundamentals",
+    "subTopic": "Prescription Abbreviations",
+    "learningObjective": "Interpret prescription frequency abbreviations",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "The abbreviation 'O.D' written on a prescription indicates that the medicine should be taken:",
+    "options": [
+      "Twice daily",
+      "Once daily",
+      "Three times daily",
+      "Only during dinner"
+    ],
+    "answer": 1,
+    "explanation": "According to the training material, O.D stands for 'Once Daily'.",
+    "reference": "Fundamentals II - Abbreviations",
+    "sourcePage": 2,
+    "keywords": [
+      "OD",
+      "Once Daily"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "AB024",
+    "topic": "Fundamentals",
+    "subTopic": "Prescription Abbreviations",
+    "learningObjective": "Differentiate prescription frequency abbreviations",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "According to the MedPlus training material, the abbreviations 'B.I.D' and 'B.D' indicate that a medicine should be taken:",
+    "options": [
+      "Once daily",
+      "Twice daily",
+      "Three times daily",
+      "At bedtime"
+    ],
+    "answer": 1,
+    "explanation": "The training material states that B.I.D (or B.D) means 'Twice Daily'.",
+    "reference": "Fundamentals II - Abbreviations",
+    "sourcePage": 2,
+    "keywords": [
+      "BID",
+      "BD",
+      "Twice Daily"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "AB025",
+    "topic": "Fundamentals",
+    "subTopic": "Prescription Abbreviations",
+    "learningObjective": "Apply prescription abbreviations in pharmacy practice",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "A patient receives the following prescription instructions: 'Tab A.B.C. – T.I.D after food.' Based on the MedPlus training material, how often should the patient take the medicine?",
+    "options": [
+      "Once daily after food",
+      "Twice daily after food",
+      "Three times daily after food",
+      "Four times daily after food"
+    ],
+    "answer": 2,
+    "explanation": "The MedPlus training material defines T.I.D as 'Thrice Daily (Three times in a day)'. Combined with A.F, the medicine should be taken three times daily after food.",
+    "reference": "Fundamentals II - Abbreviations",
+    "sourcePage": 2,
+    "keywords": [
+      "TID",
+      "AF",
+      "Prescription",
+      "Three Times Daily"
+    ],
+    "marks": 1
+  }
+]
