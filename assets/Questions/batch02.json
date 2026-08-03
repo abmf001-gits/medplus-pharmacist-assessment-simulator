@@ -1,1 +1,620 @@
-
+[
+  {
+    "id": "MT001",
+    "topic": "Fundamentals",
+    "subTopic": "Medical Terminology",
+    "learningObjective": "Understand common medical terminology used in pharmacy practice",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "According to the training material, the term 'Anti' means:",
+    "options": [
+      "Increasing",
+      "Reducing",
+      "Healing",
+      "Destroying"
+    ],
+    "answer": 1,
+    "explanation": "Correct. The training material defines 'Anti' as reducing.",
+    "reference": "Day-1 Fundamentals-I - Medical Terminology",
+    "sourcePage": 1,
+    "keywords": [
+      "Anti",
+      "Medical Terminology",
+      "Reducing"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "MT002",
+    "topic": "Fundamentals",
+    "subTopic": "Medical Terminology",
+    "learningObjective": "Recognize common medical terms",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "The medical term 'Ache' refers to:",
+    "options": [
+      "Swelling",
+      "Pain",
+      "Fever",
+      "Infection"
+    ],
+    "answer": 1,
+    "explanation": "Correct. The training material defines Ache as pain.",
+    "reference": "Day-1 Fundamentals-I - Medical Terminology",
+    "sourcePage": 1,
+    "keywords": [
+      "Ache",
+      "Pain"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "MT003",
+    "topic": "Fundamentals",
+    "subTopic": "Medical Terminology",
+    "learningObjective": "Identify commonly used pharmaceutical terminology",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "An analgesic medicine is primarily used for:",
+    "options": [
+      "Reducing fever",
+      "Killing bacteria",
+      "Relieving pain",
+      "Reducing cough"
+    ],
+    "answer": 2,
+    "explanation": "Correct. The training material defines an Analgesic as a pain killer.",
+    "reference": "Day-1 Fundamentals-I - Medical Terminology",
+    "sourcePage": 1,
+    "keywords": [
+      "Analgesic",
+      "Pain Killer"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "MT004",
+    "topic": "Fundamentals",
+    "subTopic": "Medical Terminology",
+    "learningObjective": "Understand basic clinical terminology",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "The term 'Pyretic' is associated with:",
+    "options": [
+      "Pain",
+      "Vomiting",
+      "Swelling",
+      "Fever"
+    ],
+    "answer": 3,
+    "explanation": "Correct. The training material defines Pyretic as fever.",
+    "reference": "Day-1 Fundamentals-I - Medical Terminology",
+    "sourcePage": 1,
+    "keywords": [
+      "Pyretic",
+      "Fever"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "MT005",
+    "topic": "Fundamentals",
+    "subTopic": "Medical Terminology",
+    "learningObjective": "Interpret common symptom terminology",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "According to the training material, the term 'Spasmodic' most closely refers to:",
+    "options": [
+      "Stomach pain",
+      "Chest pain",
+      "Joint pain",
+      "Muscle weakness"
+    ],
+    "answer": 0,
+    "explanation": "Correct. The training material defines Spasmodic as stomach pain.",
+    "reference": "Day-1 Fundamentals-I - Medical Terminology",
+    "sourcePage": 1,
+    "keywords": [
+      "Spasmodic",
+      "Stomach Pain"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "MT006",
+    "topic": "Fundamentals",
+    "subTopic": "Medical Terminology",
+    "learningObjective": "Understand common therapeutic terminology",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "According to the training material, an anti-inflammatory medicine is primarily used for:",
+    "options": [
+      "Reducing swelling and pain",
+      "Reducing fever only",
+      "Treating bacterial infection",
+      "Increasing appetite"
+    ],
+    "answer": 0,
+    "explanation": "Correct. The training material defines Anti-inflammatory as reducing swelling and pain.",
+    "reference": "Day-1 Fundamentals-I - Medical Terminology",
+    "sourcePage": 1,
+    "keywords": [
+      "Anti-inflammatory",
+      "Swelling",
+      "Pain"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "MT007",
+    "topic": "Fundamentals",
+    "subTopic": "Medical Terminology",
+    "learningObjective": "Recognize medications by therapeutic action",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "The primary purpose of an antacid is to:",
+    "options": [
+      "Reduce cough",
+      "Reduce acidity",
+      "Reduce vomiting",
+      "Reduce fever"
+    ],
+    "answer": 1,
+    "explanation": "Correct. The training material defines an Antacid as acidity reducing.",
+    "reference": "Day-1 Fundamentals-I - Medical Terminology",
+    "sourcePage": 1,
+    "keywords": [
+      "Antacid",
+      "Acidity"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "MT008",
+    "topic": "Fundamentals",
+    "subTopic": "Medical Terminology",
+    "learningObjective": "Identify medicines based on indication",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "An anti-tussive medicine is used to reduce:",
+    "options": [
+      "Acidity",
+      "Cold",
+      "Cough",
+      "Vomiting"
+    ],
+    "answer": 2,
+    "explanation": "Correct. The training material defines Anti-tussive as cough reducing.",
+    "reference": "Day-1 Fundamentals-I - Medical Terminology",
+    "sourcePage": 1,
+    "keywords": [
+      "Anti-tussive",
+      "Cough"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "MT009",
+    "topic": "Fundamentals",
+    "subTopic": "Medical Terminology",
+    "learningObjective": "Understand common OTC terminology",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "According to the training material, an anti-cold medicine is intended for:",
+    "options": [
+      "Reducing fever",
+      "Reducing cold symptoms",
+      "Reducing stomach pain",
+      "Reducing swelling"
+    ],
+    "answer": 1,
+    "explanation": "Correct. The training material defines Anti-cold as cold reducing.",
+    "reference": "Day-1 Fundamentals-I - Medical Terminology",
+    "sourcePage": 1,
+    "keywords": [
+      "Anti-cold",
+      "Cold"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "MT010",
+    "topic": "Fundamentals",
+    "subTopic": "Medical Terminology",
+    "learningObjective": "Apply medical terminology in pharmacy practice",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "A patient complains of repeated vomiting. According to the training material, which type of medicine would be most appropriate?",
+    "options": [
+      "Anti-inflammatory",
+      "Antacid",
+      "Anti-emetic",
+      "Anti-tussive"
+    ],
+    "answer": 2,
+    "explanation": "Correct. The training material defines Anti-emetic as vomiting reducing.",
+    "reference": "Day-1 Fundamentals-I - Medical Terminology",
+    "sourcePage": 1,
+    "keywords": [
+      "Anti-emetic",
+      "Vomiting"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "MT011",
+    "topic": "Fundamentals",
+    "subTopic": "Medical Terminology",
+    "learningObjective": "Identify medicines based on patient symptoms",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "A customer reports frequent loose motions for the last two days. Which category of medicine is primarily intended to reduce this condition?",
+    "options": [
+      "Anti-emetic",
+      "Anti-diarrhoeal",
+      "Antacid",
+      "Anti-inflammatory"
+    ],
+    "answer": 1,
+    "explanation": "Anti-diarrhoeal medicines are used to reduce motions (diarrhoea).",
+    "reference": "Day-1 Fundamentals-I - Medical Terminology",
+    "sourcePage": 1,
+    "keywords": [
+      "Anti-diarrhoeal",
+      "Diarrhoea",
+      "Motions"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "MT012",
+    "topic": "Fundamentals",
+    "subTopic": "Medical Terminology",
+    "learningObjective": "Differentiate symptoms from diseases",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "According to the training material, nausea refers to:",
+    "options": [
+      "Vomiting sensation",
+      "Stomach pain",
+      "Acidity",
+      "Indigestion"
+    ],
+    "answer": 0,
+    "explanation": "Nausea is the sensation or feeling that precedes vomiting.",
+    "reference": "Day-1 Fundamentals-I - Medical Terminology",
+    "sourcePage": 1,
+    "keywords": [
+      "Nausea",
+      "Vomiting sensation"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "MT013",
+    "topic": "Fundamentals",
+    "subTopic": "Medical Terminology",
+    "learningObjective": "Understand common physiological terms",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "The process of breaking down food into absorbable nutrients is called:",
+    "options": [
+      "Inflammation",
+      "Digestion",
+      "Respiration",
+      "Circulation"
+    ],
+    "answer": 1,
+    "explanation": "The training material defines digestion as the process of digesting food.",
+    "reference": "Day-1 Fundamentals-I - Medical Terminology",
+    "sourcePage": 1,
+    "keywords": [
+      "Digestion",
+      "Food"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "MT014",
+    "topic": "Fundamentals",
+    "subTopic": "Medical Terminology",
+    "learningObjective": "Recognize common dermatological conditions",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "According to the training material, acne is another term for:",
+    "options": [
+      "Rash",
+      "Pimple",
+      "Ulcer",
+      "Wound"
+    ],
+    "answer": 1,
+    "explanation": "The training material defines acne as pimple.",
+    "reference": "Day-1 Fundamentals-I - Medical Terminology",
+    "sourcePage": 1,
+    "keywords": [
+      "Acne",
+      "Pimple"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "MT015",
+    "topic": "Fundamentals",
+    "subTopic": "Medical Terminology",
+    "learningObjective": "Interpret basic medical terminology used in patient counselling",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "A customer asks for a medicine after sustaining a minor injury while cooking. Which medical term from the training material best describes this condition?",
+    "options": [
+      "Acne",
+      "Spasmodic",
+      "Wound",
+      "Pyretic"
+    ],
+    "answer": 2,
+    "explanation": "The training material defines a wound as an injury.",
+    "reference": "Day-1 Fundamentals-I - Medical Terminology",
+    "sourcePage": 1,
+    "keywords": [
+      "Wound",
+      "Injury"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "MT016",
+    "topic": "Fundamentals",
+    "subTopic": "Medical Terminology",
+    "learningObjective": "Recognize common medical terminology",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "According to the training material, the term 'Sputum' refers to:",
+    "options": [
+      "Blood",
+      "Saliva",
+      "Mucus expelled from the respiratory tract",
+      "Pus"
+    ],
+    "answer": 2,
+    "explanation": "Correct. The training material defines sputum as mucus expelled from the respiratory tract.",
+    "reference": "Day-1 Fundamentals-I - Medical Terminology",
+    "sourcePage": 1,
+    "keywords": [
+      "Sputum",
+      "Mucus",
+      "Respiratory"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "MT017",
+    "topic": "Fundamentals",
+    "subTopic": "Medical Terminology",
+    "learningObjective": "Identify common medical conditions",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "A customer complains of redness and irritation of the eye. According to the training material, this condition is termed:",
+    "options": [
+      "Epilepsy",
+      "Conjunctivitis",
+      "Acne",
+      "Pyretic"
+    ],
+    "answer": 1,
+    "explanation": "Correct. The training material identifies conjunctivitis as an eye condition.",
+    "reference": "Day-1 Fundamentals-I - Medical Terminology",
+    "sourcePage": 1,
+    "keywords": [
+      "Conjunctivitis",
+      "Eye",
+      "Red Eye"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "MT018",
+    "topic": "Fundamentals",
+    "subTopic": "Medical Terminology",
+    "learningObjective": "Recognize neurological terminology",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "According to the training material, epilepsy is primarily associated with:",
+    "options": [
+      "Repeated seizures (fits)",
+      "Persistent cough",
+      "Joint pain",
+      "Stomach ulcer"
+    ],
+    "answer": 0,
+    "explanation": "Correct. The training material identifies epilepsy as a condition characterized by seizures (fits).",
+    "reference": "Day-1 Fundamentals-I - Medical Terminology",
+    "sourcePage": 1,
+    "keywords": [
+      "Epilepsy",
+      "Fits",
+      "Seizure"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "MT019",
+    "topic": "Fundamentals",
+    "subTopic": "Medical Terminology",
+    "learningObjective": "Differentiate medical prefixes",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "According to the training material, which statement correctly describes the prefixes 'Hyper' and 'Hypo'?",
+    "options": [
+      "Hyper = Below normal, Hypo = Above normal",
+      "Hyper = Pain, Hypo = Fever",
+      "Hyper = Above normal, Hypo = Below normal",
+      "Hyper = Infection, Hypo = Inflammation"
+    ],
+    "answer": 2,
+    "explanation": "Correct. The training material defines Hyper as above normal and Hypo as below normal.",
+    "reference": "Day-1 Fundamentals-I - Medical Terminology",
+    "sourcePage": 1,
+    "keywords": [
+      "Hyper",
+      "Hypo",
+      "Prefixes"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "MT020",
+    "topic": "Fundamentals",
+    "subTopic": "Medical Terminology",
+    "learningObjective": "Identify medicines based on therapeutic purpose",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "According to the training material, appetite stimulants are medicines used to:",
+    "options": [
+      "Reduce appetite",
+      "Increase appetite",
+      "Reduce vomiting",
+      "Reduce acidity"
+    ],
+    "answer": 1,
+    "explanation": "Correct. The training material defines appetite stimulants as medicines that increase appetite.",
+    "reference": "Day-1 Fundamentals-I - Medical Terminology",
+    "sourcePage": 1,
+    "keywords": [
+      "Appetite Stimulants",
+      "Increase Appetite"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "MT021",
+    "topic": "Fundamentals",
+    "subTopic": "Medical Terminology",
+    "learningObjective": "Identify medicines by therapeutic purpose",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "According to the training material, appetite suppressants are medicines that:",
+    "options": [
+      "Increase appetite",
+      "Reduce appetite",
+      "Reduce acidity",
+      "Improve digestion"
+    ],
+    "answer": 1,
+    "explanation": "Correct. The training material defines appetite suppressants as medicines that reduce appetite.",
+    "reference": "Day-1 Fundamentals-I - Medical Terminology",
+    "sourcePage": 1,
+    "keywords": [
+      "Appetite Suppressant",
+      "Reduce Appetite"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "MT022",
+    "topic": "Fundamentals",
+    "subTopic": "Medical Terminology",
+    "learningObjective": "Recognize common medical conditions",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "According to the training material, the term 'Insomnia' refers to:",
+    "options": [
+      "Loss of appetite",
+      "Difficulty in sleeping",
+      "Repeated vomiting",
+      "High fever"
+    ],
+    "answer": 1,
+    "explanation": "Correct. The training material defines insomnia as difficulty in sleeping.",
+    "reference": "Day-1 Fundamentals-I - Medical Terminology",
+    "sourcePage": 1,
+    "keywords": [
+      "Insomnia",
+      "Sleep",
+      "Sleeplessness"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "MT023",
+    "topic": "Fundamentals",
+    "subTopic": "Medical Terminology",
+    "learningObjective": "Interpret basic medical terminology",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "According to the training material, 'Pus' is best described as:",
+    "options": [
+      "A type of blood vessel",
+      "A digestive enzyme",
+      "A thick fluid produced during infection",
+      "A respiratory secretion"
+    ],
+    "answer": 2,
+    "explanation": "Correct. The training material identifies pus as the thick fluid associated with infection.",
+    "reference": "Day-1 Fundamentals-I - Medical Terminology",
+    "sourcePage": 1,
+    "keywords": [
+      "Pus",
+      "Infection"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "MT024",
+    "topic": "Fundamentals",
+    "subTopic": "Medical Terminology",
+    "learningObjective": "Understand commonly used clinical terminology",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "The medical term 'Glycemia' is related to the level of:",
+    "options": [
+      "Calcium in blood",
+      "Cholesterol in blood",
+      "Sugar (glucose) in blood",
+      "Protein in blood"
+    ],
+    "answer": 2,
+    "explanation": "Correct. The training material associates glycemia with the level of sugar (glucose) in the blood.",
+    "reference": "Day-1 Fundamentals-I - Medical Terminology",
+    "sourcePage": 1,
+    "keywords": [
+      "Glycemia",
+      "Blood Sugar",
+      "Glucose"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "MT025",
+    "topic": "Fundamentals",
+    "subTopic": "Medical Terminology",
+    "learningObjective": "Apply medical terminology in pharmacy practice",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "A customer reports poor sleep, reduced appetite, and asks about blood sugar testing. Which medical term from the training material specifically refers to blood sugar?",
+    "options": [
+      "Insomnia",
+      "Appetite Suppressant",
+      "Glycemia",
+      "Pus"
+    ],
+    "answer": 2,
+    "explanation": "Correct. Among the listed terms, glycemia specifically refers to blood sugar levels.",
+    "reference": "Day-1 Fundamentals-I - Medical Terminology",
+    "sourcePage": 1,
+    "keywords": [
+      "Glycemia",
+      "Blood Sugar",
+      "Medical Terminology"
+    ],
+    "marks": 1
+  }
+]
