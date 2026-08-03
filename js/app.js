@@ -304,24 +304,25 @@ if (typeof timer !== "undefined") {
 
             // Save Initial Session
             if (typeof storage !== "undefined") {
+if (!resume && typeof storage !== "undefined") {
 
-                storage.saveSession({
+    storage.saveSession({
 
-                    candidate: this.candidate,
+        candidate: this.candidate,
 
-                    employeeId: this.employeeId,
+        employeeId: this.employeeId,
 
-                    mode: this.assessmentMode,
+        mode: this.assessmentMode,
 
-                    currentQuestion: 0,
+        currentQuestion: 0,
 
-                    answers: {},
+        answers: {},
 
-                    remainingTime: 25 * 60
+        remainingTime: 25 * 60
 
-                });
+    });
 
-            }
+}
 
         }
 
