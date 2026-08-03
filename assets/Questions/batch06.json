@@ -1,1 +1,660 @@
-
+[
+  {
+    "id": "GIT001",
+    "topic": "Gastrointestinal Tract (GIT)",
+    "subTopic": "Digestive Enzymes",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify digestive enzyme brands",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "Which of the following brands contains Fungal Diastase + Pepsin according to the MedPlus training material?",
+    "options": [
+      "Aristozyme",
+      "Pantocid",
+      "Rantac",
+      "Emeset"
+    ],
+    "answer": 0,
+    "explanation": "Aristozyme is listed as a brand of Fungal Diastase + Pepsin.",
+    "reference": "GIT-I",
+    "sourcePage": 4,
+    "keywords": [
+      "Fungal Diastase",
+      "Pepsin",
+      "Aristozyme"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "GIT002",
+    "topic": "Gastrointestinal Tract (GIT)",
+    "subTopic": "Digestive Enzymes",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Recognize digestive enzyme brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which one of the following is NOT listed as a Fungal Diastase + Pepsin brand?",
+    "options": [
+      "Ritozyme",
+      "Unienzyme",
+      "Vitazyme",
+      "Gelusil MPS"
+    ],
+    "answer": 3,
+    "explanation": "Gelusil MPS belongs to the Antacid category, not Digestive Enzymes.",
+    "reference": "GIT-I",
+    "sourcePage": 4,
+    "keywords": [
+      "Digestive Enzymes",
+      "Gelusil MPS"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "GIT003",
+    "topic": "Gastrointestinal Tract (GIT)",
+    "subTopic": "Antacids",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify antacid brands",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "Gelusil MPS is a brand of which drug combination?",
+    "options": [
+      "Aluminium Hydroxide + Dimethicone + Magnesium Hydroxide",
+      "Pantoprazole",
+      "Rabeprazole",
+      "Famotidine"
+    ],
+    "answer": 0,
+    "explanation": "Gelusil MPS contains Aluminium Hydroxide + Dimethicone + Magnesium Hydroxide.",
+    "reference": "GIT-I",
+    "sourcePage": 4,
+    "keywords": [
+      "Gelusil MPS",
+      "Antacids"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "GIT004",
+    "topic": "Gastrointestinal Tract (GIT)",
+    "subTopic": "Antacids",
+    "competency": "OTC Recommendation",
+    "learningObjective": "Recommend appropriate antacid brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "A customer complains of acidity after meals. Which of the following is an Antacid brand listed in the MedPlus training material?",
+    "options": [
+      "Digene",
+      "Ganaton",
+      "Razo",
+      "Zofer"
+    ],
+    "answer": 0,
+    "explanation": "Digene is listed under the Antacid category.",
+    "reference": "GIT-I",
+    "sourcePage": 4,
+    "keywords": [
+      "Digene",
+      "Acidity",
+      "Antacids"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "GIT005",
+    "topic": "Gastrointestinal Tract (GIT)",
+    "subTopic": "Digestive Enzymes & Antacids",
+    "competency": "Clinical Application",
+    "learningObjective": "Differentiate digestive enzymes from antacids",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following drug-brand pairs is correctly matched according to the MedPlus training material?",
+    "options": [
+      "Fungal Diastase + Pepsin — Aristozyme",
+      "Pantoprazole — Digene",
+      "Famotidine — Gelusil MPS",
+      "Domperidone — Rantac"
+    ],
+    "answer": 0,
+    "explanation": "Aristozyme is a brand of Fungal Diastase + Pepsin. The remaining pairs are incorrect.",
+    "reference": "GIT-I",
+    "sourcePage": 4,
+    "keywords": [
+      "Aristozyme",
+      "Digestive Enzymes",
+      "Drug Brand"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "GIT006",
+    "topic": "Gastrointestinal Tract (GIT)",
+    "subTopic": "H2 Blockers & Ulcer Healing",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Famotidine brands",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "Which of the following is a brand of Famotidine according to the MedPlus training material?",
+    "options": [
+      "Famocid",
+      "Nexpro",
+      "Omez",
+      "Zofer"
+    ],
+    "answer": 0,
+    "explanation": "Famocid is listed as a brand of Famotidine.",
+    "reference": "GIT-II",
+    "sourcePage": 4,
+    "keywords": [
+      "Famotidine",
+      "Famocid",
+      "H2 Blocker"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "GIT007",
+    "topic": "Gastrointestinal Tract (GIT)",
+    "subTopic": "H2 Blockers & Ulcer Healing",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Ranitidine brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which one of the following is NOT a brand of Ranitidine?",
+    "options": [
+      "Rantac",
+      "Histac",
+      "Aciloc",
+      "Pantocid"
+    ],
+    "answer": 3,
+    "explanation": "Pantocid is a Pantoprazole brand. Rantac, Histac and Aciloc are Ranitidine brands.",
+    "reference": "GIT-II",
+    "sourcePage": 4,
+    "keywords": [
+      "Ranitidine",
+      "Pantocid"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "GIT008",
+    "topic": "Gastrointestinal Tract (GIT)",
+    "subTopic": "Proton Pump Inhibitors",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Esomeprazole brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Nexpro is a brand of which Proton Pump Inhibitor (PPI)?",
+    "options": [
+      "Esomeprazole",
+      "Pantoprazole",
+      "Rabeprazole",
+      "Omeprazole"
+    ],
+    "answer": 0,
+    "explanation": "Nexpro is listed as a brand of Esomeprazole.",
+    "reference": "GIT-II",
+    "sourcePage": 4,
+    "keywords": [
+      "Nexpro",
+      "Esomeprazole",
+      "PPI"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "GIT009",
+    "topic": "Gastrointestinal Tract (GIT)",
+    "subTopic": "Proton Pump Inhibitors",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Recognize Omeprazole brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which of the following brands belongs to Omeprazole?",
+    "options": [
+      "Omez",
+      "Razo",
+      "Cyra",
+      "Pan D"
+    ],
+    "answer": 0,
+    "explanation": "Omez is listed as a brand of Omeprazole.",
+    "reference": "GIT-II",
+    "sourcePage": 4,
+    "keywords": [
+      "Omeprazole",
+      "Omez"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "GIT010",
+    "topic": "Gastrointestinal Tract (GIT)",
+    "subTopic": "H2 Blockers & Proton Pump Inhibitors",
+    "competency": "Clinical Application",
+    "learningObjective": "Differentiate H2 blockers and PPIs",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following drug-brand pairs is correctly matched according to the MedPlus training material?",
+    "options": [
+      "Esomeprazole — Nexpro",
+      "Famotidine — Omez",
+      "Ranitidine — Pantocid",
+      "Omeprazole — Razo"
+    ],
+    "answer": 0,
+    "explanation": "Nexpro is a brand of Esomeprazole. The other pairs are incorrectly matched.",
+    "reference": "GIT-II",
+    "sourcePage": 4,
+    "keywords": [
+      "Esomeprazole",
+      "Nexpro",
+      "PPI",
+      "H2 Blocker"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "GIT011",
+    "topic": "Gastrointestinal Tract (GIT)",
+    "subTopic": "Proton Pump Inhibitors",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Pantoprazole brands",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "Pantocid is a brand of which Proton Pump Inhibitor according to the MedPlus training material?",
+    "options": [
+      "Pantoprazole",
+      "Rabeprazole",
+      "Omeprazole",
+      "Esomeprazole"
+    ],
+    "answer": 0,
+    "explanation": "Pantocid is listed as a brand of Pantoprazole.",
+    "reference": "GIT-II",
+    "sourcePage": 4,
+    "keywords": [
+      "Pantoprazole",
+      "Pantocid",
+      "PPI"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "GIT012",
+    "topic": "Gastrointestinal Tract (GIT)",
+    "subTopic": "Proton Pump Inhibitors",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Rabeprazole brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which one of the following is a brand of Rabeprazole according to the MedPlus training material?",
+    "options": [
+      "Razo",
+      "Pantocid",
+      "Nexpro",
+      "Omez"
+    ],
+    "answer": 0,
+    "explanation": "Razo is listed as a brand of Rabeprazole.",
+    "reference": "GIT-II",
+    "sourcePage": 4,
+    "keywords": [
+      "Rabeprazole",
+      "Razo"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "GIT013",
+    "topic": "Gastrointestinal Tract (GIT)",
+    "subTopic": "Anti-emetics",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Recognize Domperidone brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Ganaton is listed in the MedPlus training material as a brand associated with which gastrointestinal therapeutic area?",
+    "options": [
+      "Anti-emetics / Prokinetics",
+      "Antacids",
+      "Digestive Enzymes",
+      "H2 Blockers"
+    ],
+    "answer": 0,
+    "explanation": "Ganaton is listed in the gastrointestinal section under medicines used as prokinetic/anti-emetic agents.",
+    "reference": "GIT-II",
+    "sourcePage": 4,
+    "keywords": [
+      "Ganaton",
+      "Anti-emetic",
+      "Prokinetic"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "GIT014",
+    "topic": "Gastrointestinal Tract (GIT)",
+    "subTopic": "Anti-emetics",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Ondansetron brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "According to the MedPlus training material, which of the following is a brand of Ondansetron?",
+    "options": [
+      "Zofer",
+      "Gelusil MPS",
+      "Famocid",
+      "Digene"
+    ],
+    "answer": 0,
+    "explanation": "Zofer is listed as a brand of Ondansetron.",
+    "reference": "GIT-II",
+    "sourcePage": 4,
+    "keywords": [
+      "Ondansetron",
+      "Zofer"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "GIT015",
+    "topic": "Gastrointestinal Tract (GIT)",
+    "subTopic": "GIT Drug Brands",
+    "competency": "Clinical Application",
+    "learningObjective": "Differentiate gastrointestinal drug-brand pairs",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following drug–brand pairs is correctly matched according to the MedPlus training material?",
+    "options": [
+      "Pantoprazole — Pantocid",
+      "Rabeprazole — Omez",
+      "Ondansetron — Gelusil MPS",
+      "Famotidine — Razo"
+    ],
+    "answer": 0,
+    "explanation": "Pantocid is a brand of Pantoprazole. The remaining pairs are incorrectly matched.",
+    "reference": "GIT-II",
+    "sourcePage": 4,
+    "keywords": [
+      "Pantoprazole",
+      "Pantocid",
+      "Rabeprazole",
+      "Drug Brand"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "GIT016",
+    "topic": "Gastrointestinal Tract (GIT)",
+    "subTopic": "Anti-emetics",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify anti-emetic drug brands",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "According to the MedPlus training material, Zofer belongs to which therapeutic category?",
+    "options": [
+      "Anti-emetics",
+      "Antacids",
+      "Digestive Enzymes",
+      "H2 Blockers"
+    ],
+    "answer": 0,
+    "explanation": "Zofer is listed in the Anti-emetics section of the MedPlus training material.",
+    "reference": "GIT-II",
+    "sourcePage": 4,
+    "keywords": [
+      "Zofer",
+      "Anti-emetic",
+      "Ondansetron"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "GIT017",
+    "topic": "Gastrointestinal Tract (GIT)",
+    "subTopic": "Prokinetics",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Recognize prokinetic brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Ganaton is listed in the MedPlus training material under which gastrointestinal therapeutic group?",
+    "options": [
+      "Prokinetics / Anti-emetics",
+      "Antacids",
+      "Proton Pump Inhibitors",
+      "Digestive Enzymes"
+    ],
+    "answer": 0,
+    "explanation": "Ganaton appears under the gastrointestinal medicines used as prokinetic/anti-emetic agents.",
+    "reference": "GIT-II",
+    "sourcePage": 4,
+    "keywords": [
+      "Ganaton",
+      "Prokinetic",
+      "Anti-emetic"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "GIT018",
+    "topic": "Gastrointestinal Tract (GIT)",
+    "subTopic": "Drug Brand Mapping",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify correct drug-brand relationships",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which of the following brand–drug pairs is correctly matched according to the MedPlus training material?",
+    "options": [
+      "Zofer — Ondansetron",
+      "Pantocid — Rabeprazole",
+      "Razo — Omeprazole",
+      "Omez — Esomeprazole"
+    ],
+    "answer": 0,
+    "explanation": "Zofer is listed as a brand of Ondansetron. The remaining pairs are incorrectly matched.",
+    "reference": "GIT-II",
+    "sourcePage": 4,
+    "keywords": [
+      "Zofer",
+      "Ondansetron",
+      "Drug Brand"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "GIT019",
+    "topic": "Gastrointestinal Tract (GIT)",
+    "subTopic": "PPIs",
+    "competency": "Clinical Application",
+    "learningObjective": "Differentiate commonly used acid-suppressing medicines",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following brands belongs to the Proton Pump Inhibitor (PPI) group according to the MedPlus training material?",
+    "options": [
+      "Pantocid",
+      "Famocid",
+      "Zofer",
+      "Digene"
+    ],
+    "answer": 0,
+    "explanation": "Pantocid is listed as a Pantoprazole brand under Proton Pump Inhibitors.",
+    "reference": "GIT-II",
+    "sourcePage": 4,
+    "keywords": [
+      "Pantocid",
+      "Pantoprazole",
+      "PPI"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "GIT020",
+    "topic": "Gastrointestinal Tract (GIT)",
+    "subTopic": "GIT Drug Brands",
+    "competency": "Clinical Application",
+    "learningObjective": "Apply GIT drug-brand knowledge",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following sets contains only correctly matched gastrointestinal drug brands according to the MedPlus training material?",
+    "options": [
+      "Pantocid, Nexpro, Omez, Razo",
+      "Pantocid, Crocin Pain Relief, Benadryl, Otrivin",
+      "Razo, Disprin, Gelusil MPS, Vasograin",
+      "Famocid, Strepsils, Zofer, Karvol Plus"
+    ],
+    "answer": 0,
+    "explanation": "Pantocid, Nexpro, Omez and Razo are all gastrointestinal medicine brands listed in the GIT section of the MedPlus training material.",
+    "reference": "GIT-II",
+    "sourcePage": 4,
+    "keywords": [
+      "Pantocid",
+      "Nexpro",
+      "Omez",
+      "Razo",
+      "GIT"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "GIT021",
+    "topic": "Gastrointestinal Tract (GIT)",
+    "subTopic": "Drug Brand Revision",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify the correct gastrointestinal drug brand",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "Which of the following brands belongs to Pantoprazole according to the MedPlus training material?",
+    "options": [
+      "Pantocid",
+      "Omez",
+      "Famocid",
+      "Zofer"
+    ],
+    "answer": 0,
+    "explanation": "Pantocid is listed as a brand of Pantoprazole in the MedPlus training material.",
+    "reference": "GIT-II",
+    "sourcePage": 4,
+    "keywords": [
+      "Pantoprazole",
+      "Pantocid",
+      "PPI"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "GIT022",
+    "topic": "Gastrointestinal Tract (GIT)",
+    "subTopic": "Drug Brand Revision",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Differentiate commonly prescribed PPIs",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which of the following brand–generic pairs is correctly matched according to the MedPlus training material?",
+    "options": [
+      "Nexpro – Esomeprazole",
+      "Omez – Rabeprazole",
+      "Razo – Pantoprazole",
+      "Famocid – Omeprazole"
+    ],
+    "answer": 0,
+    "explanation": "Nexpro is listed as a brand of Esomeprazole. The remaining pairs are incorrect according to the training material.",
+    "reference": "GIT-II",
+    "sourcePage": 4,
+    "keywords": [
+      "Nexpro",
+      "Esomeprazole",
+      "Drug Brand"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "GIT023",
+    "topic": "Gastrointestinal Tract (GIT)",
+    "subTopic": "Therapeutic Categories",
+    "competency": "Clinical Application",
+    "learningObjective": "Identify the correct therapeutic group",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Famocid and Aciloc belong to which therapeutic groups respectively according to the MedPlus training material?",
+    "options": [
+      "H2 Blockers and H2 Blockers",
+      "PPI and H2 Blockers",
+      "Antacid and PPI",
+      "Anti-emetic and Antacid"
+    ],
+    "answer": 0,
+    "explanation": "Famocid (Famotidine) and Aciloc (Ranitidine) are both listed under H2 Blockers.",
+    "reference": "GIT-II",
+    "sourcePage": 4,
+    "keywords": [
+      "Famocid",
+      "Aciloc",
+      "H2 Blockers"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "GIT024",
+    "topic": "Gastrointestinal Tract (GIT)",
+    "subTopic": "Integrated Drug-Brand Mapping",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify incorrectly matched drug-brand pairs",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which one of the following drug–brand pairs is INCORRECT according to the MedPlus training material?",
+    "options": [
+      "Pantoprazole – Pantocid",
+      "Rabeprazole – Razo",
+      "Ondansetron – Zofer",
+      "Esomeprazole – Omez"
+    ],
+    "answer": 3,
+    "explanation": "Omez is listed as a brand of Omeprazole, not Esomeprazole.",
+    "reference": "GIT-II",
+    "sourcePage": 4,
+    "keywords": [
+      "Omez",
+      "Esomeprazole",
+      "Drug Brand"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "GIT025",
+    "topic": "Gastrointestinal Tract (GIT)",
+    "subTopic": "Comprehensive Revision",
+    "competency": "Clinical Application",
+    "learningObjective": "Integrate GIT drug-brand knowledge",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following sets contains only gastrointestinal medicine brands listed in the MedPlus training material?",
+    "options": [
+      "Pantocid, Nexpro, Omez, Razo, Zofer",
+      "Pantocid, Crocin Pain Relief, Benadryl, Otrivin, Razo",
+      "Gelusil MPS, Vasograin, Disprin, Zofer, Omez",
+      "Famocid, Strepsils, Karvol Plus, Pantocid, Nexpro"
+    ],
+    "answer": 0,
+    "explanation": "Pantocid, Nexpro, Omez, Razo and Zofer are all listed in the GIT section of the MedPlus training material.",
+    "reference": "GIT-II",
+    "sourcePage": 4,
+    "keywords": [
+      "Pantocid",
+      "Nexpro",
+      "Omez",
+      "Razo",
+      "Zofer"
+    ],
+    "marks": 1
+  }
+]
