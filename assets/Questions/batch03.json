@@ -1,1 +1,622 @@
+[
+  {
+    "id": "DF001",
+    "topic": "Fundamentals",
+    "subTopic": "Dosage Forms",
+    "learningObjective": "Identify common pharmaceutical dosage forms",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "Which dosage form is designed as a solid compressed preparation containing a measured dose of medicine?",
+    "options": [
+      "Tablet",
+      "Syrup",
+      "Ointment",
+      "Solution"
+    ],
+    "answer": 0,
+    "explanation": "A tablet is a solid compressed dosage form containing a measured quantity of drug.",
+    "reference": "Fundamentals II - Product Forms",
+    "sourcePage": 2,
+    "keywords": [
+      "Tablet",
+      "Dosage Form"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "DF002",
+    "topic": "Fundamentals",
+    "subTopic": "Dosage Forms",
+    "learningObjective": "Differentiate oral liquid preparations",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "Which dosage form is a sweetened liquid preparation intended for oral administration?",
+    "options": [
+      "Cream",
+      "Syrup",
+      "Respule",
+      "Ampoule"
+    ],
+    "answer": 1,
+    "explanation": "A syrup is a sweetened liquid dosage form administered orally.",
+    "reference": "Fundamentals II - Product Forms",
+    "sourcePage": 2,
+    "keywords": [
+      "Syrup",
+      "Oral Liquid"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "DF003",
+    "topic": "Fundamentals",
+    "subTopic": "Dosage Forms",
+    "learningObjective": "Identify solid dosage forms",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which dosage form consists of medicine enclosed within a gelatin shell?",
+    "options": [
+      "Capsule",
+      "Solution",
+      "Lotion",
+      "Suppository"
+    ],
+    "answer": 0,
+    "explanation": "Capsules contain medicine enclosed in a hard or soft gelatin shell.",
+    "reference": "Fundamentals II - Product Forms",
+    "sourcePage": 2,
+    "keywords": [
+      "Capsule",
+      "Gelatin"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "DF004",
+    "topic": "Fundamentals",
+    "subTopic": "Dosage Forms",
+    "learningObjective": "Apply dosage form knowledge in pharmacy practice",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "A customer requires medication to be applied externally on the skin for a dry lesion. Which dosage form is generally most appropriate?",
+    "options": [
+      "Ointment",
+      "Dry Syrup",
+      "Injection",
+      "Eye Drops"
+    ],
+    "answer": 0,
+    "explanation": "Ointments are topical dosage forms commonly used for application to dry skin lesions.",
+    "reference": "Fundamentals II - Product Forms",
+    "sourcePage": 2,
+    "keywords": [
+      "Ointment",
+      "Topical"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "DF005",
+    "topic": "Fundamentals",
+    "subTopic": "Dosage Forms",
+    "learningObjective": "Recognize dosage forms used for inhalation therapy",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "According to the MedPlus training material, which dosage form is specifically intended for administration through inhalation?",
+    "options": [
+      "Granules",
+      "Respules",
+      "Liniment",
+      "Medicated Soap"
+    ],
+    "answer": 1,
+    "explanation": "Respules are listed among inhalation dosage forms in the MedPlus training material.",
+    "reference": "Fundamentals II - Product Forms",
+    "sourcePage": 2,
+    "keywords": [
+      "Respules",
+      "Inhalation"
+    ],
+    "marks": 1
+  }
+]
 
+[
+  {
+    "id": "DF006",
+    "topic": "Fundamentals",
+    "subTopic": "Dosage Forms",
+    "learningObjective": "Identify ophthalmic dosage forms",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "Which dosage form is specifically intended for administration into the eye?",
+    "options": [
+      "Eye Drops",
+      "Nasal Drops",
+      "Oral Drops",
+      "Lotion"
+    ],
+    "answer": 0,
+    "explanation": "Eye Drops are sterile liquid preparations intended for ophthalmic use.",
+    "reference": "Fundamentals II - Product Forms",
+    "sourcePage": 2,
+    "keywords": [
+      "Eye Drops",
+      "Ophthalmic"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "DF007",
+    "topic": "Fundamentals",
+    "subTopic": "Dosage Forms",
+    "learningObjective": "Recognize nasal dosage forms",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "A patient with nasal congestion is prescribed a medicine to be administered through the nose. Which dosage form is most appropriate according to the training material?",
+    "options": [
+      "Cream",
+      "Nasal Drops",
+      "Suppository",
+      "Granules"
+    ],
+    "answer": 1,
+    "explanation": "Nasal Drops are dosage forms designed for administration into the nasal cavity.",
+    "reference": "Fundamentals II - Product Forms",
+    "sourcePage": 2,
+    "keywords": [
+      "Nasal Drops",
+      "Nasal"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "DF008",
+    "topic": "Fundamentals",
+    "subTopic": "Dosage Forms",
+    "learningObjective": "Identify inhalation dosage forms",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which dosage form listed in the MedPlus training material delivers medicine directly through inhalation?",
+    "options": [
+      "Inhaler",
+      "Syrup",
+      "Tablet",
+      "Ointment"
+    ],
+    "answer": 0,
+    "explanation": "Inhalers are dosage forms used to deliver medicines directly into the respiratory tract.",
+    "reference": "Fundamentals II - Product Forms",
+    "sourcePage": 2,
+    "keywords": [
+      "Inhaler",
+      "Respiratory"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "DF009",
+    "topic": "Fundamentals",
+    "subTopic": "Dosage Forms",
+    "learningObjective": "Differentiate injectable dosage forms",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "A pharmacist explains that an ampoule is opened once and discarded after use. Which product form from the training material matches this description?",
+    "options": [
+      "Vial",
+      "Ampoule",
+      "Cream",
+      "Suspension"
+    ],
+    "answer": 1,
+    "explanation": "The training material identifies ampoules as single-dose product forms.",
+    "reference": "Fundamentals II - Product Forms",
+    "sourcePage": 2,
+    "keywords": [
+      "Ampoule",
+      "Single Dose"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "DF010",
+    "topic": "Fundamentals",
+    "subTopic": "Dosage Forms",
+    "learningObjective": "Recognize semi-solid dosage forms",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which dosage form is generally intended for external application and is less greasy than an ointment?",
+    "options": [
+      "Cream",
+      "Injection",
+      "Capsule",
+      "Respule"
+    ],
+    "answer": 0,
+    "explanation": "Creams are semi-solid topical preparations commonly used for external application.",
+    "reference": "Fundamentals II - Product Forms",
+    "sourcePage": 2,
+    "keywords": [
+      "Cream",
+      "Topical"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "DF011",
+    "topic": "Fundamentals",
+    "subTopic": "Dosage Forms",
+    "learningObjective": "Differentiate liquid dosage forms",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "Which dosage form contains one or more substances completely dissolved in a suitable liquid vehicle?",
+    "options": [
+      "Suspension",
+      "Solution",
+      "Granules",
+      "Ointment"
+    ],
+    "answer": 1,
+    "explanation": "A solution is a liquid dosage form in which the drug is completely dissolved in the solvent.",
+    "reference": "Fundamentals II - Product Forms",
+    "sourcePage": 2,
+    "keywords": [
+      "Solution",
+      "Liquid Dosage Form"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "DF012",
+    "topic": "Fundamentals",
+    "subTopic": "Dosage Forms",
+    "learningObjective": "Identify suspension dosage forms",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "A pharmacist advises a patient to 'Shake well before use.' Which dosage form most commonly requires this instruction?",
+    "options": [
+      "Tablet",
+      "Suspension",
+      "Capsule",
+      "Cream"
+    ],
+    "answer": 1,
+    "explanation": "Suspensions contain undissolved particles that settle during storage and should be shaken before use.",
+    "reference": "Fundamentals II - Product Forms",
+    "sourcePage": 2,
+    "keywords": [
+      "Suspension",
+      "Shake Well"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "DF013",
+    "topic": "Fundamentals",
+    "subTopic": "Dosage Forms",
+    "learningObjective": "Recognize rectal dosage forms",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which dosage form listed in the training material is designed for insertion into the rectum, where it melts or dissolves to release the medicine?",
+    "options": [
+      "Suppository",
+      "Lotion",
+      "Dry Syrup",
+      "Respule"
+    ],
+    "answer": 0,
+    "explanation": "A suppository is a dosage form intended for insertion into the rectum, where it releases the medicine after melting or dissolving.",
+    "reference": "Fundamentals II - Product Forms",
+    "sourcePage": 2,
+    "keywords": [
+      "Suppository",
+      "Rectal"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "DF014",
+    "topic": "Fundamentals",
+    "subTopic": "Dosage Forms",
+    "learningObjective": "Recognize solid dosage forms",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Granules are best described as:",
+    "options": [
+      "Semi-solid preparations for skin application",
+      "Small dry particles supplied as a dosage form",
+      "Sterile injectable liquids",
+      "Sweetened oral liquids"
+    ],
+    "answer": 1,
+    "explanation": "Granules are solid dosage forms consisting of small dry particles.",
+    "reference": "Fundamentals II - Product Forms",
+    "sourcePage": 2,
+    "keywords": [
+      "Granules",
+      "Solid Dosage Form"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "DF015",
+    "topic": "Fundamentals",
+    "subTopic": "Dosage Forms",
+    "learningObjective": "Apply dosage-form knowledge during patient counselling",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "A customer receives a bottle of medicine with visible particles settled at the bottom. The label also instructs 'Shake well before use.' Which dosage form is most likely being dispensed?",
+    "options": [
+      "Solution",
+      "Suspension",
+      "Eye Drops",
+      "Ointment"
+    ],
+    "answer": 1,
+    "explanation": "Settling of particles and the need to shake before use are characteristic features of a suspension dosage form.",
+    "reference": "Fundamentals II - Product Forms",
+    "sourcePage": 2,
+    "keywords": [
+      "Suspension",
+      "Patient Counselling",
+      "Shake Well"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "DF016",
+    "topic": "Fundamentals",
+    "subTopic": "Dosage Forms",
+    "learningObjective": "Identify reconstitutable dosage forms",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "Which dosage form is supplied as a powder and requires the addition of water before administration?",
+    "options": [
+      "Dry Syrup",
+      "Suspension",
+      "Solution",
+      "Cream"
+    ],
+    "answer": 0,
+    "explanation": "According to the training material, a Dry Syrup is supplied in powder form and is reconstituted with water before use.",
+    "reference": "Fundamentals II - Product Forms",
+    "sourcePage": 2,
+    "keywords": [
+      "Dry Syrup",
+      "Reconstitution",
+      "Powder"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "DF017",
+    "topic": "Fundamentals",
+    "subTopic": "Dosage Forms",
+    "learningObjective": "Recognize topical liquid dosage forms",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "A medicine intended to be applied externally over a large area of skin in liquid form is most appropriately supplied as a:",
+    "options": [
+      "Lotion",
+      "Tablet",
+      "Capsule",
+      "Ampoule"
+    ],
+    "answer": 0,
+    "explanation": "The training material lists Lotion as a topical liquid dosage form for external application.",
+    "reference": "Fundamentals II - Product Forms",
+    "sourcePage": 2,
+    "keywords": [
+      "Lotion",
+      "Topical",
+      "External Use"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "DF018",
+    "topic": "Fundamentals",
+    "subTopic": "Dosage Forms",
+    "learningObjective": "Differentiate external dosage forms",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which dosage form listed in the training material is specifically intended to be rubbed onto the skin and should not be applied to broken skin unless directed?",
+    "options": [
+      "Liniment",
+      "Eye Drops",
+      "Suppository",
+      "Granules"
+    ],
+    "answer": 0,
+    "explanation": "The training material includes Liniment as an external dosage form applied by rubbing onto the skin.",
+    "reference": "Fundamentals II - Product Forms",
+    "sourcePage": 2,
+    "keywords": [
+      "Liniment",
+      "External Application"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "DF019",
+    "topic": "Fundamentals",
+    "subTopic": "Dosage Forms",
+    "learningObjective": "Identify semi-solid topical preparations",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "A pharmacist recommends a preparation that is gently rubbed on the skin to provide local soothing relief. Which dosage form from the training material best matches this description?",
+    "options": [
+      "Respule",
+      "Balm",
+      "Dry Syrup",
+      "Injection"
+    ],
+    "answer": 1,
+    "explanation": "The training material lists Balm as a topical dosage form intended for external application.",
+    "reference": "Fundamentals II - Product Forms",
+    "sourcePage": 2,
+    "keywords": [
+      "Balm",
+      "Topical"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "DF020",
+    "topic": "Fundamentals",
+    "subTopic": "Dosage Forms",
+    "learningObjective": "Recognize medicated cleansing dosage forms",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "A customer requires a cleansing product that also delivers medication during use. Which product form listed in the training material is most appropriate?",
+    "options": [
+      "Granules",
+      "Medicated Soap",
+      "Solution",
+      "Ampoule"
+    ],
+    "answer": 1,
+    "explanation": "The training material includes Medicated Soap as a product form used for cleansing while delivering medication.",
+    "reference": "Fundamentals II - Product Forms",
+    "sourcePage": 2,
+    "keywords": [
+      "Medicated Soap",
+      "Topical",
+      "Cleansing"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "DF021",
+    "topic": "Fundamentals",
+    "subTopic": "Dosage Forms",
+    "learningObjective": "Identify topical cleansing dosage forms",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "Which product form listed in the training material is specifically intended for cleansing the hair while delivering medication?",
+    "options": [
+      "Medicated Shampoo",
+      "Lotion",
+      "Cream",
+      "Liniment"
+    ],
+    "answer": 0,
+    "explanation": "The training material lists Medicated Shampoo as a product form used for cleansing the hair while delivering medication.",
+    "reference": "Fundamentals II - Product Forms",
+    "sourcePage": 2,
+    "keywords": [
+      "Medicated Shampoo",
+      "Topical",
+      "Hair"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "DF022",
+    "topic": "Fundamentals",
+    "subTopic": "Dosage Forms",
+    "learningObjective": "Apply dosage-form knowledge in patient counselling",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "A pharmacist receives a prescription for an eye infection. Which dosage form from the training material is the most appropriate for administration into the eye?",
+    "options": [
+      "Eye Drops",
+      "Nasal Drops",
+      "Liniment",
+      "Granules"
+    ],
+    "answer": 0,
+    "explanation": "Eye Drops are listed in the training material as the dosage form intended for ophthalmic administration.",
+    "reference": "Fundamentals II - Product Forms",
+    "sourcePage": 2,
+    "keywords": [
+      "Eye Drops",
+      "Ophthalmic",
+      "Patient Counselling"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "DF023",
+    "topic": "Fundamentals",
+    "subTopic": "Dosage Forms",
+    "learningObjective": "Select appropriate dosage forms for different routes",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which pair correctly matches the dosage form with its usual route of administration according to the training material?",
+    "options": [
+      "Respule – Inhalation",
+      "Suppository – Eye",
+      "Nasal Drops – Oral",
+      "Tablet – External Application"
+    ],
+    "answer": 0,
+    "explanation": "Among the listed options, Respules are associated with inhalation in the training material.",
+    "reference": "Fundamentals II - Product Forms",
+    "sourcePage": 2,
+    "keywords": [
+      "Respule",
+      "Inhalation",
+      "Routes"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "DF024",
+    "topic": "Fundamentals",
+    "subTopic": "Dosage Forms",
+    "learningObjective": "Compare pharmaceutical dosage forms",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "A customer receives four medicines: a tablet, a syrup, an ointment and an inhaler. Which of these is specifically designed to deliver medicine directly into the respiratory tract?",
+    "options": [
+      "Tablet",
+      "Syrup",
+      "Ointment",
+      "Inhaler"
+    ],
+    "answer": 3,
+    "explanation": "According to the training material, an inhaler is a dosage form intended to deliver medicine through inhalation into the respiratory tract.",
+    "reference": "Fundamentals II - Product Forms",
+    "sourcePage": 2,
+    "keywords": [
+      "Inhaler",
+      "Respiratory",
+      "Dosage Forms"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "DF025",
+    "topic": "Fundamentals",
+    "subTopic": "Dosage Forms",
+    "learningObjective": "Integrate knowledge of common dosage forms",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following sets contains only dosage forms listed in the MedPlus training material?",
+    "options": [
+      "Tablet, Capsule, Syrup, Cream",
+      "Tablet, Stent, Implant, Patch",
+      "Capsule, Nebulizer, Dialyzer, Syringe",
+      "Cream, Catheter, Implant, Vaccine"
+    ],
+    "answer": 0,
+    "explanation": "The first set contains dosage forms listed in the Product Forms section of the training material. The other sets include medical devices or items that are not presented as product forms in this section.",
+    "reference": "Fundamentals II - Product Forms",
+    "sourcePage": 2,
+    "keywords": [
+      "Dosage Forms",
+      "Tablet",
+      "Capsule",
+      "Syrup",
+      "Cream"
+    ],
+    "marks": 1
+  }
+]
