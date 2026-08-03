@@ -274,6 +274,13 @@ checkSession() {
 
             // Load Questions
             await quiz.initialize();
+            this.showAssessment();
+
+if (typeof timer !== "undefined") {
+
+    timer.start();
+
+}
             if (resume) {
 
     quiz.renderQuestion();
@@ -334,7 +341,118 @@ checkSession() {
         }
 
     }
+/**
+ * ==========================================
+ * Show Assessment Screen
+ * ==========================================
+ */
+showAssessment() {
 
+    this.showScreen("assessment-screen");
+
+    const palette =
+        document.getElementById("paletteSection");
+
+    if (palette) {
+
+        palette.classList.remove("hidden");
+
+    }
+
+}
+
+/**
+ * ==========================================
+ * Show Result Screen
+ * ==========================================
+ */
+showResult(result) {
+
+    this.result = result;
+
+    // Stop timer if still running
+    if (
+        typeof timer !== "undefined" &&
+        timer.isRunning()
+    ) {
+
+        timer.stop();
+
+    }
+
+    this.showScreen("result-screen");
+
+    document.getElementById("resultCandidate").textContent =
+        result.candidate;
+
+    document.getElementById("finalScore").textContent =
+        `${result.score} / ${result.total}`;
+
+    document.getElementById("percentage").textContent =
+        `${result.percentage}%`;
+
+    document.getElementById("status").textContent =
+        result.percentage >= 80 ? "PASS" : "FAIL";
+
+    document.getElementById("status").style.color =
+        result.percentage >= 80
+            ? "#0a8f08"
+            : "#d32f2f";
+
+    // Save result
+    if (typeof storage !== "undefined") {
+
+        storage.saveHistory(result);
+
+        storage.clearSession();
+
+    }
+
+}
+
+/**
+ * ==========================================
+ * Restart Assessment
+ * ==========================================
+ */
+restart() {
+
+    if (typeof timer !== "undefined") {
+
+        timer.reset();
+
+    }
+
+    if (typeof storage !== "undefined") {
+
+        storage.clearSession();
+
+    }
+
+    location.reload();
+
+}
+
+/**
+ * ==========================================
+ * Logout
+ * ==========================================
+ */
+logout() {
+
+    if (confirm("Exit Assessment?")) {
+
+        if (typeof timer !== "undefined") {
+
+            timer.stop();
+
+        }
+
+        location.reload();
+
+    }
+
+}
     /**
      * ============================================================
      * Show Loading
