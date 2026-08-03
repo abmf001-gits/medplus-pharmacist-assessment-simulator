@@ -327,16 +327,19 @@ if (!resume && typeof storage !== "undefined") {
 }
 
         }
+catch (error) {
 
-        catch (error) {
+    console.error("Start Assessment Error:", error);
 
-            console.error(error);
+    alert(
+        "Unable to start assessment.\n\n" +
+        error.name + "\n\n" +
+        error.message
+    );
 
-            alert("Unable to start assessment.");
+    this.showScreen("login-screen");
 
-            this.showScreen("login-screen");
-
-        }
+}
 
     }
 /**
