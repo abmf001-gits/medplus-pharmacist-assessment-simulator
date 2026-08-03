@@ -1,1 +1,654 @@
-
+[
+  {
+    "id": "ADB001",
+    "topic": "Antidiabetics",
+    "subTopic": "Alpha-Glucosidase Inhibitors",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Acarbose brands",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "According to the MedPlus training material, Glucobay is a brand of which drug?",
+    "options": [
+      "Acarbose",
+      "Voglibose",
+      "Metformin",
+      "Glimepiride"
+    ],
+    "answer": 0,
+    "explanation": "Glucobay and Glucar are listed as brands of Acarbose.",
+    "reference": "ADB-I",
+    "sourcePage": 3,
+    "keywords": [
+      "Acarbose",
+      "Glucobay"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ADB002",
+    "topic": "Antidiabetics",
+    "subTopic": "Alpha-Glucosidase Inhibitors",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Voglibose brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Volix is listed in the MedPlus training material as a brand of:",
+    "options": [
+      "Voglibose",
+      "Glibenclamide",
+      "Glipizide",
+      "Metformin"
+    ],
+    "answer": 0,
+    "explanation": "Volix, Vogs, Voglicare, Vobose, Volibo and PPG are listed as brands of Voglibose.",
+    "reference": "ADB-I",
+    "sourcePage": 3,
+    "keywords": [
+      "Voglibose",
+      "Volix"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ADB003",
+    "topic": "Antidiabetics",
+    "subTopic": "Sulfonylureas",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Glibenclamide brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Daonil is a brand of which antidiabetic medicine?",
+    "options": [
+      "Glibenclamide",
+      "Gliclazide",
+      "Glimepiride",
+      "Glipizide"
+    ],
+    "answer": 0,
+    "explanation": "Daonil and Glinil are listed as brands of Glibenclamide.",
+    "reference": "ADB-I",
+    "sourcePage": 3,
+    "keywords": [
+      "Glibenclamide",
+      "Daonil"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ADB004",
+    "topic": "Antidiabetics",
+    "subTopic": "Sulfonylureas",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Gliclazide brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which of the following is a brand of Gliclazide according to the MedPlus training material?",
+    "options": [
+      "Diamicron",
+      "Amaryl",
+      "Glycomet",
+      "Januvia"
+    ],
+    "answer": 0,
+    "explanation": "Diamicron, Diamicron MR, Diamicron XR, Reclide, Glizid and Glycinorm are listed as brands of Gliclazide.",
+    "reference": "ADB-I",
+    "sourcePage": 3,
+    "keywords": [
+      "Gliclazide",
+      "Diamicron"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ADB005",
+    "topic": "Antidiabetics",
+    "subTopic": "Integrated Antidiabetic Revision",
+    "competency": "Clinical Application",
+    "learningObjective": "Differentiate antidiabetic drug-brand pairs",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following drug–brand pairs is correctly matched according to the MedPlus training material?",
+    "options": [
+      "Glimepiride — Amaryl",
+      "Metformin — Volix",
+      "Voglibose — Diamicron",
+      "Gliclazide — Daonil"
+    ],
+    "answer": 0,
+    "explanation": "Amaryl is listed as a brand of Glimepiride. The remaining pairs are incorrect.",
+    "reference": "ADB-I",
+    "sourcePage": 3,
+    "keywords": [
+      "Glimepiride",
+      "Amaryl",
+      "Drug Brand Mapping"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "ADB006",
+    "topic": "Antidiabetics",
+    "subTopic": "Sulfonylureas",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Glimepiride brands",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "According to the MedPlus training material, which of the following is a brand of Glimepiride?",
+    "options": [
+      "Amaryl",
+      "Glycomet",
+      "Actos",
+      "Volix"
+    ],
+    "answer": 0,
+    "explanation": "Amaryl is listed as a brand of Glimepiride.",
+    "reference": "ADB-I",
+    "sourcePage": 3,
+    "keywords": [
+      "Glimepiride",
+      "Amaryl"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ADB007",
+    "topic": "Antidiabetics",
+    "subTopic": "Sulfonylureas",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Glipizide brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Melizide is listed in the MedPlus training material as a brand of:",
+    "options": [
+      "Glipizide",
+      "Glimepiride",
+      "Gliclazide",
+      "Glibenclamide"
+    ],
+    "answer": 0,
+    "explanation": "Melizide and Minidiab are listed as brands of Glipizide.",
+    "reference": "ADB-I",
+    "sourcePage": 3,
+    "keywords": [
+      "Glipizide",
+      "Melizide"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ADB008",
+    "topic": "Antidiabetics",
+    "subTopic": "Biguanides",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Metformin brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which of the following is listed as a brand of Metformin in the MedPlus training material?",
+    "options": [
+      "Glycomet",
+      "Diamicron",
+      "Amaryl",
+      "Volix"
+    ],
+    "answer": 0,
+    "explanation": "Glycomet, Glyciphage, Obimet and Cetapin are listed as brands of Metformin.",
+    "reference": "ADB-I",
+    "sourcePage": 3,
+    "keywords": [
+      "Metformin",
+      "Glycomet"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ADB009",
+    "topic": "Antidiabetics",
+    "subTopic": "Thiazolidinediones",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Pioglitazone brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Actos is a brand of which antidiabetic medicine?",
+    "options": [
+      "Pioglitazone",
+      "Metformin",
+      "Glimepiride",
+      "Voglibose"
+    ],
+    "answer": 0,
+    "explanation": "Actos, Glizone and Piokind are listed as brands of Pioglitazone.",
+    "reference": "ADB-I",
+    "sourcePage": 3,
+    "keywords": [
+      "Pioglitazone",
+      "Actos"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ADB010",
+    "topic": "Antidiabetics",
+    "subTopic": "Integrated Antidiabetic Revision",
+    "competency": "Clinical Application",
+    "learningObjective": "Differentiate antidiabetic drug-brand pairs",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following drug–brand pairs is correctly matched according to the MedPlus training material?",
+    "options": [
+      "Metformin — Glycomet",
+      "Glipizide — Actos",
+      "Pioglitazone — Diamicron",
+      "Glimepiride — Volix"
+    ],
+    "answer": 0,
+    "explanation": "Glycomet is listed as a brand of Metformin. The remaining drug–brand pairs are incorrect.",
+    "reference": "ADB-I",
+    "sourcePage": 3,
+    "keywords": [
+      "Metformin",
+      "Glycomet",
+      "Drug Brand Mapping"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "ADB011",
+    "topic": "Antidiabetics",
+    "subTopic": "DPP-4 Inhibitors",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Sitagliptin brands",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "According to the MedPlus training material, Januvia is a brand of which drug?",
+    "options": [
+      "Sitagliptin",
+      "Vildagliptin",
+      "Teneligliptin",
+      "Metformin"
+    ],
+    "answer": 0,
+    "explanation": "Januvia is listed as a brand of Sitagliptin.",
+    "reference": "ADB-II",
+    "sourcePage": 3,
+    "keywords": [
+      "Sitagliptin",
+      "Januvia"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ADB012",
+    "topic": "Antidiabetics",
+    "subTopic": "DPP-4 Inhibitors",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Teneligliptin brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which of the following is listed as a brand of Teneligliptin in the MedPlus training material?",
+    "options": [
+      "Tenelia",
+      "Galvus",
+      "Jardiance",
+      "Forxiga"
+    ],
+    "answer": 0,
+    "explanation": "Tenelia is listed as a brand of Teneligliptin.",
+    "reference": "ADB-II",
+    "sourcePage": 3,
+    "keywords": [
+      "Teneligliptin",
+      "Tenelia"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ADB013",
+    "topic": "Antidiabetics",
+    "subTopic": "DPP-4 Inhibitors",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Vildagliptin brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Galvus is a brand of which antidiabetic medicine?",
+    "options": [
+      "Vildagliptin",
+      "Sitagliptin",
+      "Pioglitazone",
+      "Glimepiride"
+    ],
+    "answer": 0,
+    "explanation": "Galvus is listed as a brand of Vildagliptin.",
+    "reference": "ADB-II",
+    "sourcePage": 3,
+    "keywords": [
+      "Vildagliptin",
+      "Galvus"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ADB014",
+    "topic": "Antidiabetics",
+    "subTopic": "SGLT2 Inhibitors",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Dapagliflozin brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Forxiga is listed in the MedPlus training material as a brand of:",
+    "options": [
+      "Dapagliflozin",
+      "Empagliflozin",
+      "Metformin",
+      "Voglibose"
+    ],
+    "answer": 0,
+    "explanation": "Forxiga is listed as a brand of Dapagliflozin.",
+    "reference": "ADB-II",
+    "sourcePage": 3,
+    "keywords": [
+      "Dapagliflozin",
+      "Forxiga"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ADB015",
+    "topic": "Antidiabetics",
+    "subTopic": "Integrated Antidiabetic Revision",
+    "competency": "Clinical Application",
+    "learningObjective": "Differentiate antidiabetic drug-brand pairs",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following drug–brand pairs is correctly matched according to the MedPlus training material?",
+    "options": [
+      "Empagliflozin — Jardiance",
+      "Sitagliptin — Galvus",
+      "Teneligliptin — Januvia",
+      "Vildagliptin — Forxiga"
+    ],
+    "answer": 0,
+    "explanation": "Jardiance is listed as a brand of Empagliflozin. The remaining drug–brand pairs are incorrectly matched.",
+    "reference": "ADB-II",
+    "sourcePage": 3,
+    "keywords": [
+      "Empagliflozin",
+      "Jardiance",
+      "Drug Brand Mapping"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "ADB016",
+    "topic": "Antidiabetics",
+    "subTopic": "Fixed Dose Combinations",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Glimepiride + Metformin brands",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "According to the MedPlus training material, Amaryl M is a brand of which combination?",
+    "options": [
+      "Glimepiride + Metformin",
+      "Metformin + Pioglitazone",
+      "Sitagliptin + Metformin",
+      "Vildagliptin + Metformin"
+    ],
+    "answer": 0,
+    "explanation": "Amaryl M is listed under the Glimepiride + Metformin combination in the training material.",
+    "reference": "ADB-III",
+    "sourcePage": 3,
+    "keywords": [
+      "Amaryl M",
+      "Glimepiride",
+      "Metformin"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ADB017",
+    "topic": "Antidiabetics",
+    "subTopic": "Fixed Dose Combinations",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Sitagliptin + Metformin brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Janumet is listed in the MedPlus training material as a brand of:",
+    "options": [
+      "Sitagliptin + Metformin",
+      "Glimepiride + Metformin",
+      "Pioglitazone + Metformin",
+      "Voglibose + Metformin"
+    ],
+    "answer": 0,
+    "explanation": "Janumet is listed as a brand of the Sitagliptin + Metformin combination.",
+    "reference": "ADB-III",
+    "sourcePage": 3,
+    "keywords": [
+      "Janumet",
+      "Sitagliptin",
+      "Metformin"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ADB018",
+    "topic": "Antidiabetics",
+    "subTopic": "Fixed Dose Combinations",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Vildagliptin + Metformin brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Galvus Met is a brand of which antidiabetic combination?",
+    "options": [
+      "Vildagliptin + Metformin",
+      "Sitagliptin + Metformin",
+      "Glimepiride + Metformin",
+      "Empagliflozin + Metformin"
+    ],
+    "answer": 0,
+    "explanation": "Galvus Met is listed under the Vildagliptin + Metformin combination.",
+    "reference": "ADB-III",
+    "sourcePage": 3,
+    "keywords": [
+      "Galvus Met",
+      "Vildagliptin",
+      "Metformin"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ADB019",
+    "topic": "Antidiabetics",
+    "subTopic": "Fixed Dose Combinations",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Pioglitazone + Metformin brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "According to the MedPlus training material, which therapeutic combination includes Pioglitazone and Metformin?",
+    "options": [
+      "Pioglitazone + Metformin",
+      "Glimepiride + Metformin",
+      "Sitagliptin + Metformin",
+      "Voglibose + Metformin"
+    ],
+    "answer": 0,
+    "explanation": "The training material lists Pioglitazone + Metformin as one of the antidiabetic fixed-dose combinations.",
+    "reference": "ADB-III",
+    "sourcePage": 3,
+    "keywords": [
+      "Pioglitazone",
+      "Metformin",
+      "Combination"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ADB020",
+    "topic": "Antidiabetics",
+    "subTopic": "Integrated Antidiabetic Revision",
+    "competency": "Clinical Application",
+    "learningObjective": "Differentiate antidiabetic combination drug-brand pairs",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following drug–brand pairs is correctly matched according to the MedPlus training material?",
+    "options": [
+      "Vildagliptin + Metformin — Galvus Met",
+      "Sitagliptin + Metformin — Amaryl M",
+      "Glimepiride + Metformin — Janumet",
+      "Pioglitazone + Metformin — Januvia"
+    ],
+    "answer": 0,
+    "explanation": "Galvus Met is listed as a brand of Vildagliptin + Metformin. The remaining pairs are incorrectly matched.",
+    "reference": "ADB-III",
+    "sourcePage": 3,
+    "keywords": [
+      "Galvus Met",
+      "Vildagliptin",
+      "Metformin",
+      "Drug Brand Mapping"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "ADB021",
+    "topic": "Antidiabetics",
+    "subTopic": "Integrated Drug-Brand Mapping",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify correctly matched antidiabetic drug-brand pairs",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "Which of the following drug–brand pairs is correctly matched according to the MedPlus training material?",
+    "options": [
+      "Metformin — Glycomet",
+      "Glimepiride — Januvia",
+      "Voglibose — Actos",
+      "Pioglitazone — Diamicron"
+    ],
+    "answer": 0,
+    "explanation": "Glycomet is listed as a brand of Metformin. The remaining pairs are incorrectly matched.",
+    "reference": "ADB-I to ADB-III",
+    "sourcePage": 3,
+    "keywords": [
+      "Metformin",
+      "Glycomet",
+      "Drug Brand"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ADB022",
+    "topic": "Antidiabetics",
+    "subTopic": "Integrated Drug-Brand Mapping",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify incorrect drug-brand combinations",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which one of the following drug–brand pairs is INCORRECT according to the MedPlus training material?",
+    "options": [
+      "Sitagliptin — Januvia",
+      "Empagliflozin — Jardiance",
+      "Glimepiride — Diamicron",
+      "Vildagliptin — Galvus"
+    ],
+    "answer": 2,
+    "explanation": "Diamicron is listed as a brand of Gliclazide, not Glimepiride. Glimepiride brands include Amaryl, Zoryl and others.",
+    "reference": "ADB-I & ADB-II",
+    "sourcePage": 3,
+    "keywords": [
+      "Glimepiride",
+      "Diamicron",
+      "Gliclazide"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ADB023",
+    "topic": "Antidiabetics",
+    "subTopic": "Therapeutic Classification",
+    "competency": "Clinical Application",
+    "learningObjective": "Recognize medicines included in the Antidiabetics module",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which of the following medicines is included in the Antidiabetics section of the MedPlus training material?",
+    "options": [
+      "Teneligliptin",
+      "Pantoprazole",
+      "Losartan",
+      "Meloxicam"
+    ],
+    "answer": 0,
+    "explanation": "Teneligliptin is listed in the Antidiabetics section, whereas the other medicines belong to different therapeutic systems.",
+    "reference": "ADB-II",
+    "sourcePage": 3,
+    "keywords": [
+      "Teneligliptin",
+      "Antidiabetics"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ADB024",
+    "topic": "Antidiabetics",
+    "subTopic": "Integrated Revision",
+    "competency": "Clinical Application",
+    "learningObjective": "Differentiate antidiabetic brands from other therapeutic classes",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following sets contains only brands listed in the Antidiabetics section of the MedPlus training material?",
+    "options": [
+      "Amaryl, Glycomet, Januvia, Jardiance",
+      "Amaryl, Pantocid, Cardace, Glycomet",
+      "Januvia, Losar, Glycomet, Amaryl",
+      "Jardiance, Brufen, Amaryl, Glycomet"
+    ],
+    "answer": 0,
+    "explanation": "Amaryl, Glycomet, Januvia and Jardiance are all listed in the Antidiabetics section of the MedPlus training material.",
+    "reference": "ADB-I to ADB-III",
+    "sourcePage": 3,
+    "keywords": [
+      "Amaryl",
+      "Glycomet",
+      "Januvia",
+      "Jardiance"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "ADB025",
+    "topic": "Antidiabetics",
+    "subTopic": "Comprehensive Antidiabetic Revision",
+    "competency": "Clinical Application",
+    "learningObjective": "Integrate antidiabetic drug-brand knowledge",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following sets contains only correctly matched drug–brand relationships according to the MedPlus training material?",
+    "options": [
+      "Metformin–Glycomet, Glimepiride–Amaryl, Sitagliptin–Januvia, Empagliflozin–Jardiance",
+      "Metformin–Janumet, Glimepiride–Diamicron, Sitagliptin–Galvus, Empagliflozin–Forxiga",
+      "Pioglitazone–Januvia, Voglibose–Amaryl, Vildagliptin–Jardiance, Gliclazide–Actos",
+      "Glibenclamide–Galvus, Glipizide–Volix, Dapagliflozin–Glycomet, Acarbose–Tenelia"
+    ],
+    "answer": 0,
+    "explanation": "All four drug–brand pairs in the first option are correctly matched according to the MedPlus training material.",
+    "reference": "ADB-I to ADB-III",
+    "sourcePage": 3,
+    "keywords": [
+      "Metformin",
+      "Glycomet",
+      "Glimepiride",
+      "Amaryl",
+      "Sitagliptin",
+      "Januvia",
+      "Empagliflozin",
+      "Jardiance"
+    ],
+    "marks": 1
+  }
+]
