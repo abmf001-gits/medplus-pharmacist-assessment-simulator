@@ -275,6 +275,20 @@ checkSession() {
             // Load Questions
             await quiz.initialize();
             this.showAssessment();
+            const assessmentScreen =
+    document.getElementById("assessment-screen");
+
+if (assessmentScreen) {
+
+    assessmentScreen.scrollIntoView({
+
+        behavior: "smooth",
+
+        block: "start"
+
+    });
+
+}
 // Start Timer
 if (typeof timer !== "undefined") {
 
