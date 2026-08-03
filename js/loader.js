@@ -41,10 +41,14 @@ class Loader {
         let allQuestions = [];
 
         for (const file of batches) {
+const response = await fetch(`assets/Questions/${file}`);
 
-            const response = await fetch(`assets/Questions/${file}`);
+console.log(file, response.status);
 
-            if (!response.ok) continue;
+if (!response.ok) {
+    console.error("Missing file:", file);
+    continue;
+}
 
             const data = await response.json();
 
