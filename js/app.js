@@ -281,13 +281,17 @@ if (typeof timer !== "undefined") {
     timer.start();
 
 }
-            if (resume) {
+          if (resume) {
 
     quiz.renderQuestion();
 
-            }
+            document.getElementById("displayCandidate").textContent =
+    quiz.candidate;
 
-    
+document.getElementById("displayMode").textContent =
+    this.assessmentMode;
+
+          }
 
             // Show Assessment
             this.showScreen("assessment-screen");
@@ -303,7 +307,6 @@ if (typeof timer !== "undefined") {
             }
 
             // Save Initial Session
-            if (typeof storage !== "undefined") {
 if (!resume && typeof storage !== "undefined") {
 
     storage.saveSession({
@@ -344,8 +347,7 @@ if (!resume && typeof storage !== "undefined") {
  */
 showAssessment() {
 
-    this.showScreen("assessment-screen");
-
+    
     const palette =
         document.getElementById("paletteSection");
 
