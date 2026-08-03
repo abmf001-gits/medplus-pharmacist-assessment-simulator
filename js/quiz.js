@@ -700,4 +700,107 @@ class QuizEngine {
        ======================================================== */
 
    
-    
+        /* ========================================================
+       Reset Assessment
+       ======================================================== */
+
+    reset() {
+
+        this.questionBank = [];
+
+        this.questions = [];
+
+        this.answers = {};
+
+        this.currentQuestion = 0;
+
+        this.initialized = false;
+
+        this.candidate = "";
+
+        this.employeeId = "";
+
+    }
+
+    /* ========================================================
+       Destroy Assessment
+       ======================================================== */
+
+    destroy() {
+
+        this.reset();
+
+        const container =
+            document.getElementById("optionsContainer");
+
+        if (container) {
+
+            container.innerHTML = "";
+
+        }
+
+        const palette =
+            document.getElementById("questionPalette");
+
+        if (palette) {
+
+            palette.innerHTML = "";
+
+        }
+
+        const question =
+            document.getElementById("questionText");
+
+        if (question) {
+
+            question.textContent = "";
+
+        }
+
+        const progress =
+            document.getElementById("progressFill");
+
+        if (progress) {
+
+            progress.style.width = "0%";
+
+        }
+
+    }
+
+    /* ========================================================
+       Get Question By ID
+       ======================================================== */
+
+    getQuestionById(id) {
+
+        return this.questions.find(
+
+            question => question.id === id
+
+        );
+
+    }
+
+    /* ========================================================
+       Check Initialization
+       ======================================================== */
+
+    isInitialized() {
+
+        return this.initialized;
+
+    }
+
+} // ===== End of QuizEngine Class =====
+
+
+/* ============================================================
+   Global Quiz Instance
+   ============================================================ */
+
+const quiz = new QuizEngine();
+
+console.log(
+    "✅ Quiz Engine Version 3.1 Loaded Successfully"
+);
