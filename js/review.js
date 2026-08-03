@@ -55,7 +55,13 @@ class ReviewEngine {
 
         this.initialized = true;
 
-this.attachEvents();
+if (!this.eventsBound) {
+
+    this.attachEvents();
+
+    this.eventsBound = true;
+
+}
 
 this.render();
 
@@ -533,7 +539,15 @@ document
 
             );
 
-        this.currentQuestion = 0;
+        if (this.filteredQuestions.length === 0) {
+
+    alert("No correct questions found.");
+
+    return;
+
+}
+
+this.currentQuestion = 0;
 
         this.currentFilter = "CORRECT";
 
@@ -544,26 +558,33 @@ document
     /* ============================================================
        Filter - Wrong Questions
        ============================================================ */
+showWrong() {
 
-    showWrong() {
+    this.filteredQuestions =
 
-        this.filteredQuestions =
+        this.questions.filter(
 
-            this.questions.filter(
+            question =>
 
-                question =>
+                this.getStatus(question) === "WRONG"
 
-                    this.getStatus(question) === "WRONG"
+        );
 
-            );
+    if (this.filteredQuestions.length === 0) {
 
-        this.currentQuestion = 0;
+        alert("No wrong questions found.");
 
-        this.currentFilter = "WRONG";
-
-        this.render();
+        return;
 
     }
+
+    this.currentQuestion = 0;
+
+    this.currentFilter = "WRONG";
+
+    this.render();
+
+}
 
     /* ============================================================
        Filter - Skipped Questions
@@ -581,7 +602,15 @@ document
 
             );
 
-        this.currentQuestion = 0;
+        if (this.filteredQuestions.length === 0) {
+
+    alert("No skipped questions found.");
+
+    return;
+
+}
+
+this.currentQuestion = 0;
 
         this.currentFilter = "SKIPPED";
 
