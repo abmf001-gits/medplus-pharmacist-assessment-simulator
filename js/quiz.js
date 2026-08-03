@@ -333,5 +333,160 @@ class QuizEngine {
        End of Part 2
        ======================================================== */
 
-   ,
+    /* ========================================================
+       Save Selected Answer
+       ======================================================== */
+
+    saveAnswer() {
+
+        const question = this.getQuestion();
+
+        if (!question) return;
+
+        const selected =
+            document.querySelector(
+                'input[name="answer"]:checked'
+            );
+
+        if (!selected) return;
+
+        this.answers[question.id] =
+            selected.value;
+
+        // Auto Save Session
+        if (typeof storage !== "undefined") {
+
+            storage.saveSession({
+
+                candidate: this.candidate,
+
+                employeeId: this.employeeId,
+
+                currentQuestion:
+                    this.currentQuestion,
+
+                answers: this.answers,
+
+                remainingTime:
+
+                    typeof timer !== "undefined"
+
+                        ? timer.getRemaining()
+
+                        : 0
+
+            });
+
+        }
+
+    }
+
+    /* ========================================================
+       Next Question
+       ======================================================== */
+
+    nextQuestion() {
+
+        this.saveAnswer();
+
+        if (
+            this.currentQuestion <
+            this.questions.length - 1
+        ) {
+
+            this.currentQuestion++;
+
+            this.renderQuestion();
+
+        }
+
+    }
+
+    /* ========================================================
+       Previous Question
+       ======================================================== */
+
+    previousQuestion() {
+
+        this.saveAnswer();
+
+        if (this.currentQuestion > 0) {
+
+            this.currentQuestion--;
+
+            this.renderQuestion();
+
+        }
+
+    }
+
+    /* ========================================================
+       Jump To Question
+       ======================================================== */
+
+    gotoQuestion(index) {
+
+        this.saveAnswer();
+
+        if (
+
+            index >= 0 &&
+
+            index < this.questions.length
+
+        ) {
+
+            this.currentQuestion = index;
+
+            this.renderQuestion();
+
+        }
+
+    }
+
+    /* ========================================================
+       Question Status
+       ======================================================== */
+
+    isAnswered(questionId) {
+
+        return this.answers.hasOwnProperty(
+            questionId
+        );
+
+    }
+
+    /* ========================================================
+       Attempt Statistics
+       ======================================================== */
+
+    getStatistics() {
+
+        const attempted =
+            Object.keys(this.answers).length;
+
+        return {
+
+            total:
+                this.questions.length,
+
+            attempted:
+
+                attempted,
+
+            skipped:
+
+                this.questions.length -
+
+                attempted
+
+        };
+
+    }
+
+    /* ========================================================
+       End of Part 3
+       ======================================================== */
+
+   
     
