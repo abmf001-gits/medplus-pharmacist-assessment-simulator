@@ -1,1 +1,656 @@
-
+[
+  {
+    "id": "OTC001",
+    "topic": "OTC",
+    "subTopic": "Analgesics",
+    "competency": "OTC Recommendation",
+    "learningObjective": "Identify OTC analgesic brands",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "Which of the following brands is listed under the Analgesic category in the MedPlus training material?",
+    "options": [
+      "Crocin Pain Relief",
+      "Vasograin",
+      "Otrivin",
+      "Karvol Plus"
+    ],
+    "answer": 0,
+    "explanation": "Crocin Pain Relief is listed under the Analgesic OTC category.",
+    "reference": "OTC I & II - Brand Names",
+    "sourcePage": 2,
+    "keywords": [
+      "Analgesic",
+      "Crocin Pain Relief",
+      "OTC"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "OTC002",
+    "topic": "OTC",
+    "subTopic": "Analgesics",
+    "competency": "OTC Recommendation",
+    "learningObjective": "Recognize brands belonging to the same therapeutic category",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which one of the following brands is NOT listed under the Analgesic category in the MedPlus training material?",
+    "options": [
+      "Dart",
+      "Disprin",
+      "Saridon",
+      "Nasivion"
+    ],
+    "answer": 3,
+    "explanation": "Nasivion is listed under Anti-cold Nasal Drops, whereas Dart, Disprin and Saridon are Analgesics.",
+    "reference": "OTC I & II - Brand Names",
+    "sourcePage": 2,
+    "keywords": [
+      "Analgesics",
+      "Nasivion",
+      "Brand Classification"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "OTC003",
+    "topic": "OTC",
+    "subTopic": "Analgesics",
+    "competency": "OTC Recommendation",
+    "learningObjective": "Recommend the appropriate OTC category",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "A customer asks for an OTC medicine for temporary pain relief. According to the MedPlus training material, which category should the pharmacist consider first?",
+    "options": [
+      "Analgesics",
+      "Anti-migraine",
+      "Anti-cold",
+      "Vaporubs"
+    ],
+    "answer": 0,
+    "explanation": "The MedPlus training material lists Analgesics as the OTC category for pain relief.",
+    "reference": "OTC I & II - Categories",
+    "sourcePage": 2,
+    "keywords": [
+      "Pain Relief",
+      "Analgesics",
+      "OTC"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "OTC004",
+    "topic": "OTC",
+    "subTopic": "Anti-migraine",
+    "competency": "OTC Recommendation",
+    "learningObjective": "Identify anti-migraine brands",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "Which brand is listed under the Anti-migraine category in the MedPlus training material?",
+    "options": [
+      "Saridon",
+      "Vasograin",
+      "Coldcact",
+      "Benadryl"
+    ],
+    "answer": 1,
+    "explanation": "Vasograin is listed under the Anti-migraine category in the MedPlus training material.",
+    "reference": "OTC I & II - Brand Names",
+    "sourcePage": 2,
+    "keywords": [
+      "Anti-migraine",
+      "Vasograin"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "OTC005",
+    "topic": "OTC",
+    "subTopic": "OTC Categories",
+    "competency": "OTC Recommendation",
+    "learningObjective": "Differentiate OTC therapeutic categories",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "A customer specifically asks for Vasograin. According to the MedPlus training material, this brand belongs to which OTC category?",
+    "options": [
+      "Analgesic",
+      "Anti-migraine",
+      "Anti-cold",
+      "Vitamin C"
+    ],
+    "answer": 1,
+    "explanation": "The MedPlus training material categorizes Vasograin under Anti-migraine.",
+    "reference": "OTC I & II - Brand Names",
+    "sourcePage": 2,
+    "keywords": [
+      "Vasograin",
+      "Anti-migraine",
+      "OTC"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "OTC006",
+    "topic": "OTC",
+    "subTopic": "Anti-Cold",
+    "competency": "OTC Recommendation",
+    "learningObjective": "Identify Anti-Cold OTC brands",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "Which of the following brands is listed under the Anti-Cold category in the MedPlus training material?",
+    "options": [
+      "Coldact",
+      "Vasograin",
+      "Volini Gel",
+      "Electral"
+    ],
+    "answer": 0,
+    "explanation": "Coldact is listed under the Anti-Cold OTC category.",
+    "reference": "OTC I & II - Brand Names",
+    "sourcePage": 2,
+    "keywords": [
+      "Coldact",
+      "Anti-Cold",
+      "OTC"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "OTC007",
+    "topic": "OTC",
+    "subTopic": "Anti-Cold",
+    "competency": "OTC Recommendation",
+    "learningObjective": "Recognize brands in the Anti-Cold category",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which one of the following brands is NOT listed under the Anti-Cold category in the MedPlus training material?",
+    "options": [
+      "Sinarest",
+      "Wikoryl",
+      "Febrex Plus",
+      "Otrivin"
+    ],
+    "answer": 3,
+    "explanation": "Otrivin is listed under Anti-Cold Nasal Drops, whereas Sinarest, Wikoryl and Febrex Plus are Anti-Cold brands.",
+    "reference": "OTC I & II - Brand Names",
+    "sourcePage": 2,
+    "keywords": [
+      "Anti-Cold",
+      "Otrivin"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "OTC008",
+    "topic": "OTC",
+    "subTopic": "Anti-Cold Nasal Drops",
+    "competency": "OTC Recommendation",
+    "learningObjective": "Identify nasal decongestant brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "According to the MedPlus training material, which of the following brands belongs to the Anti-Cold Nasal Drops category?",
+    "options": [
+      "Karvol Plus",
+      "Nasivion",
+      "Crocin Pain Relief",
+      "Benadryl"
+    ],
+    "answer": 1,
+    "explanation": "Nasivion is listed under the Anti-Cold Nasal Drops category.",
+    "reference": "OTC I & II - Brand Names",
+    "sourcePage": 2,
+    "keywords": [
+      "Nasivion",
+      "Nasal Drops"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "OTC009",
+    "topic": "OTC",
+    "subTopic": "Cold Vapocaps",
+    "competency": "OTC Recommendation",
+    "learningObjective": "Identify Vapocaps brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "A customer requests a Cold Vapocaps product. Which of the following brands is listed in the MedPlus training material?",
+    "options": [
+      "Karvol Plus",
+      "Vicks Action",
+      "Disprin",
+      "Saridon"
+    ],
+    "answer": 0,
+    "explanation": "Karvol Plus is listed under the Cold Vapocaps category.",
+    "reference": "OTC I & II - Brand Names",
+    "sourcePage": 2,
+    "keywords": [
+      "Karvol Plus",
+      "Cold Vapocaps"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "OTC010",
+    "topic": "OTC",
+    "subTopic": "OTC Categories",
+    "competency": "OTC Recommendation",
+    "learningObjective": "Differentiate OTC therapeutic categories",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "A customer asks specifically for Oxyfast nasal drops. According to the MedPlus training material, Oxyfast belongs to which OTC category?",
+    "options": [
+      "Anti-Cold",
+      "Cold Vapocaps",
+      "Anti-Cold Nasal Drops",
+      "Anti-Migraine"
+    ],
+    "answer": 2,
+    "explanation": "The MedPlus training material lists Oxyfast along with Nasivion and Otrivin under the Anti-Cold Nasal Drops category.",
+    "reference": "OTC I & II - Brand Names",
+    "sourcePage": 2,
+    "keywords": [
+      "Oxyfast",
+      "Nasal Drops",
+      "Anti-Cold"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "OTC011",
+    "topic": "OTC",
+    "subTopic": "Cough Syrups",
+    "competency": "OTC Recommendation",
+    "learningObjective": "Identify cough syrup brands",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "According to the MedPlus training material, which of the following is listed under the Cough Syrups category?",
+    "options": [
+      "Benadryl",
+      "Disprin",
+      "Vasograin",
+      "Otrivin"
+    ],
+    "answer": 0,
+    "explanation": "Benadryl is listed under the Cough Syrups category in the MedPlus training material.",
+    "reference": "OTC I & II - Brand Names",
+    "sourcePage": 2,
+    "keywords": [
+      "Benadryl",
+      "Cough Syrup",
+      "OTC"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "OTC012",
+    "topic": "OTC",
+    "subTopic": "Cough Syrups",
+    "competency": "OTC Recommendation",
+    "learningObjective": "Classify OTC brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which of the following brands is NOT listed under the Cough Syrups category in the MedPlus training material?",
+    "options": [
+      "Benadryl",
+      "Corex",
+      "Strepsils",
+      "Ascoril"
+    ],
+    "answer": 2,
+    "explanation": "Strepsils belongs to the Lozenges category, whereas Benadryl, Corex and Ascoril are listed under Cough Syrups.",
+    "reference": "OTC I & II - Brand Names",
+    "sourcePage": 2,
+    "keywords": [
+      "Cough Syrups",
+      "Strepsils",
+      "Classification"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "OTC013",
+    "topic": "OTC",
+    "subTopic": "Lozenges",
+    "competency": "OTC Recommendation",
+    "learningObjective": "Identify lozenge brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which brand is listed under the Lozenges category in the MedPlus training material?",
+    "options": [
+      "Strepsils",
+      "Karvol Plus",
+      "Coldact",
+      "Saridon"
+    ],
+    "answer": 0,
+    "explanation": "Strepsils is listed under the Lozenges category.",
+    "reference": "OTC I & II - Brand Names",
+    "sourcePage": 2,
+    "keywords": [
+      "Strepsils",
+      "Lozenges"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "OTC014",
+    "topic": "OTC",
+    "subTopic": "Gargles",
+    "competency": "OTC Recommendation",
+    "learningObjective": "Identify gargle preparations",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "A customer asks for a gargle preparation for throat care. Which of the following brands is listed in the Gargles category of the MedPlus training material?",
+    "options": [
+      "Betadine Gargle",
+      "Nasivion",
+      "Vasograin",
+      "Crocin Pain Relief"
+    ],
+    "answer": 0,
+    "explanation": "Betadine Gargle is listed under the Gargles category.",
+    "reference": "OTC I & II - Brand Names",
+    "sourcePage": 2,
+    "keywords": [
+      "Betadine Gargle",
+      "Gargles",
+      "OTC"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "OTC015",
+    "topic": "OTC",
+    "subTopic": "OTC Categories",
+    "competency": "OTC Recommendation",
+    "learningObjective": "Differentiate OTC therapeutic categories",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following brand–category combinations is correctly matched according to the MedPlus training material?",
+    "options": [
+      "Benadryl – Cough Syrups",
+      "Strepsils – Anti-Cold",
+      "Betadine Gargle – Analgesics",
+      "Otrivin – Anti-Migraine"
+    ],
+    "answer": 0,
+    "explanation": "Benadryl is listed under Cough Syrups. The remaining combinations do not match the categories in the training material.",
+    "reference": "OTC I & II - Brand Names",
+    "sourcePage": 2,
+    "keywords": [
+      "Benadryl",
+      "Strepsils",
+      "Betadine Gargle",
+      "OTC Categories"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "OTC016",
+    "topic": "OTC",
+    "subTopic": "Antacids",
+    "competency": "OTC Recommendation",
+    "learningObjective": "Identify OTC antacid brands",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "According to the MedPlus training material, which of the following is listed under the Antacids category?",
+    "options": [
+      "Gelusil",
+      "Benadryl",
+      "Vasograin",
+      "Strepsils"
+    ],
+    "answer": 0,
+    "explanation": "Gelusil is listed under the Antacids category in the MedPlus training material.",
+    "reference": "OTC I & II - Brand Names",
+    "sourcePage": 2,
+    "keywords": [
+      "Antacids",
+      "Gelusil",
+      "OTC"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "OTC017",
+    "topic": "OTC",
+    "subTopic": "Digestives",
+    "competency": "OTC Recommendation",
+    "learningObjective": "Recognize digestive OTC products",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "A customer asks for an OTC digestive preparation. Which therapeutic category should the pharmacist consider according to the MedPlus training material?",
+    "options": [
+      "Digestives",
+      "Anti-migraine",
+      "Lozenges",
+      "Cold Vapocaps"
+    ],
+    "answer": 0,
+    "explanation": "The training material includes Digestives as an OTC therapeutic category.",
+    "reference": "OTC I & II - Categories",
+    "sourcePage": 2,
+    "keywords": [
+      "Digestives",
+      "OTC"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "OTC018",
+    "topic": "OTC",
+    "subTopic": "Anti-emetics",
+    "competency": "OTC Recommendation",
+    "learningObjective": "Identify the therapeutic purpose of anti-emetics",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "A customer complains of nausea while travelling. According to the MedPlus training material, which OTC therapeutic category is intended for this condition?",
+    "options": [
+      "Anti-emetics",
+      "Analgesics",
+      "Antacids",
+      "Lozenges"
+    ],
+    "answer": 0,
+    "explanation": "The training material lists Anti-emetics as the category used for nausea and vomiting.",
+    "reference": "OTC I & II - Categories",
+    "sourcePage": 2,
+    "keywords": [
+      "Anti-emetics",
+      "Nausea",
+      "Vomiting"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "OTC019",
+    "topic": "OTC",
+    "subTopic": "Antacids",
+    "competency": "OTC Recommendation",
+    "learningObjective": "Differentiate OTC therapeutic categories",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "A customer reports burning sensation in the stomach after meals. Which OTC category from the MedPlus training material is most appropriate?",
+    "options": [
+      "Antacids",
+      "Analgesics",
+      "Anti-migraine",
+      "Gargles"
+    ],
+    "answer": 0,
+    "explanation": "Antacids are the OTC category used for relief from gastric acidity and heartburn.",
+    "reference": "OTC I & II - Categories",
+    "sourcePage": 2,
+    "keywords": [
+      "Antacids",
+      "Acidity",
+      "Heartburn"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "OTC020",
+    "topic": "OTC",
+    "subTopic": "OTC Categories",
+    "competency": "OTC Recommendation",
+    "learningObjective": "Apply OTC category knowledge in pharmacy practice",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following category–symptom combinations is correctly matched according to the MedPlus training material?",
+    "options": [
+      "Antacids – Acidity",
+      "Analgesics – Cough",
+      "Lozenges – Migraine",
+      "Anti-migraine – Indigestion"
+    ],
+    "answer": 0,
+    "explanation": "The training material associates Antacids with acidity-related complaints. The remaining combinations do not match the listed OTC categories.",
+    "reference": "OTC I & II - Categories",
+    "sourcePage": 2,
+    "keywords": [
+      "Antacids",
+      "Acidity",
+      "OTC Categories"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "OTC021",
+    "topic": "OTC",
+    "subTopic": "OTC Categories",
+    "competency": "OTC Recommendation",
+    "learningObjective": "Select the appropriate OTC category based on symptoms",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "A customer requests a medicine for headache and body pain. According to the MedPlus training material, which OTC category should be considered first?",
+    "options": [
+      "Analgesics",
+      "Lozenges",
+      "Gargles",
+      "Cold Vapocaps"
+    ],
+    "answer": 0,
+    "explanation": "Analgesics are listed as the OTC category for pain relief in the training material.",
+    "reference": "OTC I & II - Categories",
+    "sourcePage": 2,
+    "keywords": [
+      "Analgesics",
+      "Pain Relief",
+      "OTC"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "OTC022",
+    "topic": "OTC",
+    "subTopic": "OTC Categories",
+    "competency": "OTC Recommendation",
+    "learningObjective": "Identify the correct OTC therapeutic category",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "A patient has a sore throat and prefers a medicated product that dissolves slowly in the mouth. Which OTC category from the training material is most appropriate?",
+    "options": [
+      "Lozenges",
+      "Antacids",
+      "Analgesics",
+      "Anti-migraine"
+    ],
+    "answer": 0,
+    "explanation": "The training material lists Lozenges as an OTC category for throat-related products.",
+    "reference": "OTC I & II - Categories",
+    "sourcePage": 2,
+    "keywords": [
+      "Lozenges",
+      "Sore Throat"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "OTC023",
+    "topic": "OTC",
+    "subTopic": "OTC Categories",
+    "competency": "OTC Recommendation",
+    "learningObjective": "Apply OTC knowledge during pharmacy counselling",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "A customer complains of nasal blockage due to a common cold and specifically asks for a nasal product. Which OTC category from the MedPlus training material is most appropriate?",
+    "options": [
+      "Anti-Cold Nasal Drops",
+      "Cough Syrups",
+      "Digestives",
+      "Gargles"
+    ],
+    "answer": 0,
+    "explanation": "The training material lists Anti-Cold Nasal Drops as the appropriate category for nasal congestion products.",
+    "reference": "OTC I & II - Categories",
+    "sourcePage": 2,
+    "keywords": [
+      "Nasal Drops",
+      "Anti-Cold",
+      "OTC"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "OTC024",
+    "topic": "OTC",
+    "subTopic": "OTC Categories",
+    "competency": "OTC Recommendation",
+    "learningObjective": "Differentiate OTC therapeutic categories",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following brand–category combinations is correctly matched according to the MedPlus training material?",
+    "options": [
+      "Vasograin – Anti-migraine",
+      "Benadryl – Analgesic",
+      "Gelusil – Cough Syrup",
+      "Karvol Plus – Gargles"
+    ],
+    "answer": 0,
+    "explanation": "Vasograin is listed under the Anti-migraine category. The remaining combinations do not match the training material.",
+    "reference": "OTC I & II - Brand Names",
+    "sourcePage": 2,
+    "keywords": [
+      "Vasograin",
+      "Anti-migraine",
+      "Brand Classification"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "OTC025",
+    "topic": "OTC",
+    "subTopic": "OTC Categories",
+    "competency": "OTC Recommendation",
+    "learningObjective": "Integrate OTC category knowledge for patient counselling",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following sets contains only OTC categories covered in the MedPlus training material?",
+    "options": [
+      "Analgesics, Anti-migraine, Antacids, Lozenges",
+      "Analgesics, Oncology, Vaccines, Insulin",
+      "Chemotherapy, Digestives, Dialysis, Antacids",
+      "Antibiotics, Surgery, Anti-migraine, Implants"
+    ],
+    "answer": 0,
+    "explanation": "Only the first option contains OTC categories listed in the MedPlus training material.",
+    "reference": "OTC I & II - Categories",
+    "sourcePage": 2,
+    "keywords": [
+      "OTC Categories",
+      "Analgesics",
+      "Antacids",
+      "Lozenges",
+      "Anti-migraine"
+    ],
+    "marks": 1
+  }
+]
