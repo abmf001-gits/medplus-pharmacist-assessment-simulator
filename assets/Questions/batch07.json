@@ -1,1 +1,521 @@
+[
+  {
+    "id": "CVS001",
+    "topic": "Cardiovascular System (CVS)",
+    "subTopic": "Beta Adrenergic Blockers",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Atenolol brands",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "According to the MedPlus training material, which of the following is a brand of Atenolol?",
+    "options": [
+      "Tenormin",
+      "Concor",
+      "Cardivas",
+      "Met XL"
+    ],
+    "answer": 0,
+    "explanation": "Tenormin is listed as a brand of Atenolol.",
+    "reference": "CVS-I",
+    "sourcePage": 4,
+    "keywords": [
+      "Atenolol",
+      "Tenormin",
+      "Beta Blocker"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "CVS002",
+    "topic": "Cardiovascular System (CVS)",
+    "subTopic": "Beta Adrenergic Blockers",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Bisoprolol brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which one of the following is a brand of Bisoprolol according to the MedPlus training material?",
+    "options": [
+      "Concor",
+      "Betacard",
+      "Metolar XR",
+      "Labebet"
+    ],
+    "answer": 0,
+    "explanation": "Concor is listed as a brand of Bisoprolol.",
+    "reference": "CVS-I",
+    "sourcePage": 4,
+    "keywords": [
+      "Bisoprolol",
+      "Concor"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "CVS003",
+    "topic": "Cardiovascular System (CVS)",
+    "subTopic": "Beta Adrenergic Blockers",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Recognize Carvedilol brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Cardivas CR is a brand of which drug?",
+    "options": [
+      "Carvedilol",
+      "Metoprolol",
+      "Nebivolol",
+      "Atenolol"
+    ],
+    "answer": 0,
+    "explanation": "Cardivas and Cardivas CR are listed as brands of Carvedilol.",
+    "reference": "CVS-I",
+    "sourcePage": 4,
+    "keywords": [
+      "Cardivas CR",
+      "Carvedilol"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "CVS004",
+    "topic": "Cardiovascular System (CVS)",
+    "subTopic": "Beta Adrenergic Blockers",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Metoprolol brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which of the following brands belongs to Metoprolol?",
+    "options": [
+      "Met XL",
+      "Concor",
+      "Nebistar",
+      "Inderal"
+    ],
+    "answer": 0,
+    "explanation": "Met XL is listed as a brand of Metoprolol.",
+    "reference": "CVS-I",
+    "sourcePage": 4,
+    "keywords": [
+      "Metoprolol",
+      "Met XL"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "CVS005",
+    "topic": "Cardiovascular System (CVS)",
+    "subTopic": "Beta Adrenergic Blockers",
+    "competency": "Clinical Application",
+    "learningObjective": "Differentiate beta blocker drug-brand pairs",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following drug-brand pairs is correctly matched according to the MedPlus training material?",
+    "options": [
+      "Carvedilol — Cardivas",
+      "Bisoprolol — Met XL",
+      "Metoprolol — Concor",
+      "Atenolol — Labebet"
+    ],
+    "answer": 0,
+    "explanation": "Cardivas is listed as a brand of Carvedilol. The remaining pairs are incorrectly matched.",
+    "reference": "CVS-I",
+    "sourcePage": 4,
+    "keywords": [
+      "Carvedilol",
+      "Cardivas",
+      "Beta Blockers"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "CVS006",
+    "topic": "Cardiovascular System (CVS)",
+    "subTopic": "Beta Adrenergic Blockers",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Nebivolol brands",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "Nebistar is a brand of which drug according to the MedPlus training material?",
+    "options": [
+      "Nebivolol",
+      "Metoprolol",
+      "Bisoprolol",
+      "Atenolol"
+    ],
+    "answer": 0,
+    "explanation": "Nebistar is listed as a brand of Nebivolol.",
+    "reference": "CVS-I",
+    "sourcePage": 4,
+    "keywords": [
+      "Nebivolol",
+      "Nebistar"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "CVS007",
+    "topic": "Cardiovascular System (CVS)",
+    "subTopic": "Beta Adrenergic Blockers",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Propranolol brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which of the following is a brand of Propranolol?",
+    "options": [
+      "Inderal",
+      "Concor",
+      "Cardivas",
+      "Tenormin"
+    ],
+    "answer": 0,
+    "explanation": "Inderal is listed as a brand of Propranolol.",
+    "reference": "CVS-I",
+    "sourcePage": 4,
+    "keywords": [
+      "Propranolol",
+      "Inderal"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "CVS008",
+    "topic": "Cardiovascular System (CVS)",
+    "subTopic": "Calcium Channel Blockers",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Amlodipine brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which of the following brands belongs to Amlodipine according to the MedPlus training material?",
+    "options": [
+      "Stamlo",
+      "Eslo",
+      "Cilacar",
+      "Nicardia Retard"
+    ],
+    "answer": 0,
+    "explanation": "Stamlo is listed as a brand of Amlodipine.",
+    "reference": "CVS-II",
+    "sourcePage": 4,
+    "keywords": [
+      "Amlodipine",
+      "Stamlo"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "CVS009",
+    "topic": "Cardiovascular System (CVS)",
+    "subTopic": "Calcium Channel Blockers",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify S-Amlodipine brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Eslo is a brand of which drug?",
+    "options": [
+      "S-Amlodipine",
+      "Amlodipine",
+      "Cilnidipine",
+      "Nifedipine"
+    ],
+    "answer": 0,
+    "explanation": "Eslo is listed as a brand of S-Amlodipine.",
+    "reference": "CVS-II",
+    "sourcePage": 4,
+    "keywords": [
+      "S-Amlodipine",
+      "Eslo"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "CVS010",
+    "topic": "Cardiovascular System (CVS)",
+    "subTopic": "Beta Blockers & Calcium Channel Blockers",
+    "competency": "Clinical Application",
+    "learningObjective": "Differentiate cardiovascular drug-brand pairs",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following drug–brand pairs is correctly matched according to the MedPlus training material?",
+    "options": [
+      "Amlodipine — Stamlo",
+      "Nebivolol — Concor",
+      "Propranolol — Nebistar",
+      "S-Amlodipine — Atenex"
+    ],
+    "answer": 0,
+    "explanation": "Stamlo is a brand of Amlodipine. The remaining drug–brand pairs are incorrect.",
+    "reference": "CVS-I & CVS-II",
+    "sourcePage": 4,
+    "keywords": [
+      "Amlodipine",
+      "Stamlo",
+      "CVS"
+    ],
+    "marks": 1
+  }
+]
 
+[
+  {
+    "id": "CVS011",
+    "topic": "Cardiovascular System (CVS)",
+    "subTopic": "Calcium Channel Blockers",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Cilnidipine brands",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "Cilacar is a brand of which drug according to the MedPlus training material?",
+    "options": [
+      "Cilnidipine",
+      "Nifedipine",
+      "Amlodipine",
+      "Diltiazem"
+    ],
+    "answer": 0,
+    "explanation": "Cilacar is listed as a brand of Cilnidipine.",
+    "reference": "CVS-II",
+    "sourcePage": 5,
+    "keywords": [
+      "Cilnidipine",
+      "Cilacar"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "CVS012",
+    "topic": "Cardiovascular System (CVS)",
+    "subTopic": "Calcium Channel Blockers",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Nifedipine brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which of the following brands belongs to Nifedipine according to the MedPlus training material?",
+    "options": [
+      "Nicardia Retard",
+      "Cardivas",
+      "Nebistar",
+      "Concor"
+    ],
+    "answer": 0,
+    "explanation": "Nicardia Retard is listed as a brand of Nifedipine.",
+    "reference": "CVS-II",
+    "sourcePage": 5,
+    "keywords": [
+      "Nifedipine",
+      "Nicardia Retard"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "CVS013",
+    "topic": "Cardiovascular System (CVS)",
+    "subTopic": "Calcium Channel Blockers",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Diltiazem brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Dilzem is a brand of which cardiovascular medicine?",
+    "options": [
+      "Diltiazem",
+      "Cilnidipine",
+      "Ramipril",
+      "Enalapril"
+    ],
+    "answer": 0,
+    "explanation": "Dilzem is listed as a brand of Diltiazem.",
+    "reference": "CVS-II",
+    "sourcePage": 5,
+    "keywords": [
+      "Diltiazem",
+      "Dilzem"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "CVS014",
+    "topic": "Cardiovascular System (CVS)",
+    "subTopic": "ACE Inhibitors",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Enalapril brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Enam is listed in the MedPlus training material as a brand of:",
+    "options": [
+      "Enalapril",
+      "Perindopril",
+      "Ramipril",
+      "Lisinopril"
+    ],
+    "answer": 0,
+    "explanation": "Enam is listed as a brand of Enalapril.",
+    "reference": "CVS-III",
+    "sourcePage": 5,
+    "keywords": [
+      "Enalapril",
+      "Enam"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "CVS015",
+    "topic": "Cardiovascular System (CVS)",
+    "subTopic": "CCBs & ACE Inhibitors",
+    "competency": "Clinical Application",
+    "learningObjective": "Differentiate cardiovascular drug-brand pairs",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following drug–brand pairs is correctly matched according to the MedPlus training material?",
+    "options": [
+      "Enalapril — Enam",
+      "Nifedipine — Cilacar",
+      "Diltiazem — Nicardia Retard",
+      "Cilnidipine — Dilzem"
+    ],
+    "answer": 0,
+    "explanation": "Enam is listed as a brand of Enalapril. The remaining pairs are incorrectly matched.",
+    "reference": "CVS-II & CVS-III",
+    "sourcePage": 5,
+    "keywords": [
+      "Enalapril",
+      "Enam",
+      "Drug Brand Mapping"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "CVS021",
+    "topic": "Cardiovascular System (CVS)",
+    "subTopic": "Integrated Drug-Brand Mapping",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify correctly matched cardiovascular drug-brand pairs",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "Which of the following drug–brand pairs is correctly matched according to the MedPlus training material?",
+    "options": [
+      "Losartan — Losar",
+      "Ramipril — Concor",
+      "Atenolol — Cardace",
+      "Metoprolol — Coversyl"
+    ],
+    "answer": 0,
+    "explanation": "Losar is listed as a brand of Losartan. The remaining pairs are incorrect.",
+    "reference": "CVS-I to CVS-IV",
+    "sourcePage": 5,
+    "keywords": [
+      "Losartan",
+      "Losar",
+      "ARB"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "CVS022",
+    "topic": "Cardiovascular System (CVS)",
+    "subTopic": "Drug Brand Revision",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify incorrectly matched cardiovascular drug-brand pairs",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which one of the following drug–brand pairs is INCORRECT according to the MedPlus training material?",
+    "options": [
+      "Bisoprolol — Concor",
+      "Nebivolol — Nebistar",
+      "Ramipril — Coversyl",
+      "Amlodipine — Stamlo"
+    ],
+    "answer": 2,
+    "explanation": "Coversyl is listed as a brand of Perindopril, not Ramipril. Ramipril is listed with Cardace.",
+    "reference": "CVS-I to CVS-IV",
+    "sourcePage": 5,
+    "keywords": [
+      "Ramipril",
+      "Coversyl",
+      "Perindopril"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "CVS023",
+    "topic": "Cardiovascular System (CVS)",
+    "subTopic": "Therapeutic Classes",
+    "competency": "Clinical Application",
+    "learningObjective": "Recognize cardiovascular therapeutic classes",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "According to the MedPlus training material, Atenolol, Bisoprolol and Metoprolol belong to which therapeutic class?",
+    "options": [
+      "Beta Adrenergic Blockers",
+      "Calcium Channel Blockers",
+      "ACE Inhibitors",
+      "Angiotensin Receptor Blockers"
+    ],
+    "answer": 0,
+    "explanation": "The MedPlus training material groups Atenolol, Bisoprolol and Metoprolol under Beta Adrenergic Blockers.",
+    "reference": "CVS-I",
+    "sourcePage": 5,
+    "keywords": [
+      "Beta Blockers",
+      "Atenolol",
+      "Bisoprolol",
+      "Metoprolol"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "CVS024",
+    "topic": "Cardiovascular System (CVS)",
+    "subTopic": "Integrated Revision",
+    "competency": "Clinical Application",
+    "learningObjective": "Differentiate cardiovascular therapeutic groups",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following brands belongs to the Calcium Channel Blocker (CCB) group according to the MedPlus training material?",
+    "options": [
+      "Stamlo",
+      "Concor",
+      "Cardace",
+      "Losar"
+    ],
+    "answer": 0,
+    "explanation": "Stamlo is listed as a brand of Amlodipine, which belongs to the Calcium Channel Blocker group.",
+    "reference": "CVS-II",
+    "sourcePage": 5,
+    "keywords": [
+      "Stamlo",
+      "Amlodipine",
+      "CCB"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "CVS025",
+    "topic": "Cardiovascular System (CVS)",
+    "subTopic": "Comprehensive CVS Revision",
+    "competency": "Clinical Application",
+    "learningObjective": "Integrate cardiovascular drug-brand knowledge",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following sets contains only cardiovascular medicine brands listed in the MedPlus training material?",
+    "options": [
+      "Tenormin, Nebistar, Stamlo, Cardace, Losar",
+      "Pantocid, Omez, Cardace, Losar, Zofer",
+      "Crocin Pain Relief, Concor, Stamlo, Benadryl, Losar",
+      "Gelusil MPS, Nebistar, Cardace, Digene, Stamlo"
+    ],
+    "answer": 0,
+    "explanation": "Tenormin, Nebistar, Stamlo, Cardace and Losar are all cardiovascular medicine brands listed in the CVS section of the MedPlus training material.",
+    "reference": "CVS-I to CVS-IV",
+    "sourcePage": 5,
+    "keywords": [
+      "Tenormin",
+      "Nebistar",
+      "Stamlo",
+      "Cardace",
+      "Losar"
+    ],
+    "marks": 1
+  }
+]
