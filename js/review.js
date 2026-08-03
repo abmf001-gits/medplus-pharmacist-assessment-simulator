@@ -312,4 +312,160 @@ class ReviewEngine {
     /* ============================================================
        End of Part 2
        ============================================================ */
+    /* ============================================================
+       Previous Review Question
+       ============================================================ */
 
+    previousQuestion() {
+
+        if (this.currentQuestion > 0) {
+
+            this.currentQuestion--;
+
+            this.renderQuestion();
+
+            this.updatePalette();
+
+        }
+
+    }
+
+    /* ============================================================
+       Next Review Question
+       ============================================================ */
+
+    nextQuestion() {
+
+        if (
+            this.currentQuestion <
+            this.filteredQuestions.length - 1
+        ) {
+
+            this.currentQuestion++;
+
+            this.renderQuestion();
+
+            this.updatePalette();
+
+        }
+
+    }
+
+    /* ============================================================
+       Jump To Question
+       ============================================================ */
+
+    gotoQuestion(index) {
+
+        if (
+
+            index >= 0 &&
+
+            index < this.filteredQuestions.length
+
+        ) {
+
+            this.currentQuestion = index;
+
+            this.renderQuestion();
+
+            this.updatePalette();
+
+        }
+
+    }
+
+    /* ============================================================
+       Build Review Palette
+       ============================================================ */
+
+    updatePalette() {
+
+        const palette =
+            document.getElementById("reviewPalette");
+
+        if (!palette) return;
+
+        palette.innerHTML = "";
+
+        this.filteredQuestions.forEach(
+
+            (question, index) => {
+
+                const button =
+                    document.createElement("button");
+
+                button.textContent =
+                    index + 1;
+
+                button.className =
+                    "palette-button";
+
+                const status =
+                    this.getStatus(question);
+
+                if (status === "CORRECT") {
+
+                    button.classList.add("answered");
+
+                }
+
+                if (status === "WRONG") {
+
+                    button.classList.add("wrong");
+
+                }
+
+                if (status === "SKIPPED") {
+
+                    button.classList.add("skipped");
+
+                }
+
+                if (index === this.currentQuestion) {
+
+                    button.classList.add("active");
+
+                }
+
+                button.onclick = () => {
+
+                    this.gotoQuestion(index);
+
+                };
+
+                palette.appendChild(button);
+
+            }
+
+        );
+
+    }
+
+    /* ============================================================
+       Attach Events
+       ============================================================ */
+
+    attachEvents() {
+
+        document
+            .getElementById("reviewPrevious")
+            ?.addEventListener(
+
+                "click",
+
+                () => this.previousQuestion()
+
+            );
+
+        document
+            .getElementById("reviewNext")
+            ?.addEventListener(
+
+                "click",
+
+                () => this.nextQuestion()
+
+            );
+
+    }
