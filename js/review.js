@@ -671,3 +671,10 @@ document
 
     }
    
+} // End of ReviewEngine
+
+const review = new ReviewEngine();
+
+console.log(
+    "✅ Review Engine Version 1.0 Loaded"
+);
