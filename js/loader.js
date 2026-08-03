@@ -17,49 +17,59 @@ class Loader {
 
     async loadQuestions() {
 
-        if (this.loaded) {
+    if (this.loaded) {
+        return this.questions;
+    }
 
-            return this.questions;
+    try {
 
-        }
+        const batches = [
+            "batch01.json",
+            "batch02.json",
+            "batch03.json",
+            "batch04.json",
+            "batch05.json",
+            "batch06.json",
+            "batch07.json",
+            "batch08.json",
+            "batch09.json",
+            "batch10.json",
+            "batch11.json",
+            "batch12.json"
+        ];
 
-        try {
+        let allQuestions = [];
 
-            const response = await fetch("data/questions.json");
+        for (const file of batches) {
 
-            if (!response.ok) {
+            const response = await fetch(`assets/Questions/${file}`);
 
-                throw new Error("Unable to load question bank.");
-
-            }
+            if (!response.ok) continue;
 
             const data = await response.json();
 
-            if (!Array.isArray(data)) {
-
-                throw new Error("Invalid question bank format.");
-
+            if (Array.isArray(data)) {
+                allQuestions.push(...data);
             }
 
-            this.questions = data;
-
-            this.loaded = true;
-
-            console.log(`✅ ${this.questions.length} questions loaded.`);
-
-            return this.questions;
-
-        } catch (error) {
-
-            console.error("Loader Error:", error);
-
-            alert(
-                "Unable to load the Question Bank.\nPlease check data/questions.json"
-            );
-
-            return [];
-
         }
+
+        this.questions = allQuestions;
+        this.loaded = true;
+
+        console.log(`Loaded ${allQuestions.length} questions`);
+
+        return this.questions;
+
+    } catch (e) {
+
+        console.error(e);
+
+        alert("Unable to load Question Bank");
+
+        return [];
+
+    }
 
     }
 
