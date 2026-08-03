@@ -471,7 +471,33 @@ this.updateStatistics();
                 () => this.nextQuestion()
 
             );
+document
+    .getElementById("filterAll")
+    ?.addEventListener(
+        "click",
+        () => this.showAll()
+    );
 
+document
+    .getElementById("filterCorrect")
+    ?.addEventListener(
+        "click",
+        () => this.showCorrect()
+    );
+
+document
+    .getElementById("filterWrong")
+    ?.addEventListener(
+        "click",
+        () => this.showWrong()
+    );
+
+document
+    .getElementById("filterSkipped")
+    ?.addEventListener(
+        "click",
+        () => this.showSkipped()
+    );
     }
     /* ============================================================
        Filter - All Questions
