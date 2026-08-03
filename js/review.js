@@ -1,71 +1,162 @@
 "use strict";
 
-class ReviewEngine{
+/* ============================================================
+   MedPlus Pharmacist Assessment Simulator
+   Review Engine Version 1.0
+   ============================================================ */
 
-    constructor(){
+class ReviewEngine {
 
-        this.review=[];
+    constructor() {
 
-    }
+        this.result = null;
 
-    generate(questions,answers){
+        this.questions = [];
 
-        this.review=[];
+        this.answers = {};
 
-        questions.forEach((q,index)=>{
+        this.filteredQuestions = [];
 
-            const selected=answers[index];
+        this.currentQuestion = 0;
 
-            this.review.push({
+        this.currentFilter = "ALL";
 
-                question:q.question,
-
-                correct:q.answer,
-
-                selected:selected,
-
-                options:q.options,
-
-                explanation:q.explanation,
-
-                topic:q.topic,
-
-                isCorrect:selected===q.answer
-
-            });
-
-        });
-
-        return this.review;
+        this.initialized = false;
 
     }
 
-}
-ReviewEngine.prototype.getWrongAnswers=function(){
+    /* ============================================================
+       Load Assessment Result
+       ============================================================ */
 
-    return this.review.filter(
+    load(result) {
 
-        item=>!item.isCorrect
+        if (!result) {
 
-    );
+            console.error("ReviewEngine: No assessment result found.");
 
-};
+            return;
 
-ReviewEngine.prototype.getCorrectAnswers=function(){
+        }
 
-    return this.review.filter(
+        this.result = result;
 
-        item=>item.isCorrect
+        this.questions = result.questions || [];
 
-    );
+        this.answers = result.answers || {};
 
-};
-ReviewEngine.prototype.calculateScore=function(){
+        this.filteredQuestions = [...this.questions];
 
-    return this.review.filter(
+        this.currentQuestion = 0;
 
-        item=>item.isCorrect
+        this.currentFilter = "ALL";
 
-    ).length;
+        this.initialized = true;
 
-};
+        this.render();
+
+    }
+
+    /* ============================================================
+       Render Review Screen
+       ============================================================ */
+
+    render() {
+
+        if (!this.initialized) {
+
+            return;
+
+        }
+
+        this.renderQuestion();
+
+        this.updatePalette();
+
+    }
+
+    /* ============================================================
+       Current Question
+       ============================================================ */
+
+    getQuestion() {
+
+        return this.filteredQuestions[
+            this.currentQuestion
+        ];
+
+    }
+
+    /* ============================================================
+       User Selected Answer
+       ============================================================ */
+
+    getUserAnswer(question) {
+
+        return this.answers[question.id];
+
+    }
+
+    /* ============================================================
+       Correct Answer
+       ============================================================ */
+
+    getCorrectAnswer(question) {
+
+        return question.options[
+            question.answer
+        ];
+
+    }
+
+    /* ============================================================
+       Review Status
+       ============================================================ */
+
+    getStatus(question) {
+
+        const userAnswer =
+            this.getUserAnswer(question);
+
+        if (!userAnswer) {
+
+            return "SKIPPED";
+
+        }
+
+        if (
+            userAnswer ===
+            this.getCorrectAnswer(question)
+        ) {
+
+            return "CORRECT";
+
+        }
+
+        return "WRONG";
+
+    }
+
+    /* ============================================================
+       Total Questions
+       ============================================================ */
+
+    getTotalQuestions() {
+
+        return this.filteredQuestions.length;
+
+    }
+
+    /* ============================================================
+       Current Review Position
+       ============================================================ */
+
+    getCurrentIndex() {
+
+        return this.currentQuestion;
+
+    }
+
+    /* ============================================================
+       End of Part 1
+       ============================================================ */
