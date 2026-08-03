@@ -1,1 +1,656 @@
+[
+  {
+    "id": "VIT001",
+    "topic": "Vitamins & Nutritional Supplements",
+    "subTopic": "Vitamin D",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Cholecalciferol brands",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "According to the MedPlus training material, Uprise-D3 is a brand of which vitamin?",
+    "options": [
+      "Cholecalciferol (Vitamin D3)",
+      "Calcium Carbonate",
+      "Vitamin B12",
+      "Iron + Folic Acid"
+    ],
+    "answer": 0,
+    "explanation": "Uprise-D3 is listed as a brand of Cholecalciferol (Vitamin D3).",
+    "reference": "VIT-I",
+    "sourcePage": 3,
+    "keywords": [
+      "Cholecalciferol",
+      "Vitamin D3",
+      "Uprise-D3"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "VIT002",
+    "topic": "Vitamins & Nutritional Supplements",
+    "subTopic": "Calcium Supplements",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Calcium brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Shelcal is listed in the MedPlus training material as a brand of:",
+    "options": [
+      "Calcium Carbonate",
+      "Cholecalciferol",
+      "Vitamin B12",
+      "Multivitamins"
+    ],
+    "answer": 0,
+    "explanation": "Shelcal is listed as a brand of Calcium Carbonate.",
+    "reference": "VIT-I",
+    "sourcePage": 3,
+    "keywords": [
+      "Shelcal",
+      "Calcium Carbonate"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "VIT003",
+    "topic": "Vitamins & Nutritional Supplements",
+    "subTopic": "Vitamin B12",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Methylcobalamin brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Nurokind-OD is a brand of which vitamin preparation?",
+    "options": [
+      "Methylcobalamin",
+      "Vitamin C",
+      "Calcium Carbonate",
+      "Iron + Folic Acid"
+    ],
+    "answer": 0,
+    "explanation": "Nurokind-OD is listed as a brand of Methylcobalamin.",
+    "reference": "VIT-I",
+    "sourcePage": 3,
+    "keywords": [
+      "Methylcobalamin",
+      "Nurokind-OD"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "VIT004",
+    "topic": "Vitamins & Nutritional Supplements",
+    "subTopic": "Iron Preparations",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Iron + Folic Acid brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Autrin is listed in the MedPlus training material as a brand of:",
+    "options": [
+      "Iron + Folic Acid",
+      "Vitamin D3",
+      "Vitamin B12",
+      "Calcium Carbonate"
+    ],
+    "answer": 0,
+    "explanation": "Autrin is listed under Iron + Folic Acid preparations.",
+    "reference": "VIT-I",
+    "sourcePage": 3,
+    "keywords": [
+      "Autrin",
+      "Iron",
+      "Folic Acid"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "VIT005",
+    "topic": "Vitamins & Nutritional Supplements",
+    "subTopic": "Integrated Revision",
+    "competency": "Clinical Application",
+    "learningObjective": "Differentiate vitamin drug-brand pairs",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following drug–brand pairs is correctly matched according to the MedPlus training material?",
+    "options": [
+      "Methylcobalamin — Nurokind-OD",
+      "Vitamin D3 — Shelcal",
+      "Calcium Carbonate — Uprise-D3",
+      "Iron + Folic Acid — Nurokind-OD"
+    ],
+    "answer": 0,
+    "explanation": "Nurokind-OD is listed as a brand of Methylcobalamin. The remaining pairs are incorrectly matched.",
+    "reference": "VIT-I",
+    "sourcePage": 3,
+    "keywords": [
+      "Methylcobalamin",
+      "Nurokind-OD",
+      "Drug Brand Mapping"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "VIT006",
+    "topic": "Vitamins & Nutritional Supplements",
+    "subTopic": "Vitamin B Complex",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Vitamin B Complex brands",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "According to the MedPlus training material, Becosules is a brand of which preparation?",
+    "options": [
+      "Vitamin B Complex",
+      "Vitamin D3",
+      "Calcium Carbonate",
+      "Iron + Folic Acid"
+    ],
+    "answer": 0,
+    "explanation": "Becosules is listed as a brand of Vitamin B Complex.",
+    "reference": "VIT-II",
+    "sourcePage": 3,
+    "keywords": [
+      "Vitamin B Complex",
+      "Becosules"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "VIT007",
+    "topic": "Vitamins & Nutritional Supplements",
+    "subTopic": "Multivitamins",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Multivitamin brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Zincovit is listed in the MedPlus training material as a:",
+    "options": [
+      "Multivitamin preparation",
+      "Calcium supplement",
+      "Vitamin D3 preparation",
+      "Iron preparation"
+    ],
+    "answer": 0,
+    "explanation": "Zincovit is listed under multivitamin preparations in the MedPlus training material.",
+    "reference": "VIT-II",
+    "sourcePage": 3,
+    "keywords": [
+      "Zincovit",
+      "Multivitamin"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "VIT008",
+    "topic": "Vitamins & Nutritional Supplements",
+    "subTopic": "Vitamin C",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Vitamin C brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "According to the MedPlus training material, Limcee is a brand of:",
+    "options": [
+      "Vitamin C (Ascorbic Acid)",
+      "Vitamin B Complex",
+      "Vitamin D3",
+      "Methylcobalamin"
+    ],
+    "answer": 0,
+    "explanation": "Limcee is listed as a brand of Vitamin C (Ascorbic Acid).",
+    "reference": "VIT-II",
+    "sourcePage": 3,
+    "keywords": [
+      "Vitamin C",
+      "Limcee"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "VIT009",
+    "topic": "Vitamins & Nutritional Supplements",
+    "subTopic": "Zinc Supplements",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Zinc supplement brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which of the following is listed as a zinc supplement brand in the MedPlus training material?",
+    "options": [
+      "Z&D",
+      "Shelcal",
+      "Autrin",
+      "Uprise-D3"
+    ],
+    "answer": 0,
+    "explanation": "Z&D is listed as a zinc supplement brand in the MedPlus training material.",
+    "reference": "VIT-II",
+    "sourcePage": 3,
+    "keywords": [
+      "Zinc",
+      "Z&D"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "VIT010",
+    "topic": "Vitamins & Nutritional Supplements",
+    "subTopic": "Integrated Vitamin Revision",
+    "competency": "Clinical Application",
+    "learningObjective": "Differentiate vitamin drug-brand pairs",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following drug–brand pairs is correctly matched according to the MedPlus training material?",
+    "options": [
+      "Vitamin C — Limcee",
+      "Vitamin B Complex — Shelcal",
+      "Vitamin D3 — Becosules",
+      "Iron + Folic Acid — Zincovit"
+    ],
+    "answer": 0,
+    "explanation": "Limcee is listed as a brand of Vitamin C. The remaining pairs are incorrectly matched according to the training material.",
+    "reference": "VIT-I & VIT-II",
+    "sourcePage": 3,
+    "keywords": [
+      "Vitamin C",
+      "Limcee",
+      "Drug Brand Mapping"
+    ],
+    "marks": 1
+  }
+]
+[
+  {
+    "id": "VIT011",
+    "topic": "Vitamins & Nutritional Supplements",
+    "subTopic": "Vitamin E",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Vitamin E brands",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "According to the MedPlus training material, Evion is a brand of:",
+    "options": [
+      "Vitamin E",
+      "Vitamin C",
+      "Vitamin D3",
+      "Vitamin B Complex"
+    ],
+    "answer": 0,
+    "explanation": "Evion is listed as a brand of Vitamin E.",
+    "reference": "VIT-III",
+    "sourcePage": 2,
+    "keywords": [
+      "Vitamin E",
+      "Evion"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "VIT012",
+    "topic": "Vitamins & Nutritional Supplements",
+    "subTopic": "Vitamin C",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Recognize Vitamin C brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which of the following brands belongs to Vitamin C according to the MedPlus training material?",
+    "options": [
+      "Celin",
+      "Evion",
+      "Becosules",
+      "Zincovit"
+    ],
+    "answer": 0,
+    "explanation": "Celin and Limcee are listed as Vitamin C brands. Evion is Vitamin E, Becosules is Vitamin B Complex, and Zincovit is a multivitamin.",
+    "reference": "VIT-III",
+    "sourcePage": 2,
+    "keywords": [
+      "Vitamin C",
+      "Celin",
+      "Limcee"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "VIT013",
+    "topic": "Vitamins & Nutritional Supplements",
+    "subTopic": "Multivitamins",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify multivitamin brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which one of the following is listed as a multivitamin brand in the MedPlus training material?",
+    "options": [
+      "Supradyn",
+      "Evion",
+      "Limcee",
+      "Celin"
+    ],
+    "answer": 0,
+    "explanation": "Supradyn is listed under multivitamins, whereas Evion is Vitamin E and Celin/Limcee are Vitamin C brands.",
+    "reference": "VIT-III",
+    "sourcePage": 2,
+    "keywords": [
+      "Supradyn",
+      "Multivitamins"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "VIT014",
+    "topic": "Vitamins & Nutritional Supplements",
+    "subTopic": "Vitamin Classification",
+    "competency": "Clinical Application",
+    "learningObjective": "Differentiate vitamin categories",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which brand is correctly matched with its vitamin category according to the MedPlus training material?",
+    "options": [
+      "Evion — Vitamin E",
+      "Celin — Vitamin B Complex",
+      "Becosules — Vitamin D3",
+      "Limcee — Multivitamins"
+    ],
+    "answer": 0,
+    "explanation": "Evion is listed under Vitamin E. Celin and Limcee are Vitamin C brands, while Becosules is a Vitamin B Complex brand.",
+    "reference": "VIT-I to VIT-III",
+    "sourcePage": 2,
+    "keywords": [
+      "Evion",
+      "Vitamin E",
+      "Classification"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "VIT015",
+    "topic": "Vitamins & Nutritional Supplements",
+    "subTopic": "Integrated Revision",
+    "competency": "Clinical Application",
+    "learningObjective": "Integrate vitamin drug-brand knowledge",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following sets contains only correctly matched vitamin-related drug–brand pairs according to the MedPlus training material?",
+    "options": [
+      "Vitamin B Complex–Becosules, Multivitamins–Zincovit, Vitamin C–Limcee, Vitamin E–Evion",
+      "Vitamin C–Evion, Vitamin E–Celin, Multivitamins–Limcee, Vitamin B Complex–Supradyn",
+      "Vitamin B Complex–Evion, Vitamin C–Becosules, Vitamin E–Limcee, Multivitamins–Celin",
+      "Vitamin E–Zincovit, Multivitamins–Evion, Vitamin C–Becosules, Vitamin B Complex–Limcee"
+    ],
+    "answer": 0,
+    "explanation": "All four pairs in the first option match the MedPlus training material correctly.",
+    "reference": "VIT-I to VIT-III",
+    "sourcePage": 2,
+    "keywords": [
+      "Becosules",
+      "Zincovit",
+      "Limcee",
+      "Evion"
+    ],
+    "marks": 1
+  }
+]
 
+[
+  {
+    "id": "VIT016",
+    "topic": "Vitamins & Nutritional Supplements",
+    "subTopic": "Vitamin B Complex",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify Vitamin B Complex brands",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "According to the MedPlus training material, Becozyme C Forte is a brand of:",
+    "options": [
+      "Vitamin B Complex + Vitamin C",
+      "Vitamin E",
+      "Vitamin D3",
+      "Calcium Carbonate"
+    ],
+    "answer": 0,
+    "explanation": "Becozyme C Forte is listed under Vitamin B Complex + Vitamin C preparations.",
+    "reference": "VIT-IV",
+    "sourcePage": 2,
+    "keywords": [
+      "Becozyme C Forte",
+      "Vitamin B Complex",
+      "Vitamin C"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "VIT017",
+    "topic": "Vitamins & Nutritional Supplements",
+    "subTopic": "Multivitamins",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify multivitamin brands",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which of the following is listed as a multivitamin brand in the MedPlus training material?",
+    "options": [
+      "Revital H",
+      "Limcee",
+      "Evion",
+      "Celin"
+    ],
+    "answer": 0,
+    "explanation": "Revital H is listed under multivitamins. Limcee and Celin are Vitamin C brands, while Evion is a Vitamin E brand.",
+    "reference": "VIT-IV",
+    "sourcePage": 2,
+    "keywords": [
+      "Revital H",
+      "Multivitamins"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "VIT018",
+    "topic": "Vitamins & Nutritional Supplements",
+    "subTopic": "Vitamin Classification",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Recognize vitamin categories",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Becosules Z is classified under which category in the MedPlus training material?",
+    "options": [
+      "Vitamin B Complex + Vitamin C",
+      "Vitamin E",
+      "Vitamin C",
+      "Multivitamins"
+    ],
+    "answer": 0,
+    "explanation": "Becosules Z is listed under the Vitamin B Complex + Vitamin C category.",
+    "reference": "VIT-IV",
+    "sourcePage": 2,
+    "keywords": [
+      "Becosules Z",
+      "Vitamin B Complex"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "VIT019",
+    "topic": "Vitamins & Nutritional Supplements",
+    "subTopic": "Integrated Drug-Brand Mapping",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify correctly matched vitamin-related pairs",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which one of the following drug–brand pairs is correctly matched according to the MedPlus training material?",
+    "options": [
+      "Vitamin E — Evion",
+      "Vitamin C — Revital H",
+      "Multivitamins — Limcee",
+      "Vitamin B Complex — Celin"
+    ],
+    "answer": 0,
+    "explanation": "Evion is listed as a Vitamin E brand. The remaining pairs are incorrectly matched.",
+    "reference": "VIT-I to VIT-IV",
+    "sourcePage": 2,
+    "keywords": [
+      "Evion",
+      "Vitamin E"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "VIT020",
+    "topic": "Vitamins & Nutritional Supplements",
+    "subTopic": "Integrated Revision",
+    "competency": "Clinical Application",
+    "learningObjective": "Differentiate vitamin brands across categories",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following sets contains only vitamin or nutritional supplement brands listed in the MedPlus training material?",
+    "options": [
+      "Becosules, Zincovit, Limcee, Evion",
+      "Becosules, Pantocid, Limcee, Evion",
+      "Zincovit, Cardace, Limcee, Becosules",
+      "Evion, Cifran, Becosules, Revital H"
+    ],
+    "answer": 0,
+    "explanation": "Becosules, Zincovit, Limcee and Evion are all listed in the Vitamins & Nutritional Supplements section. The other options include brands from non-vitamin therapeutic categories.",
+    "reference": "VIT-I to VIT-IV",
+    "sourcePage": 2,
+    "keywords": [
+      "Becosules",
+      "Zincovit",
+      "Limcee",
+      "Evion"
+    ],
+    "marks": 1
+  }
+]
+
+[
+  {
+    "id": "VIT021",
+    "topic": "Vitamins & Nutritional Supplements",
+    "subTopic": "Integrated Drug-Brand Mapping",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify correctly matched vitamin-related drug-brand pairs",
+    "examWeight": "High",
+    "difficulty": "Easy",
+    "question": "Which of the following drug–brand pairs is correctly matched according to the MedPlus training material?",
+    "options": [
+      "Cholecalciferol (Vitamin D3) — Uprise-D3",
+      "Vitamin C — Evion",
+      "Vitamin E — Limcee",
+      "Calcium Carbonate — Becosules"
+    ],
+    "answer": 0,
+    "explanation": "Uprise-D3 is listed as a brand of Cholecalciferol (Vitamin D3). The remaining pairs are incorrectly matched.",
+    "reference": "VIT-I to VIT-IV",
+    "sourcePage": 2,
+    "keywords": [
+      "Vitamin D3",
+      "Uprise-D3",
+      "Drug Brand"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "VIT022",
+    "topic": "Vitamins & Nutritional Supplements",
+    "subTopic": "Integrated Drug-Brand Mapping",
+    "competency": "Drug-Brand Identification",
+    "learningObjective": "Identify incorrectly matched vitamin-related drug-brand pairs",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which one of the following drug–brand pairs is INCORRECT according to the MedPlus training material?",
+    "options": [
+      "Vitamin E — Evion",
+      "Vitamin C — Limcee",
+      "Vitamin B Complex — Shelcal",
+      "Calcium Carbonate — Shelcal"
+    ],
+    "answer": 2,
+    "explanation": "Shelcal is listed as a Calcium Carbonate brand, not a Vitamin B Complex preparation.",
+    "reference": "VIT-I to VIT-IV",
+    "sourcePage": 2,
+    "keywords": [
+      "Shelcal",
+      "Vitamin B Complex",
+      "Calcium Carbonate"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "VIT023",
+    "topic": "Vitamins & Nutritional Supplements",
+    "subTopic": "Therapeutic Classification",
+    "competency": "Clinical Application",
+    "learningObjective": "Recognize products included in the Vitamins & Nutritional Supplements module",
+    "examWeight": "High",
+    "difficulty": "Medium",
+    "question": "Which of the following products is included in the Vitamins & Nutritional Supplements section of the MedPlus training material?",
+    "options": [
+      "Revital H",
+      "Pantocid",
+      "Asthalin",
+      "Cifran"
+    ],
+    "answer": 0,
+    "explanation": "Revital H is included in the Vitamins & Nutritional Supplements section. The remaining brands belong to other therapeutic categories.",
+    "reference": "VIT-IV",
+    "sourcePage": 2,
+    "keywords": [
+      "Revital H",
+      "Multivitamins"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "VIT024",
+    "topic": "Vitamins & Nutritional Supplements",
+    "subTopic": "Integrated Revision",
+    "competency": "Clinical Application",
+    "learningObjective": "Differentiate vitamin brands from other therapeutic classes",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following sets contains only brands listed in the Vitamins & Nutritional Supplements section of the MedPlus training material?",
+    "options": [
+      "Uprise-D3, Becosules, Zincovit, Evion",
+      "Uprise-D3, Pantocid, Zincovit, Evion",
+      "Becosules, Asthalin, Limcee, Revital H",
+      "Evion, Cifran, Uprise-D3, Shelcal"
+    ],
+    "answer": 0,
+    "explanation": "Uprise-D3, Becosules, Zincovit and Evion are all listed in the Vitamins & Nutritional Supplements section. The remaining options include brands from other therapeutic systems.",
+    "reference": "VIT-I to VIT-IV",
+    "sourcePage": 2,
+    "keywords": [
+      "Uprise-D3",
+      "Becosules",
+      "Zincovit",
+      "Evion"
+    ],
+    "marks": 1
+  },
+  {
+    "id": "VIT025",
+    "topic": "Vitamins & Nutritional Supplements",
+    "subTopic": "Comprehensive Vitamin Revision",
+    "competency": "Clinical Application",
+    "learningObjective": "Integrate vitamin drug-brand knowledge",
+    "examWeight": "High",
+    "difficulty": "Hard",
+    "question": "Which of the following sets contains only correctly matched drug–brand relationships according to the MedPlus training material?",
+    "options": [
+      "Vitamin D3–Uprise-D3, Calcium Carbonate–Shelcal, Vitamin C–Limcee, Vitamin E–Evion",
+      "Vitamin D3–Shelcal, Calcium Carbonate–Evion, Vitamin C–Uprise-D3, Vitamin E–Limcee",
+      "Vitamin B Complex–Evion, Multivitamins–Limcee, Vitamin C–Becosules, Calcium Carbonate–Revital H",
+      "Iron + Folic Acid–Evion, Vitamin C–Shelcal, Multivitamins–Uprise-D3, Vitamin E–Becosules"
+    ],
+    "answer": 0,
+    "explanation": "All four drug–brand pairs in the first option are correctly matched according to the MedPlus training material.",
+    "reference": "VIT-I to VIT-IV",
+    "sourcePage": 2,
+    "keywords": [
+      "Uprise-D3",
+      "Shelcal",
+      "Limcee",
+      "Evion"
+    ],
+    "marks": 1
+  }
+]
+
+    
