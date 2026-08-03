@@ -544,32 +544,91 @@
 
 
     <!-- ===================================================== -->
-    <!-- REVIEW SCREEN -->
-    <!-- ===================================================== -->
+<!-- REVIEW SCREEN -->
+<!-- ===================================================== -->
 
-    <section id="review-screen" class="hidden">
+<section id="review-screen" class="hidden">
 
-        <div class="review-card">
+    <div class="review-card">
 
-            <h2>
-                Review Your Answers
-            </h2>
+        <h2>Review Assessment</h2>
 
-            <div id="reviewContainer">
+        <div class="review-header">
 
-                <!-- Questions will be added dynamically -->
+            <span id="reviewQuestionNumber">
+                1 / 50
+            </span>
 
-            </div>
+            <span id="reviewStatus"
+                  class="correct">
 
-            <button id="backResult">
+                CORRECT
 
-                Back to Result
+            </span>
+
+        </div>
+
+        <h3 id="reviewQuestionText">
+
+            Question will appear here...
+
+        </h3>
+
+        <div id="reviewOptions">
+
+        </div>
+
+        <div class="review-explanation">
+
+            <h4>Explanation</h4>
+
+            <p id="reviewExplanation">
+
+                Explanation will appear here.
+
+            </p>
+
+        </div>
+
+        <div class="review-reference">
+
+            <strong>Reference:</strong>
+
+            <span id="reviewReference"></span>
+
+        </div>
+
+        <div class="review-navigation">
+
+            <button id="reviewPrevious">
+
+                ◀ Previous
+
+            </button>
+
+            <button id="reviewNext">
+
+                Next ▶
 
             </button>
 
         </div>
 
-    </section>
+        <div id="reviewPalette"
+
+             class="palette-grid">
+
+        </div>
+
+        <button id="backResult">
+
+            Back to Result
+
+        </button>
+
+    </div>
+
+</section>
 
 
     <!-- ===================================================== -->
