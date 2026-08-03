@@ -1,486 +1,131 @@
-./**
- * ==========================================
- * MedPlus Pharmacist Assessment Simulator
- * Quiz Engine Version 3.0
- * Part 1 - Foundation
- * ==========================================
- */
+"use strict";
+
+/* ============================================================
+   MedPlus Pharmacist Assessment Simulator
+   Quiz Engine Version 3.1
+   ============================================================ */
 
 class QuizEngine {
 
     constructor() {
 
-        // Question Bank
+        /* Question Data */
         this.questionBank = [];
         this.questions = [];
 
-        // Candidate Answers
-        this.answers = {};
-
-        // Navigation
-        this.currentQuestion = 0;
-
-        // Assessment Configuration
-        this.totalQuestions = 50;
-
-        // Current Candidate
+        /* Candidate */
         this.candidate = "";
-
         this.employeeId = "";
 
-        // State
+        /* Assessment */
+        this.totalQuestions = 50;
+        this.currentQuestion = 0;
+        this.answers = {};
+
+        /* State */
         this.initialized = false;
 
     }
 
-    /**
-     * Initialize Assessment
-     */
+    /* ========================================================
+       Initialize Assessment
+       ======================================================== */
+
     async initialize() {
 
-        try {
+        if (this.initialized) {
 
-            // Load Question Bank
-            const bank = await loader.loadQuestions();
+            return;
 
-            if (!bank.length) {
+        }
 
-                alert("Question Bank is empty.");
+        // Load Question Bank
+        const bank = await loader.loadQuestions();
 
-                return;
+        if (!bank || bank.length === 0) {
 
-            }
+            throw new Error("Question bank is empty.");
 
-            // Give Question Bank to Randomizer
-            randomizer.setQuestionBank(bank);
+        }
 
-            // Generate Random Assessment
-            this.questions =
-                randomizer.generateAssessment(this.totalQuestions);
+        this.questionBank = bank;
 
-            this.questionBank = bank;
+        // Generate Random Assessment
+        randomizer.setQuestionBank(bank);
 
-            this.answers = {};
-
-            this.currentQuestion = 0;
-
-            this.initialized = true;
-
-            console.log(
-                "Assessment Loaded:",
-                this.questions.length
+        this.questions =
+            randomizer.generateAssessment(
+                this.totalQuestions
             );
 
-            // Load First Question
-            this.attachEvents();
+        if (!this.questions.length) {
 
-
-this.renderQuestion();
-
-        }
-
-        catch (error) {
-
-            console.error(error);
-
-            alert("Unable to initialize assessment.");
+            throw new Error(
+                "Unable to generate assessment."
+            );
 
         }
+
+        this.currentQuestion = 0;
+
+        this.answers = {};
+
+        this.initialized = true;
+
+        this.attachEvents();
+
+        this.renderQuestion();
 
     }
 
-    /**
-     * Get Current Question
-     */
+    /* ========================================================
+       Resume Assessment
+       ======================================================== */
+
+    restoreSession(session) {
+
+        if (!session) return;
+
+        this.answers =
+            session.answers || {};
+
+        this.currentQuestion =
+            session.currentQuestion || 0;
+
+    }
+
+    /* ========================================================
+       Get Current Question
+       ======================================================== */
+
     getQuestion() {
 
-        return this.questions[this.currentQuestion];
+        return this.questions[
+            this.currentQuestion
+        ];
 
     }
 
-    /**
-     * Get Total Questions
-     */
+    /* ========================================================
+       Total Questions
+       ======================================================== */
+
     getTotalQuestions() {
 
         return this.questions.length;
 
     }
 
-    /**
-     * Get Current Index
-     */
+    /* ========================================================
+       Current Question Index
+       ======================================================== */
+
     getCurrentIndex() {
 
         return this.currentQuestion;
 
     }
-    /**
-     * Render Current Question
-     */
-    renderQuestion() {
 
-        const question = this.getQuestion();
-
-        if (!question) return;
-
-        // Question Number
-        document.getElementById("currentQuestion").textContent =
-            this.currentQuestion + 1;
-
-        // Question Text
-        document.getElementById("questionText").textContent =
-            question.question;
-
-        // Options Container
-        const container =
-            document.getElementById("optionsContainer");
-
-        container.innerHTML = "";
-
-        question.options.forEach((option) => {
-
-            const label = document.createElement("label");
-
-            label.className = "option";
-
-            const checked =
-                this.answers[question.id] === option
-                    ? "checked"
-                    : "";
-
-            label.innerHTML = `
-                <input
-                    type="radio"
-                    name="answer"
-                    value="${option}"
-                    ${checked}
-                >
-                <span>${option}</span>
-            `;
-
-            container.appendChild(label);
-label.querySelector("input").addEventListener("change", () => {
-
-    this.saveAnswer();
-
-    this.updatePalette();
-
-});
-        });
-
-        // Update Progress
-        this.updateProgress();
-
-        // Update Palette
-        this.updatePalette();
-
-    }
-
-    /**
-     * Update Progress Bar
-     */
-    updateProgress() {
-
-        const progress =
-            document.getElementById("progressFill");
-
-        if (!progress) return;
-
-        const percentage =
-            ((this.currentQuestion + 1) /
-                this.questions.length) * 100;
-
-        progress.style.width =
-            percentage + "%";
-
-    }
-
-    /**
-     * Build Question Palette
-     */
-    updatePalette() {
-
-        const palette =
-            document.getElementById("questionPalette");
-
-        if (!palette) return;
-
-        palette.innerHTML = "";
-
-        this.questions.forEach((question, index) => {
-
-            const button =
-                document.createElement("button");
-
-            button.textContent = index + 1;
-
-            button.className = "palette-button";
-
-            if (index === this.currentQuestion) {
-
-                button.classList.add("active");
-
-            }
-
-            if (this.answers[question.id]) {
-
-                button.classList.add("answered");
-
-            }
-
-            button.onclick = () => {
-
-                this.saveAnswer();
-
-                this.currentQuestion = index;
-
-                this.renderQuestion();
-
-            };
-
-            palette.appendChild(button);
-
-        });
-
-    }
-        /**
-     * Save Selected Answer
-     */
-    saveAnswer() {
-
-    const question = this.getQuestion();
-
-    if (!question) return;
-
-    const selected =
-        document.querySelector('input[name="answer"]:checked');
-
-    if (selected) {
-
-        this.answers[question.id] = selected.value;
-
-        if (typeof storage !== "undefined") {
-
-            storage.saveSession({
-
-                candidate: this.candidate,
-
-                employeeId: this.employeeId,
-
-                currentQuestion: this.currentQuestion,
-
-                answers: this.answers,
-
-                remainingTime:
-                    typeof timer !== "undefined"
-                        ? timer.getRemaining()
-                        : 0
-
-            });
-
-        }
-
-    }
-
-}
-    /**
-     * Next Question
-     */
-    nextQuestion() {
-
-        this.saveAnswer();
-
-        if (this.currentQuestion < this.questions.length - 1) {
-
-            this.currentQuestion++;
-
-            this.renderQuestion();
-
-        }
-
-    }
-
-    /**
-     * Previous Question
-     */
-    previousQuestion() {
-
-        this.saveAnswer();
-
-        if (this.currentQuestion > 0) {
-
-            this.currentQuestion--;
-
-            this.renderQuestion();
-
-        }
-
-    }
-
-    /**
-     * Attach Button Events
-     */
-    attachEvents() {
-
-        const nextButton =
-            document.getElementById("nextButton");
-
-        if (nextButton) {
-
-            nextButton.onclick = () => {
-
-                this.nextQuestion();
-
-            };
-
-        }
-
-        const previousButton =
-            document.getElementById("previousButton");
-
-        if (previousButton) {
-
-            previousButton.onclick = () => {
-
-                this.previousQuestion();
-
-            };
-
-        }
-
-        const submitButton =
-            document.getElementById("submitButton");
-
-        if (submitButton) {
-
-            submitButton.addEventListener(
-
-    "click",
-
-    () => this.submitAssessment()
-
-);
-
-        }
-
-    }
-
-        /**
-     * Calculate Score
-     */
-    calculateScore() {
-
-        let score = 0;
-
-        this.questions.forEach(question => {
-
-            const selected = this.answers[question.id];
-
-            if (selected === question.correctAnswer) {
-
-                score++;
-
-            }
-
-        });
-
-        return score;
-
-    }
-
-   /**
- * ==========================================
- * Submit Assessment
- * ==========================================
- */
-submitAssessment() {
-
-    this.saveAnswer();
-
-    const result = this.getAssessmentResult();
-
-    // Stop timer
-    if (
-        typeof timer !== "undefined" &&
-        timer.isRunning()
-    ) {
-
-        timer.stop();
-
-    }
-
-    // Save history and clear session
-    if (typeof storage !== "undefined") {
-
-        storage.saveHistory(result);
-
-        storage.clearSession();
-
-    }
-
-    // Pass result to App Controller
-    if (
-        typeof APP !== "undefined" &&
-        typeof APP.showResult === "function"
-    ) {
-
-        APP.showResult(result);
-
-    } else {
-
-        console.error("APP Controller not found.");
-
-    }
-
-}
-/**
- * ==========================================
- * Build Assessment Result Object
- * ==========================================
- */
-getAssessmentResult() {
-
-    const score = this.calculateScore();
-
-    return {
-
-        candidate: this.candidate,
-
-        employeeId: this.employeeId,
-
-        questions: this.questions,
-
-        answers: this.answers,
-
-        score: score,
-
-        total: this.questions.length,
-
-        percentage: Math.round(
-            (score / this.questions.length) * 100
-        ),
-
-        attempted: Object.keys(this.answers).length,
-
-        correct: score,
-
-        wrong: Object.keys(this.answers).length - score,
-
-        skipped:
-            this.questions.length -
-            Object.keys(this.answers).length,
-
-        submittedAt: new Date().toISOString(),
-
-        remainingTime:
-            typeof timer !== "undefined"
-                ? timer.getRemaining()
-                : 0
-
-    };
-
-}
-}
-
-const quiz = new QuizEngine();
+    /* ========================================================
+       End of Part 1
+       ======================================================== */
