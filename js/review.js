@@ -73,7 +73,9 @@ this.render();
 
         this.renderQuestion();
 
-        this.updatePalette();
+this.updatePalette();
+
+this.updateStatistics();
 
     }
 
@@ -106,7 +108,7 @@ this.render();
     getCorrectAnswer(question) {
 
         return question.options[
-            question.answer
+            question.ansquestion.answerwer
         ];
 
     }
@@ -471,3 +473,175 @@ this.render();
             );
 
     }
+    /* ============================================================
+       Filter - All Questions
+       ============================================================ */
+
+    showAll() {
+
+        this.filteredQuestions = [...this.questions];
+
+        this.currentQuestion = 0;
+
+        this.currentFilter = "ALL";
+
+        this.render();
+
+    }
+
+    /* ============================================================
+       Filter - Correct Questions
+       ============================================================ */
+
+    showCorrect() {
+
+        this.filteredQuestions =
+
+            this.questions.filter(
+
+                question =>
+
+                    this.getStatus(question) === "CORRECT"
+
+            );
+
+        this.currentQuestion = 0;
+
+        this.currentFilter = "CORRECT";
+
+        this.render();
+
+    }
+
+    /* ============================================================
+       Filter - Wrong Questions
+       ============================================================ */
+
+    showWrong() {
+
+        this.filteredQuestions =
+
+            this.questions.filter(
+
+                question =>
+
+                    this.getStatus(question) === "WRONG"
+
+            );
+
+        this.currentQuestion = 0;
+
+        this.currentFilter = "WRONG";
+
+        this.render();
+
+    }
+
+    /* ============================================================
+       Filter - Skipped Questions
+       ============================================================ */
+
+    showSkipped() {
+
+        this.filteredQuestions =
+
+            this.questions.filter(
+
+                question =>
+
+                    this.getStatus(question) === "SKIPPED"
+
+            );
+
+        this.currentQuestion = 0;
+
+        this.currentFilter = "SKIPPED";
+
+        this.render();
+
+    }
+
+    /* ============================================================
+       Review Statistics
+       ============================================================ */
+
+    getStatistics() {
+
+        let correct = 0;
+
+        let wrong = 0;
+
+        let skipped = 0;
+
+        this.questions.forEach(question => {
+
+            const status =
+
+                this.getStatus(question);
+
+            if (status === "CORRECT") {
+
+                correct++;
+
+            }
+
+            else if (status === "WRONG") {
+
+                wrong++;
+
+            }
+
+            else {
+
+                skipped++;
+
+            }
+
+        });
+
+        return {
+
+            total:
+
+                this.questions.length,
+
+            correct:
+
+                correct,
+
+            wrong:
+
+                wrong,
+
+            skipped:
+
+                skipped
+
+        };
+
+    }
+
+    /* ============================================================
+       Update Statistics Card
+       ============================================================ */
+
+    updateStatistics() {
+
+        const stats =
+
+            this.getStatistics();
+
+        document.getElementById("reviewCorrect")
+            ?.textContent = stats.correct;
+
+        document.getElementById("reviewWrong")
+            ?.textContent = stats.wrong;
+
+        document.getElementById("reviewSkipped")
+            ?.textContent = stats.skipped;
+
+        document.getElementById("reviewTotal")
+            ?.textContent = stats.total;
+
+    }
+   
