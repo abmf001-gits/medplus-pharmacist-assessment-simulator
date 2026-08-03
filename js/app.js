@@ -293,8 +293,7 @@ document.getElementById("displayMode").textContent =
 
           }
 
-            // Show Assessment
-            this.showScreen("assessment-screen");
+        
 
             // Show Question Palette
             const palette =
