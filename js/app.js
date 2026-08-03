@@ -516,7 +516,20 @@ logout() {
         typeof review.render === "function"
     ) {
 
-        review.render(this.result);
+        showReview() {
+
+    this.showScreen("review-screen");
+
+    if (
+        typeof review !== "undefined" &&
+        typeof review.load === "function"
+    ) {
+
+        review.load(this.result);
+
+    }
+
+        }
 
     }
 
